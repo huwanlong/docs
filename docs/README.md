@@ -12,12 +12,12 @@ actionLink: /guide/
 #   details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
 # - title: 高性能
 #   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2020-present HWL
+footer: MIT Licensed | Copyright © 2020-present 走在小路上
 ---
-# 关于网站上的笔记
+## 关于网站上的笔记
 反正都要记笔记，与其写了放在那，过段时间就忘，不如放出来，时不时的还可以看看，加深一下记忆
 
 ## 推荐阅读
-推荐阅读1：1
-推荐阅读2：2
-推荐阅读3：3
+1. 推荐阅读1：1
+2. 推荐阅读2：2
+3. 推荐阅读3：3
