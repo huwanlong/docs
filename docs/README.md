@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /app.png
+heroImage: /assets/img/18008.jpg
 heroText: 走在小路上
 tagline: 凡事预则立，不预则废
-actionText: 立即查看 →
+actionText: 阅读指南 →
 actionLink: /guide/
 # features:
 # - title: 简洁至上
@@ -16,3 +16,8 @@ footer: MIT Licensed | Copyright © 2020-present HWL
 ---
 # 关于网站上的笔记
 反正都要记笔记，与其写了放在那，过段时间就忘，不如放出来，时不时的还可以看看，加深一下记忆
+
+## 推荐阅读
+推荐阅读1：1
+推荐阅读2：2
+推荐阅读3：3

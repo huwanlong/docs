@@ -1,4 +1,4 @@
 ---
-navbar: false
+# navbar: false
 ---
-## 先导
+## 指南
