@@ -7,7 +7,9 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
     ['meta', { rel: 'author', href: '走在小路上' }],
-    ['meta', { rel: 'keywords', href: '前端、Vue、Node.js、Python' }]
+    ['meta', { rel: 'keywords', href: '前端、Vue、Node.js、Python' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }]
   ],
   plugins:[
     [
@@ -43,7 +45,8 @@ module.exports = {
               { text: 'CSS', link: '/front-end/css/' },
               { text: 'JavaScript', link: '/front-end/javascript/' },
               { text: 'ES6', link: '/front-end/es6/' },
-              { text: 'TypeScript', link: '/front-end/typescript/' }
+              { text: 'TypeScript', link: '/front-end/typescript/' },
+              { text: 'Lodash', link: '/front-end/lodash/' }
             ]
           },
           { 
@@ -71,9 +74,10 @@ module.exports = {
         ariaLabel: 'Python',
         items: [
           { text: '基础', link: '/python/base/' },
+          { text: 'Anaconda', link: '/python/anaconda/' },
           { text: '爬虫', link: '/python/spider/' },
           { text: 'Flask', link: '/python/flask/' },
-          { text: '人工智能', link: '/python/machine-learning/' }
+          { text: '机器学习', link: '/python/machine-learning/' }
         ]
       },
       {
@@ -86,6 +90,12 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     extractHeaders: [ 'h2', 'h3', 'h4' ],
-    evergreen: true
+    evergreen: true,
+    extendMarkdown: md => {
+      md.set({
+          html: true
+      })
+      md.use(require('markdown-it-katex'))
+    }
   }
 }

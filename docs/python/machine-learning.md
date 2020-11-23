@@ -1,1 +1,826 @@
-## 机器学习
+---
+title: 机器学习
+---
+代码地址：https://gitee.com/workbook/Machine-Learning.git
+
+## 机器学习概述
+
+### 人工智能
+
+#### 关系
+
+人工智能包括机器学习 机器学习包括深度学习
+
+1. 机器学习是人工智能的一个实现途径
+2. 深度学习是机器学习的一个方法发展而来
+
+#### 发展
+
+人工智能的起点 -1956年8月的达特茅斯会议
+
+分为两大流派
+
+1. 逻辑主义或符号主义
+2. 联结主义，研究方向是纺人的神经网络
+
+20世纪80年代 一些搞统计的人 统计学习方法/机器学习
+
+ 其中  人工神经网络这个方法 通过不过改进  2010后型成了深度学习
+
+#### 应用
+
+1. 传统预测
+2. 图像识别
+3. 自然语言处理
+
+### 机器学习
+
+机器学习是从数据中自动分析获得模型，并利用模型对未知数据进行预测
+
+#### 数据集构成
+
+结构：特征值 + 目标值
+
+注：
+
+1. 对于每一行数据我们可以称为样本。
+2. 有些数据集可以没有目标值
+
+#### 算法分类
+
+##### 监督学习
+
+1. 目标值：类别 - 分类问题 （比如说判断图片是猫还是狗）
+
+   算法：k-近邻算法、贝叶斯分类、决策树与随机森林、逻辑回归
+
+2. 目标值：连续型数据 - 回归问题（比如说通过面积朝向位置等预测房价）
+
+   算法：线性回归、岭回归
+
+##### 无监督学习
+
+1. 目标值：无 - 无监督学习
+
+   算法：聚类 k-means
+
+##### 问题
+
+1. 预测明天的气温是多少度？ 回归
+2. 预测明天是阴、晴还是雨？ 分类
+3. 人脸年龄预测？ 回归/分类
+4. 人脸识别？ 分类
+
+#### 开发流程
+
+1. 获取数据
+2. 数据处理
+3. 特征工程
+4. 机器学习算法训练 - 模型
+5. 模型评估
+6. 应用
+
+#### 学习资料
+
+算法是核心，数据与计算是基础
+
+##### 数学
+
+高等数学、概率论与数理统计、线性代数
+
+##### 实战类书籍
+
+1. 机器学习 -”西瓜书”- 周志华
+2. 统计学习方法 - 李航
+3. 深度学习 - “花书”
+
+##### 库与框架
+
+###### 机器学习框架
+
+sklearn
+
+###### 深度学习框架
+
+1. theano -> tensorflow
+2. Chainer -> pytorch
+3. Caffe2
+
+## 特征工程
+
+### 数据集
+
+#### 学习时可用数据集
+
+分为训练集和测试集
+
+##### Kaggle
+
+https://www.kaggle.com/datasets
+
+1. 大数据竞赛平台
+2. 80万科学家
+3. 真实数据
+4. 数据量巨大
+
+##### UCI
+
+http://archive.ics.uci.edu/ml/
+
+1. 收录了559个数据集
+2. 覆盖科学、生活、经济等领域
+3. 数据量几十万
+
+##### scikit-learn
+
+http://scikit-learn.org/stable/datasets/index.html#datasets
+
+1. 数据量较小
+2. 方便学习
+
+#### sklearn
+
+##### 安装
+
+```shell
+# 创建一个包含sklearn的环境
+conda create -n machine python Scikit-learn ipython
+```
+
+##### 内容
+
+1. Classification 分类
+2. Regresslon 回归
+3. Clustering 聚类
+4. Dimenslonality reduction 降维
+5. Model Selection 模型选择
+6. Preprocessing 特征工程
+
+##### 介绍
+
+sklearn.datasets
+
+加载获取流行数据集
+
+1. datasets.load_*()
+
+   获取小规模数据集，数据包含在datasets里
+
+2. datasets.fetch_*(data_home=None)
+
+   获取大规模数据集，需要从网络上下载，函数的第一个参数是data_home，表示数据下载的目录，默认是~/scikit_learn_data/
+
+##### 小数据集
+
+1. sklearn.datasets.load_iris()
+
+   加载并返回鸢尾花数据集
+
+2. sklearn.datasets.load_boston()
+
+   加载并返回波士顿房价数据集
+
+##### 大数据集
+
+sklearn.datasets.fetch_20newsgroups(data_home=None, subset='train')
+
+1. subset: 'train' 或者 'test'， 'all' ，可选，选择要加载的数据集
+2. 训练集的“训练”，测试集的“测试，两都的”全部“
+
+##### 使用
+
+sklearn数据集返回值介绍，load和fetch返回的数据类型datasets.base.Bunch(字典格式)
+
+1. data: 特征数据数组，是 [n_samples * n_features] 的二维 numpy.ndarray 数组
+2. target: 标签数组，是 n_samples 的一维 numpy.ndarray 数组
+3. DESCR: 数据描述
+4. feature_names: 特征名，新闻数据，手写数字，回归数据集没有
+5. target_names: 标签名
+
+```python
+"""
+@author: hwl
+@time: 2020-11-01 13:32:31
+@description: 
+"""
+from sklearn.datasets import load_iris
+
+def datasets_demo():
+    """
+    sklearn数据集使用
+    :return:
+    """
+    iris = load_iris()
+    print("数据集: \n", iris)
+    print("特征值：\n", iris.data, iris.data.shape)
+    print("目标值：\n", iris.target)
+    print("特征的名字：\n", iris.feature_names)
+    print("目标值的名字：\n", iris.target_names)
+    print("描述：\n", iris.DESCR)
+
+    return None
+
+if __name__ == "__main__":
+    # 代码1：sklearn数据集使用
+    datasets_demo()
+```
+
+##### 划分
+
+训练数据：用于训练，构建模型
+
+测试数据：在模型检验时使用，用于评估模型是否有效
+
+​		测试集 20%~30%
+
+sklearn.model_selection.train_test_split(arrays, *options)
+
+1. x 数据集的特征值
+2. y 数据集的标签值
+3. test_size 测试集的大小，一般为float
+4. random_state 随机数种子，不同的种子会造成不同的随机采样结果。相同的种子采样结果相同
+5. return 训练集特征值，测试集特征值，训练集目标集，测试集目标集
+
+```python
+"""
+@author: hwl
+@time: 2020-11-01 14:22:20
+@description: 
+"""
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+def datasets_demo():
+    """
+    sklearn数据集使用
+    :return:
+    """
+    iris = load_iris()
+    print("数据集: \n", iris)
+    print("特征值：\n", iris.data, iris.data.shape)
+    print("目标值：\n", iris.target)
+    print("特征的名字：\n", iris.feature_names)
+    print("目标值的名字：\n", iris.target_names)
+    print("描述：\n", iris.DESCR)
+
+    # 数据集划分
+    x_train, x_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=22)
+    print("训练集特征值：\n", x_train, x_train.shape)
+    return None
+
+if __name__ == "__main__":
+    # 代码1：sklearn数据集使用
+    datasets_demo()
+
+```
+
+### 特征工程介绍
+
+吴恩达：“数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已”
+
+特征工程是使用专业背景知识和技巧处理数据，使得特征能在机器学习算法上发挥更好的作用的过程。
+
+意义：会直接影响机器学习的效果
+
+pandas：一个数据读取非常方便以及基本的处理格式的工具，用于数据清洗、数据处理
+
+sklearn：对于特征的处理提供了强大的接口
+
+内容包含
+
+1. 特征抽取
+2. 特征预处理
+3. 特征降维
+
+### 特征抽取/特征提取
+
+1. 应用DictVectorizer实现对类别特征进行数值化、离散化
+2. 应用CountVectorizer实现对文本特征进行数值化
+3. 应用TfidfVectorizer实现对文本特征进行数值化
+
+#### 特征提取
+
+将任意数据（如文本或图像）转换为可用于机器学习的数字特征
+
+注：特征值化是为了计算机更好的去理解数据
+
+- 字典特征提取（特征离散化）
+- 文本特征提取
+- 图像特征提取（深度学习将介绍）
+
+##### API
+
+sklearn.feature_extraction
+
+#### 字典特征提取
+
+作用：对字典数据进行特征值化
+
+类别 -> one-hot编码（独热编码）
+
+sklearn.feature_extraction.DictVectorizer(sparse=True,...)
+
+- DictVectorizer.fit_transform(X) X:字典或者包含字典的迭代器返回sparse矩阵（稀疏矩阵 - 将非零值按位置表示出来，可以节省内存，提高加载效率）
+- DictVectorizer.inverse_transform(X) X:array数组或者sparse矩阵 返回值：转换之前数据格式
+- DictVectorizer.get_feature_names() 返回类别名称
+
+总结：对于特征当中存在类别信息的我们都会做one-hot编码处理
+
+```python
+"""
+@author: hwl
+@time: 2020-11-01 17:18:23
+@description: 
+"""
+from sklearn.feature_extraction import DictVectorizer
+
+def dict_demo():
+    """
+    字典特征抽取
+    :return:
+    """
+    data = [
+        {'city': '北京', 'temperature': 100},
+        {'city': '上海', 'temperature': 60},
+        {'city': '深圳', 'temperature': 30},
+    ]
+    # 1、实例化一个转换器类
+    transfer = DictVectorizer(sparse=False)
+    # 2、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new)
+    print("特征名字:\n", transfer.get_feature_names())
+    return None
+
+
+if __name__ == "__main__":
+    # 代码2：字典特征抽取
+    dict_demo()
+
+```
+
+
+
+应用场景：
+
+1. 数据集当中类别特征比较多
+2. 本身拿到的数据就是字典类型
+
+#### 文本特征提取
+
+特征：单词（这里也叫特征词），如果是对中文做文本特征提取，需要把词用空格格开
+
+作用：对文本数据进行特征值化
+
+**sklearn.feature_extraction.text.CountVectorizer(stop_words=[]) 返回词频矩阵**，stop_words停用词列表，表示没什么用，就不做特征词了，可以到网上找停用词表
+
+CountVectorizer.fit_transform(X) X: 文本或者包含文本字符串的可迭代对象 返回值：返回sparse矩阵
+
+CountVectorizer.inverse_transform(X) X: array数组或者sparse矩阵 返回值：转换之前数据格
+
+CountVectorizer.get_feature_names() 返回值：单词列表
+
+**sklearn.feature_extraction.text.TfidfVectorizer**
+
+```shell
+conda install jieba
+```
+
+```python
+"""
+@author: hwl
+@time: 2020-11-02 21:27:59
+@description: 
+"""
+from sklearn.feature_extraction.text import CountVectorizer
+import jieba
+
+def count_demo():
+    """
+    文本特征提取：CountVecotrizer
+    :return:
+    """
+    data = ["life is short, i like like python", "life is too long, i dislike python"]
+    # 1、实例化一个转换器类
+    transfer = CountVectorizer(stop_words=["is", "too"])
+    # 2、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new.toarray())
+    print("特征名字:\n", transfer.get_feature_names())
+    return None
+
+def count_chinese_demo():
+    """
+    中文文本特征提取：CountVecotrizer
+    :return:
+    """
+    data = ["我 爱 北京 天安门", "天安门 上 太阳 升"]
+    # 1、实例化一个转换器类
+    transfer = CountVectorizer()
+    # 2、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new.toarray())
+    print("特征名字:\n", transfer.get_feature_names())
+    return None
+
+def cut_word(text):
+    """
+    进行中文分词
+    :param text:
+    :return:
+    """
+    return " ".join(list(jieba.cut(text)))
+
+def count_chinese_demo2():
+    """
+    中文文本特征抽取，自动分词
+    :return:
+    """
+    # 将中文文本进行分词
+    data = ["一种还是一种今天很残酷，后天很美好，但绝对大部分是死在明天晚上，所以每个人不要放弃今天。",
+            "我们看到的从很远星系来的光是在几百万年之前发出的，这样当我们看到宇宙时，我们是在看它的过去。",
+            "如果只用一种方式了解某样事物，你就不会真正了解它。了解事物真正含义的秘密取决于如何装其与我们所了解的事物相联系。"]
+    data_new = []
+    for sent in data:
+        data_new.append(cut_word(sent))
+
+    # 1、实例化一个转换器类
+    transfer = CountVectorizer()
+    # 2、调用fit_transform
+    data_final = transfer.fit_transform(data_new)
+    print("data_new:\n", data_final.toarray())
+    print("特征名字:\n", transfer.get_feature_names())
+    return None
+
+
+if __name__ == "__main__":
+    # 代码3：文本特征提取
+    # count_demo()
+    # 代码4：中文文本特征提取
+    # count_chinese_demo()
+    # 代码5：中文分词
+    # print(cut_word("我爱北京天安门"))
+    # 代码6：中文文本特征提取，自动分词
+    count_chinese_demo2()
+```
+
+关键词：在某一个类别的文章中，出现的次数很多，但是在其他类别的文章当中出现很少
+
+##### Tf-idf文本特征提取
+
+TF-IDF的主要思想是：如果某个词或短语在一篇文章中出现的概率高，并且在其他文章中很少出现，则认为此词或短语具有很好的类别区分能力，适合用来分类
+
+TF-IDF作用：用以评估一字词对于一个文件集或一个语料库中的其中一份文件的重要程度
+
+###### 公式
+
+词频（term frequency, tf）指的是某一个给定的词语在该文件中出现的频率
+
+逆向文档频率（inverse document frequency, idf）是一个词语普通重要性的度量。某一特定词语的idf, 可以由总文件数目除以包含词语之文件的数目，再将得到的商取以10为底的对数得到
+$$
+tfidf_{i,j} = tf_{i,j} \times idf_i
+$$
+TF_IDF 表示重要程度
+
+###### 例子
+
+- 有两个词“经济”，“非常” ，有1000篇文章的 语料库，其中100篇文章有“非常”，10篇文章有“经济”
+
+- 有两篇文章，文章A（100词）：10次“经济” 
+
+  tf: 10 / 100 = 0.1
+
+  idf: lg 1000/10 = 2
+
+  TF-IDF: 0.1 * 2 = 0.2
+
+- 文章B（100词）：10次“非常”                              
+
+  tf: 10 / 100 = 0.1
+
+  idf: log 10 1000/100 = 1
+
+  TF-IDF:  0.1 * 1 = 0.1
+
+###### 什么是对数？
+
+指数：2^3 = 8
+
+对数：log 2 8 = 3
+
+log 10 10 = 1
+
+log 10可以简写成lg
+
+###### API
+
+sklearn.feature_extraction.text.TfidfVectorizer(stop_words=None,...)
+
+返回词的权重矩阵
+
+TfidfVectorizer.fit_transform(x)    X:文本或者包含文本字符串的可迭代对象    返回值：返回sparse矩阵
+
+TfidfVectorizer.inverse_transform(x)   X:array数组或者sparse矩阵  返回值：转换之前数据格式
+
+TfidfVectorizer.get_feature_names()  返回值：单词列表
+
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+def tfidf_demo():
+    """
+    用TF—IDF的方法进行文本特征提取
+    :return:
+    """
+    # 将中文文本进行分词
+    data = ["一种还是一种今天很残酷，后天很美好，但绝对大部分是死在明天晚上，所以每个人不要放弃今天。",
+            "我们看到的从很远星系来的光是在几百万年之前发出的，这样当我们看到宇宙时，我们是在看它的过去。",
+            "如果只用一种方式了解某样事物，你就不会真正了解它。了解事物真正含义的秘密取决于如何装其与我们所了解的事物相联系。"]
+    data_new = []
+    for sent in data:
+        data_new.append(cut_word(sent))
+
+    # 1、实例化一个转换器类
+    transfer = TfidfVectorizer(stop_words=["一种", "所以"])
+    # 2、调用fit_transform
+    data_final = transfer.fit_transform(data_new)
+    print("data_new:\n", data_final.toarray())
+    print("特征名字:\n", transfer.get_feature_names())
+    return None
+
+
+if __name__ == "__main__":
+    # 代码7：tfidf
+    tfidf_demo()
+```
+
+### 特征预处理
+
+通过一些转换函数奖特征数据转换成更加适合算法模型的特征数据过程
+
+#### 数值型数据的无量钢化
+
+##### 归一化
+
+定义：通过对原始数据进行变换把数据映射到（默认为[0,1]）之间
+$$
+x' = \frac{x - min}{max - min}
+$$
+
+$$
+x'' = x' * (mx -mi) + mi
+$$
+
+作用于每一列，max为一列的最大值，min为一列的最小值 ，x''为最终结果，mx, mi分别为指定区间值默认mx为1，mi为0
+
+方法：
+
+sklearn.preprocessing.MinMaxScaler(feature_range=(0,1)...)
+
+MinMaxScalar.fit_transform(X)  X:numpy_array格式的数据[n_samples,n_features]
+
+返回值：转换后的形状相同的array
+
+注意最大值最小值是变化的，另外，最大值与最小值非常容易受异常点影响，所以这种方法鲁棒性较差，只适合传统精确小数据场景。
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+import pandas as pd
+def minmax_demo():
+    """
+    归一化
+    :return:
+    """
+    # 1、获取数据
+    data = pd.read_csv('dating.txt')
+    print("data:\n", data)
+    data = data.iloc[:, :3]
+    print("data:\n", data)
+
+    # 2、实例化一个转换器类
+    transfer = MinMaxScaler(feature_range=[2, 3])
+    # 3、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new)
+    return None
+
+if __name__ == "__main__":
+    # 代码8：归一化
+    minmax_demo()
+```
+
+
+
+##### 标准化
+
+定义：通过对原始数据进行变换把数据变换到均值为0，标准差为1范围内
+$$
+x' = \frac{x - mean}{\sigma}
+$$
+作用于每一列，mean为平均值，σ为标准差
+
+方法：
+
+sklearn.preprocessing.StandardScaler()
+
+ 处理之后，对每列来说，所有数据都聚集在均值为0附近，标准差为1
+
+StandardScaler.fit_transform(X) X:numpy array格式的数据[n_samples,n_features]
+
+返回值：转换后的形状相同的array
+
+在已有样本足够多的情况下比较稳定，适合现代嘈杂大数据场景
+
+```python
+from sklearn.preprocessing import StandardScaler
+import pandas as pd
+def stand_demo():
+    """
+    标准化
+    :return:
+    """
+    # 1、获取数据
+    data = pd.read_csv('dating.txt')
+    print("data:\n", data)
+    data = data.iloc[:, :3]
+    print("data:\n", data)
+
+    # 2、实例化一个转换器类
+    transfer = StandardScaler()
+    # 3、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new)
+    return None
+
+if __name__ == "__main__":
+    # 代码9：标准化
+    stand_demo()
+```
+
+
+
+### 特征降维
+
+降维是指在某些限定条件下，降低随机变量（特征）个数，得到一组“不相关”主变量的过程
+
+#### 降维的两种方法
+
+- 特征选择
+- 主成分分析（可以理解一种特征提取的方式）
+
+#### 特征选择
+
+数据中包含冗余或相关变量（或称特征、属性、指标等），旨在从原有特征中找出主要特征
+
+##### 方法
+
+- Filter(过滤式)：主要探究特征本身特点、特征与特征和目标值之间关联
+
+  方差选择法：低方差特征过滤
+
+  相关系数：特征与特征之间的相关程度
+
+- Embedded(嵌入式)：算法自动选择特征（特征与目标值之间的关联）
+
+  决策树：信息熵、信息增益
+
+  正则化：L1、L2
+
+  深度学习：卷积等
+
+##### 模块
+
+sklearn.feature_selection
+
+##### 过滤式
+
+###### 低方差特征过滤
+
+删除低方差的一些特征。再结合方差的大小来考虑这个方式的角度
+
+- 特征方差小：某个特征大多样本的值比较相近
+- 特征方差大：某个特征很多样本的值都有差别
+
+API
+
+sklearn.feature_selection.VarianceThreshold(threshold = 0.0)
+
+删除所有低方差特征
+
+Variance.fit_transform(X)
+
+X:numpy array格式的数据[n_samples,n_features]
+
+返回值：训练集差异低于threshold的特征将被删除。默认值是保留所有非零方差特征，即删除所有样本中具有相同值的特征。
+
+###### 相关系数
+
+皮尔逊相关系数(Pearson Correlation Coefficient)  反映变量之间相关关系密切程序的统计指标
+
+公式
+$$
+r = \frac{n\sum{xy} - \sum{x}\sum{y}}{\sqrt{n\sum{x^2} - (\sum{x})^2}\sqrt{n\sum{y^2} - (\sum{y})^2}}
+$$
+特点
+
+相关系数的值介于-1与+1之间，即-1 <= r <= +1。其性质如下：
+
+- 当r>0时，表示两变量正相关，r<0时，两变量为负相关
+- 当|r|=1时，表示两变量为完全相关，当r=0时，表示两变量间无相关关系
+- 当0<|r|<1时，表示两变量存在一定程序的相关。且|r|越接近1，两变量间线性关系越密切；|r|越接近于0，表示两变量的线性相关越弱
+- 一般可按三级划分：|r|<0.4为低度相关；0.4<=r<0.7为显著性相关；0.7<=|r|<1为高度线性相关
+
+API
+
+from scipy.stats import pearsonr
+
+- x: (N,) array_like y: (N,) array_like 
+- Returns: (Pearson's correlation coefficient, p-value)
+
+```python
+"""
+@author: hwl
+@time: 2020-11-19 21:37:36
+@description: 低方差特征过滤 相关系数
+"""
+import pandas as pd
+from scipy.stats import pearsonr
+from sklearn.feature_selection import VarianceThreshold
+def variance_demo():
+    """
+    过滤低方差特征
+    :return:
+    """
+    # 1、获取数据
+    data = pd.read_csv("factor_returns.csv")
+    data = data.iloc[:, 1:-2]
+    print("data:\n", data)
+    # 2、实例化一个转换器类
+    transfer = VarianceThreshold(threshold=10)
+    # 3、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new, data_new.shape)
+
+    # 计算某两个变量之间的相关系数
+    r = pearsonr(data["pe_ratio"], data["pb_ratio"])
+    print("相关系数：\n", r)
+
+    return None
+if __name__ == "__main__":
+    # 代码10：低方差特征过滤
+    variance_demo()
+
+```
+
+当特征与特征之间相关性很高时：
+
+- 选取其中一个
+- 加权求和
+- 主成分分析
+
+#### 主成分分析(PCA)
+
+定义：高维数据转化为低维数据的过程，在此过程中可能会舍弃原有数据、创造新的变量
+
+作用：是数据维数压缩，尽可能降低原数据的维数（复杂度），损失少量信息。
+
+应用：回归分析或者聚类分析
+
+sklearn.decomposition.PCA(n_components=None)
+
+- 将数据分解为较低维数空间
+- n_components:
+  - 小数：表示保留百分之多少的信息
+  - 整数：减少到多少特征
+- PCA.fit_transform(X) X:numpy array格式的数据[n_samples,n_features]
+- 返回值：转换后指定维度的array
+
+```python
+"""
+@author: hwl
+@time: 2020-11-19 22:44:24
+@description: PCA降维
+"""
+from sklearn.decomposition import PCA
+def pca_demo():
+    """
+    PCA降维
+    :return:
+    """
+    data = [[2, 8, 4, 5], [6, 3, 0, 8], [5, 4, 9, 1]]
+
+    # 1、实例化一个转换器类
+    # transfer = PCA(n_components=2)
+    transfer = PCA(n_components=0.95)
+
+    # 2、调用fit_transform
+    data_new = transfer.fit_transform(data)
+    print("data_new:\n", data_new)
+
+    return None
+if __name__ == "__main__":
+    # 代码11：PCA降维
+    pca_demo()
+
+```
+
+### 总结
