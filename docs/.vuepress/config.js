@@ -19,26 +19,30 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-  plugins:[
-    [
-      '@vuepress/last-updated',
-      {
-        transformer: (timestamp) => {
-          return moment(timestamp).format("YYYY-MM-DD HH:mm:ss")
-        }
+  plugins:{
+    '@vuepress/last-updated': {
+      transformer: (timestamp) => {
+        return moment(timestamp).format("YYYY-MM-DD HH:mm:ss")
       }
-    ],
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新"
-        }
-      },
-    ]
-  ],
+    },
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用",
+        buttonText: "刷新"
+      }
+    },
+    '@vssue/vuepress-plugin-vssue': {
+      // 设置 `platform` 而不是 `api`
+      platform: 'github-v4',
+      // 其他的 Vssue 配置
+      owner: 'huwanlong',
+      repo: 'docs',
+      clientId: '95f98d463e55a2e2a0c2',
+      clientSecret: '0331c9f383b4f18d1e2a5fed26cdce59d1732447',
+      autoCreateIssue: true
+    }
+  },
   themeConfig: {
     lastUpdated: '更新时间',
     logo: '/icons/apple-touch-icon.png',
