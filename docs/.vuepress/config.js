@@ -42,7 +42,11 @@ module.exports = {
       clientSecret: '0331c9f383b4f18d1e2a5fed26cdce59d1732447',
       autoCreateIssue: true
     },
-    '@vuepress/back-to-top': true
+    '@vuepress/back-to-top': true,
+    '@vuepress/google-analytics':
+    {
+      'ga': 'UA-35557650-1' // UA-00000000-0
+    }
   },
   themeConfig: {
     lastUpdated: '更新时间',
