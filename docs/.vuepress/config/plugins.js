@@ -28,5 +28,8 @@ module.exports = {
   '@vuepress/google-analytics':
   {
     'ga': secret.ga
+  },
+  '@vuepress/medium-zoom': {
+    selector: 'img.custom'
   }
 }
