@@ -13,7 +13,13 @@ module.exports = {
     logo: '/icons/apple-touch-icon.png',
     // navbar: false,
     sidebar,
-    nav
+    nav,
+    repo: 'huwanlong/docs',
+    repoLabel: '查看源码',
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: '帮助我改善此页面！'
   },
   markdown: {
     lineNumbers: true,

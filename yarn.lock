@@ -1199,6 +1199,13 @@
   dependencies:
     nprogress "^0.2.0"
 
+"@vuepress/plugin-nprogress@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.7.1.tgz#101ebf720eaa635a473e16ca16e7b4a7850331fa"
+  integrity sha1-EB6/cg6qY1pHPhbKFue0p4UDMfo=
+  dependencies:
+    nprogress "^0.2.0"
+
 "@vuepress/plugin-pwa@^1.7.1":
   version "1.7.1"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-pwa/download/@vuepress/plugin-pwa-1.7.1.tgz#22fb176b48a4f9cba3d69a0a8c6d1971efb7e49d"
