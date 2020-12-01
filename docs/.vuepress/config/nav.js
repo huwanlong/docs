@@ -57,5 +57,5 @@ module.exports = [
     text: '关于我',
     link: '/about.html'
   },
-  { text: 'Github', link: 'https://github.com/huwanlong'},
+  // { text: 'Github', link: 'https://github.com/huwanlong'},
 ]
