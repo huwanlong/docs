@@ -1,11 +1,14 @@
 ---
 # navbar: false
+sidebar: false
 editLink: false
 ---
-## 指南
-追加 Travis CI自动化部署
+目前写了的笔记
 
-<img :src="$withBase('/icons/apple-touch-icon.png')" alt="logo" class="custom">
+[微前端](/front-end/微前端.html)
 
+[Electron](/front-end/electron.html)
 
-![An image](./../.vuepress/public/icons/apple-touch-icon.png)
+[Anaconda](/python/anaconda.html)
+
+[机器学习](/python/机器学习/)
