@@ -5,6 +5,7 @@ install:
   - yarn install # npm ci
 script:
   - yarn docs:build # npm run docs:build
+  - yarn cname
 deploy:
   provider: pages
   skip_cleanup: true
