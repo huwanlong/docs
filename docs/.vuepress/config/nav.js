@@ -50,7 +50,7 @@ module.exports = [
       { text: 'Anaconda', link: '/python/anaconda/' },
       { text: '爬虫', link: '/python/spider/' },
       { text: 'Flask', link: '/python/flask/' },
-      { text: '机器学习', link: '/python/machine-learning/' }
+      { text: '机器学习', link: '/python/机器学习/' }
     ]
   },
   {

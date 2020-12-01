@@ -16,6 +16,26 @@ module.exports = {
     ['', 'ES6介绍'],
     'array'
   ],
+  "/front-end/lodash/":[
+    '',
+    'Array',
+    'Collection',
+    'Date',
+    'Function',
+    'Lang',
+    'Math',
+    'Number',
+    'Object',
+    'Seq',
+    'String',
+    'Util',
+    'Properties',
+    'Methods'
+  ],
+  "/python/机器学习/": [
+    ['', '概述'],
+    '特征工程'
+  ],
   "/guide/": 'auto',
   "/front-end/": 'auto',
   "/nodejs/": 'auto',
