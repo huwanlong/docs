@@ -19,7 +19,8 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'main',
     editLinks: true,
-    editLinkText: '帮助我改善此页面！'
+    editLinkText: '帮助我改善此页面！',
+    smoothScroll: true
   },
   markdown: {
     lineNumbers: true,
