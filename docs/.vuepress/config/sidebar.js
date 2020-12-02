@@ -32,9 +32,15 @@ module.exports = {
     'Properties',
     'Methods'
   ],
+  "/python/数据挖掘/": [
+    ['', '概述']
+  ],
   "/python/机器学习/": [
     ['', '概述'],
     '特征工程'
+  ],
+  "/python/深度学习/": [
+    ['', '概述']
   ],
   "/guide/": 'auto',
   "/front-end/": 'auto',

@@ -13,44 +13,46 @@ module.exports = [
       { 
         text: '基础',
         items: [
-          { text: 'HTML', link: '/front-end/html/' },
-          { text: 'CSS', link: '/front-end/css/' },
+          // { text: 'HTML', link: '/front-end/html/' },
+          // { text: 'CSS', link: '/front-end/css/' },
           { text: 'JavaScript', link: '/front-end/javascript/' },
           { text: 'ES6', link: '/front-end/es6/' },
-          { text: 'TypeScript', link: '/front-end/typescript/' },
-          { text: 'Lodash', link: '/front-end/lodash/' }
+          // { text: 'TypeScript', link: '/front-end/typescript/' },
         ]
       },
       { 
         text: '框架',
         items: [
-          { text: 'Vue', link: '/front-end/vue/' },
-          { text: 'React', link: '/front-end/react/' },
+          // { text: 'Vue', link: '/front-end/vue/' },
+          // { text: 'React', link: '/front-end/react/' },
           { text: '微前端', link: '/front-end/微前端/' }
         ]
       },
       { 
         text: '其它',
         items: [
+          { text: 'Lodash', link: '/front-end/lodash/' },
           { text: 'Electron', link: '/front-end/electron/' },
-          { text: 'Flutter', link: '/front-end/flutter/' }
+          // { text: 'Flutter', link: '/front-end/flutter/' }
         ]
       }
     ]
   },
-  {
-    text: 'Node.js',
-    link: '/nodejs/',
-  },
+  // {
+  //   text: 'Node.js',
+  //   link: '/nodejs/',
+  // },
   {
     text: 'Python',
     ariaLabel: 'Python',
     items: [
-      { text: '基础', link: '/python/base/' },
+      // { text: '基础', link: '/python/base/' },
       { text: 'Anaconda', link: '/python/anaconda/' },
-      { text: '爬虫', link: '/python/spider/' },
-      { text: 'Flask', link: '/python/flask/' },
-      { text: '机器学习', link: '/python/机器学习/' }
+      // { text: '爬虫', link: '/python/spider/' },
+      // { text: 'Flask', link: '/python/flask/' },
+      { text: '数据挖掘', link: '/python/数据挖掘/' },
+      { text: '机器学习', link: '/python/机器学习/' },
+      // { text: '深度学习', link: '/python/深度学习/' }
     ]
   },
   {
