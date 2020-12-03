@@ -7,9 +7,9 @@ title: 数据挖掘
 
 ## 库的安装
 
-1. matplotlib
-2. numpy
-3. pandas
+1. matplotlib 可视化
+2. numpy    数据计算
+3. pandas   数据处理
 4. TA-Lib    股票技术分析指标库
 5. tables     hdf5文件
 6. jupyter    数据分析与展示的平台
@@ -19,6 +19,22 @@ ps: 如果TA-Lib在win系统上无法下载，可以到下面的地址去下载
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
 
 ## jupyter  notebook使用
+
+```
+jupyter notebook
+# 或
+ipython notebook
+```
+
+http://localhost:8888/
+
+运行当前行 shift+enter
+
+
+
+
+
+
 
 
 
