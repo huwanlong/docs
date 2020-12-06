@@ -32,6 +32,10 @@ module.exports = {
     'Properties',
     'Methods'
   ],
+  "/python/管理包/": [
+    'pip',
+    'anaconda'
+  ],
   "/python/数据挖掘/": [
     ['', '概述']
   ],

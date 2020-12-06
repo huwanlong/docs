@@ -15,8 +15,8 @@ module.exports = [
         items: [
           // { text: 'HTML', link: '/front-end/html/' },
           // { text: 'CSS', link: '/front-end/css/' },
-          { text: 'JavaScript', link: '/front-end/javascript/' },
-          { text: 'ES6', link: '/front-end/es6/' },
+          { text: 'JavaScript', link: 'https://wangdoc.com/javascript/' },
+          { text: 'ES6', link: 'https://wangdoc.com/es6/' },
           // { text: 'TypeScript', link: '/front-end/typescript/' },
         ]
       },
@@ -31,7 +31,7 @@ module.exports = [
       { 
         text: '其它',
         items: [
-          { text: 'Lodash', link: '/front-end/lodash/' },
+          { text: 'Lodash', link: 'https://www.lodashjs.com/' },
           { text: 'Electron', link: '/front-end/electron/' },
           // { text: 'Flutter', link: '/front-end/flutter/' }
         ]
@@ -47,7 +47,7 @@ module.exports = [
     ariaLabel: 'Python',
     items: [
       // { text: '基础', link: '/python/base/' },
-      { text: 'Anaconda', link: '/python/anaconda/' },
+      { text: '管理包', link: '/python/管理包/anaconda.html' },
       // { text: '爬虫', link: '/python/spider/' },
       // { text: 'Flask', link: '/python/flask/' },
       { text: '数据挖掘', link: '/python/数据挖掘/' },

@@ -9,6 +9,6 @@ editLink: false
 
 [Electron](/front-end/electron.html)
 
-[Anaconda](/python/anaconda.html)
+[Anaconda](/python/管理包/anaconda.html)
 
 [机器学习](/python/机器学习/)

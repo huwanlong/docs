@@ -52,7 +52,7 @@ conda remove --name <env_name> --all
 # 精确查找
 conda search --full-name <package_full_name>
 # 模糊查找
-conda search <text>
+conda search <   text>
 
 # 获取当前环境中已安装的包信息
 conda list
@@ -81,6 +81,20 @@ conda upgrade --all
 conda update <package_name>
 # or
 conda upgrade <package_name>
+
+```
+
+## 换源
+
+创建文件C:/Users/xxxx/.condarc 
+
+```shell
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+ssl_verify: true
 
 ```
 
