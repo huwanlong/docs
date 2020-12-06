@@ -1,4 +1,4 @@
 ---
-title: 简介
+title: JavaScript介绍
 ---
 JavaScript简介

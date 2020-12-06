@@ -1,7 +1,7 @@
 // module.exports = 'auto'
 module.exports = {
   "/front-end/javascript/": [
-    ['', 'JavaScript介绍'],
+    '',
     '数据类型',
     '运算符',
     '语法',
@@ -13,7 +13,7 @@ module.exports = {
     '浏览器模型'
   ],
   "/front-end/es6/": [
-    ['', 'ES6介绍'],
+    '',
     'array'
   ],
   "/front-end/lodash/":[
@@ -37,14 +37,17 @@ module.exports = {
     'anaconda'
   ],
   "/python/数据挖掘/": [
-    ['', '概述']
+    '',
+    'matplotlib',
+    'numpy',
+    'pandas'
   ],
   "/python/机器学习/": [
-    ['', '概述'],
+    '',
     '特征工程'
   ],
   "/python/深度学习/": [
-    ['', '概述']
+    ''
   ],
   "/guide/": 'auto',
   "/front-end/": 'auto',
