@@ -36,7 +36,7 @@ NumPy提供了一个N维数组类型ndarray，它描述了相同类型的"items"
 
 在创建ndarray的时候，如果没有指定类型，默认：整数 int64/int32 浮点数 float64/float32
 
-### 基础使用
+### 使用
 
 ```python
 import numpy as np
@@ -57,6 +57,69 @@ print(score.dtype)
 # 创建数组的时候指定类型
 np.array([1.1, 2.2, 3.3], dtype="float32")
 ```
+
+## 基本操作
+
+### 生成数组
+
+#### 1、生成0和1的数组
+
+```python
+np.zeros(shape=(3, 4), dtype="float32") # 生成一组0
+np.ones(shape=[2, 3], dtype=np.int32) # 生成一组1
+```
+
+#### 2、从现有数组生成
+
+```python
+data1 = np.array(score) # 深拷贝
+data2 = np.asarray(score) # 浅拷贝
+data3 = np.copy(score) # 深拷贝
+```
+
+#### 3、生成固定范围的数组
+
+```python
+np.linspace(0, 10, 5) # 生成[0,10]之间等距离的5个数
+np.arange(0, 11, 5) # [0,11)，5为步长生成数组
+```
+
+#### 4、生成随机数组
+
+```python
+# 生成均匀分布的一组数[low,high)
+data1 = np.random.uniform(low=-1, high=1, size=1000000)
+# 生成正态分布的一组数，loc：均值；scale：标准差
+data2 = np.random.normal(loc=1.75, scale=0.1, size=1000000)
+```
+
+### 数组的索引、切片
+
+
+
+### 形状修改
+
+
+
+### 数组去重
+
+
+
+## ndarray运算
+
+
+
+## 数组间的运算
+
+
+
+## 合并、分割
+
+
+
+## IO操作与数据处理
+
+
 
 
 
