@@ -14,10 +14,11 @@ actionLink: /guide/
 #   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2020-present 走在小路上
 ---
-## 关于网站上的笔记
+## 关于笔记
 反正都要记笔记，与其写了放在那，过段时间就忘，不如放出来，时不时的还可以看看，加深一下记忆
 
 ## 推荐阅读
-1. 推荐阅读1：11
-2. 推荐阅读2：22
-3. 推荐阅读3：33
+
+1. [微前端](/front-end/微前端.html)
+2. [Vue SSR](/front-end/SSR.html)
+3. [webpack4](/front-end/webpack4.html)

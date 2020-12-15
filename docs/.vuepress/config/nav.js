@@ -25,16 +25,25 @@ module.exports = [
         items: [
           // { text: 'Vue', link: '/front-end/vue/' },
           // { text: 'React', link: '/front-end/react/' },
-          { text: '微前端', link: '/front-end/微前端/' },
-          { text: 'Vue SSR', link: '/front-end/SSR/' },
-          { text: 'webpack4', link: '/front-end/webpack4/' },
+          { text: 'Electron', link: '/front-end/electron/' }
+          // { text: 'Flutter', link: '/front-end/flutter/' }
         ]
       },
       { 
-        text: '其它',
+        text: '专题',
         items: [
+          // { text: 'Vue', link: '/front-end/vue/' },
+          // { text: 'React', link: '/front-end/react/' },
+          { text: '微前端', link: '/front-end/微前端/' },
+          { text: 'Vue SSR', link: '/front-end/SSR/' },
+          
+        ]
+      },
+      { 
+        text: '工具',
+        items: [
+          { text: 'webpack4', link: '/front-end/webpack4/' },
           { text: 'Lodash', link: 'https://www.lodashjs.com/' },
-          { text: 'Electron', link: '/front-end/electron/' },
           // { text: 'Flutter', link: '/front-end/flutter/' }
         ]
       }
