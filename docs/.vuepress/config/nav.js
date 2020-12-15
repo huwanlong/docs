@@ -25,7 +25,9 @@ module.exports = [
         items: [
           // { text: 'Vue', link: '/front-end/vue/' },
           // { text: 'React', link: '/front-end/react/' },
-          { text: '微前端', link: '/front-end/微前端/' }
+          { text: '微前端', link: '/front-end/微前端/' },
+          { text: 'Vue SSR', link: '/front-end/SSR/' },
+          { text: 'webpack4', link: '/front-end/webpack4/' },
         ]
       },
       { 
