@@ -95,9 +95,20 @@ data2 = np.random.normal(loc=1.75, scale=0.1, size=1000000)
 
 ### 数组的索引、切片
 
-
+```python
+stock_change = np.random.normal(loc=0, scale=1, size=(8, 10))
+# 获取第一个股票的前3个交易日的涨跌幅数据
+print(stock_change[0, :3])
+a1[1, 0, 2] = 100000
+```
 
 ### 形状修改
+
+```python
+stock_change.reshape((10, 8)) # 返回新的ndarray,原始数据没有改变
+stock_change.resize((10, 8)) # 没有返回值，对原始的ndarray进行了修改
+stock_change.T # 转置 行变成列，列变成行
+```
 
 
 
