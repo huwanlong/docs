@@ -110,11 +110,20 @@ stock_change.resize((10, 8)) # 没有返回值，对原始的ndarray进行了修
 stock_change.T # 转置 行变成列，列变成行
 ```
 
+### 类型修改
 
+```python
+stock_change.astype("int32")
+stock_change.tostring() # ndarray序列化到本地
+```
 
 ### 数组去重
 
-
+```python
+temp = np.array([[1, 2, 3, 4],[3, 4, 5, 6]])
+np.unique(temp)
+set(temp.flatten())
+```
 
 ## ndarray运算
 
