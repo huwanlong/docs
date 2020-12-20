@@ -158,6 +158,36 @@ sr.values # 值
 
 ## 基本数据操作
 
+索引操作
+
+```python
+data = pd.read_csv("./stock_day/stock_day.csv")
+data = data.drop(["ma5","ma10","ma20","v_ma5","v_ma10","v_ma20"], axis=1) # 去掉一些不要的列
+data["open"]["2018-02-26"] # 直接索引，先列后行
+
+data.loc["2018-02-26"]["open"] # 按名字索引
+data.loc["2018-02-26", "open"]
+data.iloc[1, 0] # 数字索引
+
+# 组合索引
+# 获取行第1天到第4天，['open', 'close', 'high', 'low']这个四个指标的结果
+data.iloc[:4, ['open', 'close', 'high', 'low']] # 不能用了
+data.loc[data.index[0:4], ['open', 'close', 'high', 'low']]
+data.iloc[0:4, data.columns.get_indexer(['open', 'close', 'high', 'low'])]
+```
+
+
+
+
+
+
+
+赋值操作
+
+
+
+排序操作
+
 
 
 ## DataFrame运算
