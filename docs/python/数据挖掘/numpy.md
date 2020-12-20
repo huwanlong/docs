@@ -224,9 +224,32 @@ data*data1
 
 ## 合并、分割
 
+numpy.hstack 水平拼接
 
+numpy.vstack 竖拼接
+
+numpy.concatenate((a1,a2),axis=0)     水平|竖拼接
+
+```python
+# 分割
+numpy.split(x,3) # 分三份
+numpy.split(x,[3,4,6,10]) # 按索引分割
+```
 
 ## IO操作与数据处理
+
+### 读取数据
+
+```python
+np.genfromtxt("test.csv", delimiter=",") # 会有问题，读不出字符串
+```
+
+### 如何处理缺失值
+
+两种思路：
+
+- 直接删除含有缺失值的样本
+- 替换/插补  （补入平均值或中位数）
 
 
 
