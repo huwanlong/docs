@@ -127,11 +127,100 @@ set(temp.flatten())
 
 ## ndarray运算
 
+### 逻辑运算
 
+#### 运算符
 
-## 数组间的运算
+```python
+# 逻辑判断, 如果涨跌幅大于0.5就标记为True 否则为False
+stock_change > 0.5
+stock_change[stock_change > 0.5] = 1.1
+```
 
+#### 通用判断函数
 
+```python
+# 判断stock_change[0:2, 0:5]是否全是上涨的
+np.all(stock_change[0:2, 0:5] > 0)
+# 判断前5只股票这段期间是否有上涨的
+np.any(stock_change[:5, :] > 0)
+```
+
+#### 三元运算符
+
+```python
+# np.where(布尔值，True的位置的值，False的位置的值)
+np.where(temp > 0, 1, 0)
+# 大于0.5且小于1
+np.where(np.logical_and(temp > 0.5, temp < 1), 1, 0)
+# 大于0.5或小于-0.5
+np.where(np.logical_or(temp > 0.5, temp < -0.5), 11, 3)
+```
+
+### 统计运算
+
+#### 统计指标函数
+
+min,max,mean(均值),median(中位数),var(方差),std(标准差)
+
+```python
+temp.max(axis=0)
+np.max(temp, axis=1)
+```
+
+返回最大值、最小值的位置
+
+np.argmax(tem,axis=)
+
+np.argmin(tem,axis=)
+
+```python
+np.argmax(temp, axis=-1)
+```
+
+### 数组间运算
+
+#### 数组与数的运算
+
+```python
+arr = np.array([[1, 2, 3, 2, 1, 4], [5, 6, 1, 2, 3, 1]])
+arr / 10
+```
+
+#### 数组与数组的运算
+
+##### 广播机制
+
+执行broadcast的前提在于，两个nadarray执行的是element-wise的运算，Broadcast机制的功能是为了方便不同形状的ndarray(numpy库的核心数据结构)进行数学运算。
+
+当操作两个数组时，numpy会逐个比较它们的shape(构成的元组tuple)，只有在下述情况下，两个数组才能够进行数组与数组的运算。
+
+- 维度相等
+- shape（其中相对应的一个地方为1）
+
+#### 矩阵运算
+
+英文matrix，和array的区别是矩阵必须是2维的，但是array可以是多维的。
+
+矩阵和二维数组的区别？
+
+np.mat() 将数组转换成矩阵类型
+
+矩阵乘法规则（M行,N列）x (N行,L列) = (M行,L列)
+
+如果是ndarray
+
+```python
+np.dot(data,data1)
+np.matmul(data,data1)
+data @ data1
+```
+
+如果是martix
+
+```python
+data*data1
+```
 
 ## 合并、分割
 
