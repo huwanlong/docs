@@ -307,6 +307,66 @@ sr.plot(kind="line")
 
 ## 文件读取与存储
 
+### CSV
+
+```python
+pd.read_csv("./stock_day/stock_day.csv", usecols=["high", "low", "open", "close"]).head() # 读哪些列
+
+data = pd.read_csv("stock_day2.csv", names=["open", "high", "close", "low", "volume", "price_change", "p_change", "ma5", "ma10", "ma20", "v_ma5", "v_ma10", "v_ma20", "turnover"]) # 如果列没有列名，用names传入
+
+data[:10].to_csv("test.csv", columns=["open"]) # 保存open列数据
+
+data[:10].to_csv("test.csv", columns=["open"], index=False, mode="a", header=False) # 保存opend列数据，index=False不要行索引，mode="a"追加模式|mode="w"重写，header=False不要列索引
+
+```
+
+### HDF5
+
+read_hdf()与to_hdf()
+
+HDF5文件的读取和存储需要指定一个键，值为要存储的DataFrame
+
+pandas.read_hdf(path_or_buf, key=None, **kwargs)
+
+从h5文件当中读取数据
+
+- path_or_buffer: 文件路径
+- key: 读取的键
+- mode: 打开文件的模式
+- reurn: The Selected object
+
+DataFrame.to_hdf(path_or_buf, key, **kwargs)
+
+```python
+day_close = pd.read_hdf("./stock_data/day/day_close.h5")
+day_close.to_hdf("test.h5", key="close")
+```
+
+### JSON
+
+read_json()
+
+pandas.read_json(path_or_buf=None,orient=None,typ="frame",lines=False)
+
+- 将JSON格式转换成默认的Pandas DataFrame格式
+- orient: string,Indication of expected JSON string format.
+  - 'split': dict like {index -> [index], columns -> [columns], data -> [values]}
+  - 'records': list like [{column -> value}, ..., {column -> value}]
+  - 'index': dict like {index -> {column -> value}}
+  - 'columns': dict like {column -> {index -> value}}, 默认该格式
+  - 'values': just the values array
+- lines: boolean, default False
+  - 按照每行读取json对象
+- typ: default 'frame'，指定转换成的对象类型series或者dataframe
+
+```python
+sa = pd.read_json("Sarcasm_Headlines_Dataset.json", orient="records", lines=True)
+
+sa.to_json("test.json", orient="records", lines=True)
+```
+
+
+
 
 
 

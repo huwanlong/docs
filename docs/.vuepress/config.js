@@ -20,11 +20,12 @@ module.exports = {
     docsBranch: 'main',
     editLinks: true,
     editLinkText: '帮助我改善此页面！',
-    smoothScroll: true
+    smoothScroll: true,
+    sidebarDepth: 2
   },
   markdown: {
     lineNumbers: true,
-    extractHeaders: [ 'h2', 'h3', 'h4' ],
+    extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ],
     evergreen: true,
     extendMarkdown: md => {
       md.set({
