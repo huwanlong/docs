@@ -158,7 +158,7 @@ sr.values # 值
 
 ## 基本数据操作
 
-索引操作
+### 索引操作
 
 ```python
 data = pd.read_csv("./stock_day/stock_day.csv")
@@ -176,23 +176,106 @@ data.loc[data.index[0:4], ['open', 'close', 'high', 'low']]
 data.iloc[0:4, data.columns.get_indexer(['open', 'close', 'high', 'low'])]
 ```
 
+### 赋值操作
 
+```python
+data.open = 100
+data.iloc[1, 0] = 222
+```
 
+### 排序操作
 
+排序有两种形式，一种对内容进行排序，一种对索引进行排序
 
+#### 内容排序
 
+使用df.sort_values(key=,ascending=)对内容进行排序
 
-赋值操作
+单个键或者多个键进行排序，默认升序
 
+ascending=False:降序 True:升序
 
+#### 索引排序
 
-排序操作
+使用df.sort_index对索引进行排序
 
+```python
+data.sort_values(by="high", ascending=False) # DataFrame内容排序
 
+data.sort_values(by=["high", "p_change"], ascending=False).head() # 多个列内容排序
+
+data.sort_index().head()
+
+sr = data["price_change"]
+
+sr.sort_values(ascending=False).head()
+
+sr.sort_index().head()
+```
 
 ## DataFrame运算
 
+### 算术运算
 
+```python
+data["open"].add(3).head() # open统一加3  data["open"] + 3
+data.sub(100).head() # 所有统一减100 data - 100
+data["close"].sub(data["open"]).head() # close减open
+```
+
+### 逻辑运算
+
+query(expr) expr:查询字符串
+
+isin(values) 判断是否为values
+
+```python
+data[data["p_change"] > 2].head() # p_change > 2
+data[(data["p_change"] > 2) & (data["low"] > 15)].head()
+
+data.query("p_change > 2 & low > 15").head()
+
+# 判断'turnover'是否为4.19, 2.39
+data[data["turnover"].isin([4.19, 2.39])]
+```
+
+### 统计运算
+
+describe()
+
+综合分析：能够直接得出很多统计结果，count,mean,std,min,max等
+
+```python
+data.describe()
+data.max(axis=0)
+data.idxmax(axis=0) #最大值位置
+```
+
+##### 累计统计函数
+
+cumsum 计算前1/2/3/../n个数的和
+
+cummax 计算前1/2/3/../n个数的最大值
+
+cummin 计算前1/2/3/../n个数的最小值
+
+cumprod 计算前1/2/3/../n个数的积
+
+```python
+data["p_change"].sort_index().cumsum().plot()
+```
+
+### 自定义运算
+
+apply(func, axis=0)
+
+func: 自定义函数
+
+axis=0: 默认按列运算，axis=1按行运算
+
+```python
+data.apply(lambda x: x.max() - x.min())
+```
 
 ## Pandas画图
 
