@@ -279,9 +279,35 @@ data.apply(lambda x: x.max() - x.min())
 
 ## Pandas画图
 
+### pandas.DataFrame.plot
 
+DataFrame.plot(x=None, y=None, kind='line')
+
+- x: label or position, default None
+- y: label, position or list of label, positions, default None
+  - Allows plotting of one column versus another
+- kind: str
+  - 'line': line plot(default)
+  - ''bar": vertical bar plot
+  - "barh": horizontal bar plot
+  - "hist": histogram
+  - "pie": pie plot
+  - "scatter": scatter plot
+
+```python
+data.plot(x="volume", y="turnover", kind="scatter")
+data.plot(x="high", y="low", kind="scatter")
+```
+
+### pandas.Series.plot
+
+```python
+sr.plot(kind="line")
+```
 
 ## 文件读取与存储
+
+
 
 
 
