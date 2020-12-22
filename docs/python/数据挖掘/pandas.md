@@ -365,29 +365,82 @@ sa = pd.read_json("Sarcasm_Headlines_Dataset.json", orient="records", lines=True
 sa.to_json("test.json", orient="records", lines=True)
 ```
 
+## 缺失值处理
+
+- replace实现数据替换
+- dropna实现缺失值的删除
+- fillna实现缺失值的填充
+- isnull判断是否有缺失数据NaN
+
+如何进行缺失值处理？
+
+- 删除含有缺失值的样本
+- 替换/插补数据
+
+### 如何处理NaN?
+
+- 判断是否有NaN
+  - pd.isnull(df)
+  - pd.notnull(df)
+- 删除含有缺失值的样本
+  - df.dropna(inplace=True) 默认按行删除 inplace:True修改原数据，False返回新数据，默认False
+- 替换/插补数据
+  - df.fillna(value,inplace=True) value替换的值 inplace:True修改原数据，False返回新数据，默认False
+
+```python
+import pandas as pd
+import numpy as np
+movie = pd.read_csv("./IMDB/IMDB-Movie-Data.csv")
+# 1）判断是否存在NaN类型的缺失值
+np.any(pd.isnull(movie)) # 返回True，说明数据中存在缺失值
+np.all(pd.notnull(movie)) # 返回False，说明数据中存在缺失值
+pd.isnull(movie).any()
+pd.notnull(movie).all()
+
+# 2）缺失值处理
+# 方法1：删除含有缺失值的样本
+data1 = movie.dropna()
+pd.notnull(data1).all()
+
+# 方法2：替换
+# 含有缺失值的字段
+# Revenue (Millions)    
+# Metascore
+movie["Revenue (Millions)"].fillna(movie["Revenue (Millions)"].mean(), inplace=True)
+movie["Metascore"].fillna(movie["Metascore"].mean(), inplace=True)
+```
+
+### 不是缺失值NaN
+
+不是缺失值NaN，有默认标记的
+
+```python
+# 读取数据
+path = "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
+name = ["Sample code number", "Clump Thickness", "Uniformity of Cell Size", "Uniformity of Cell Shape", "Marginal Adhesion", "Single Epithelial Cell Size", "Bare Nuclei", "Bland Chromatin", "Normal Nucleoli", "Mitoses", "Class"]
+
+data = pd.read_csv(path, names=name)
+
+# 1）替换
+data_new = data.replace(to_replace="?", value=np.nan)
+
+# 2）删除缺失值
+data_new.dropna(inplace=True)
+```
+
+## 数据离散化
 
 
 
+## 合并
 
 
 
-## 高级处理-缺失值处理
+## 交叉表与透视表
 
 
 
-## 高级处理-数据离散化
-
-
-
-## 高级处理-合并
-
-
-
-## 高级处理-交叉表与透视表
-
-
-
-## 高级处理-分组与聚合
+## 分组与聚合
 
 
 
