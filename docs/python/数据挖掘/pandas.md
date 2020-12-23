@@ -520,5 +520,18 @@ stock.pivot_table(["pona"], index=["week"])
 
 ## 分组与聚合
 
+分组与聚合通常是分析数据的一种方式，通常与一些统计函数一起使用，查看数据的分组情况。
 
+DataFrame.groupby(key, as_index=False) key：分组的列数据，可以多个
+
+```python
+col =pd.DataFrame({'color': ['white','red','green','red','green'], 'object': ['pen','pencil','pencil','ashtray','pen'],'price1':[5.56,4.20,1.30,0.56,2.75],'price2':[4.75,4.12,1.60,0.75,3.15]})
+
+# 进行分组，对颜色分组，price1进行聚合
+# 用dataframe的方法进行分组
+col.groupby(by="color")["price1"].max()
+
+# 或者用Series的方法进行分组聚合
+col["price1"].groupby(col["color"]).max()
+```
 
