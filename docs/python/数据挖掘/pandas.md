@@ -440,7 +440,59 @@ data_new.dropna(inplace=True)
 
 ### 如何实现数据的离散化
 
+1. 分组
+
+   - 自动分组 sr = pd.qcut(data, bins)
+   - 自定义分组 sr = pd.cut(data, [])
+
+2. 将分组好的结果转换成one-hot编码（哑变量）
+
+   pd.get_dummies(sr, prefix=)
+
+```python
+# 1）准备数据
+data = pd.Series([165,174,160,180,159,163,192,184], index=['No1:165', 'No2:174','No3:160', 'No4:180', 'No5:159', 'No6:163', 'No7:192', 'No8:184']) 
+# 2）分组
+# 自动分组
+sr = pd.qcut(data, 3)
+sr.value_counts()  # 看每一组有几个数据
+# 3）转换成one-hot编码
+pd.get_dummies(sr, prefix="height")
+
+# 自定义分组
+bins = [150, 165, 180, 195]
+sr = pd.cut(data, bins)
+# get_dummies
+pd.get_dummies(sr, prefix="身高")
+```
+
 ## 合并
+
+### 按方向
+
+pd.concat([data1, data2], axis=1)  axis：0为列索引；1为行索引
+
+### 按索引
+
+pd.merge(left, right, how="inner", on=[])  on：索引
+
+```python
+left = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'],
+                        'key2': ['K0', 'K1', 'K0', 'K1'],
+                        'A': ['A0', 'A1', 'A2', 'A3'],
+                        'B': ['B0', 'B1', 'B2', 'B3']})
+
+right = pd.DataFrame({'key1': ['K0', 'K1', 'K1', 'K2'],
+                        'key2': ['K0', 'K0', 'K0', 'K0'],
+                        'C': ['C0', 'C1', 'C2', 'C3'],
+                        'D': ['D0', 'D1', 'D2', 'D3']})
+
+pd.merge(left, right, how="inner", on=["key1", "key2"])
+
+pd.merge(left, right, how="left", on=["key1", "key2"])
+
+pd.merge(left, right, how="outer", on=["key1", "key2"])
+```
 
 
 
