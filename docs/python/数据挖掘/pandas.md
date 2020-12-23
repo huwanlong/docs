@@ -494,11 +494,29 @@ pd.merge(left, right, how="left", on=["key1", "key2"])
 pd.merge(left, right, how="outer", on=["key1", "key2"])
 ```
 
-
-
 ## 交叉表与透视表
 
+找到、探索两个变量之间的关系
 
+### 交叉表
+
+交叉表用于计算一列数据对于另外一列数据的分组个数（寻找两个列之间的关系）
+
+pd.crosstab(value1, value2)
+
+```python
+data = pd.crosstab(stock["week"], stock["pona"])
+data.div(data.sum(axis=1), axis=0).plot(kind="bar", stacked=True)
+```
+
+### 透视表
+
+DataFrame.pivot_table([], index=[])
+
+```python
+# 透视表操作
+stock.pivot_table(["pona"], index=["week"])
+```
 
 ## 分组与聚合
 
