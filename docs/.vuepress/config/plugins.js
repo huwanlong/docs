@@ -1,6 +1,8 @@
 const secret = require('./secret')
-const moment = require('moment')
+const moment = require('moment-timezone')
 moment.locale("zh-cn")
+moment.tz.setDefault("Asia/Shanghai")
+
 module.exports = {
   '@vuepress/last-updated': {
     transformer: (timestamp) => {
