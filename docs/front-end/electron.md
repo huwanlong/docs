@@ -9,11 +9,11 @@ Electron通过将Chromium和Node.js合并到同一个运行时环境中，并将
 
 ### 代码
 
-https://gitee.com/workbook/electron-quick-start.git
+[https://gitee.com/workbook/electron-quick-start.git](https://gitee.com/workbook/electron-quick-start.git)
 
 ### 官网
 
- https://www.electronjs.org/ 
+[https://www.electronjs.org/](https://www.electronjs.org/)
 
 ### 特点
 
@@ -86,7 +86,7 @@ Electron运行package.json的main脚本的进程被称为主进程。在主进�
 
 #### app常用事件
 
-文档地址：http://electronjs.org/docs/all
+文档地址：[https://www.electronjs.org/docs/all](https://www.electronjs.org/docs/all)
 
 - ready: 当Electron完成初始化时被触发
 - window-all-closed: 所有窗口被关闭
@@ -96,14 +96,14 @@ Electron运行package.json的main脚本的进程被称为主进程。在主进�
 
 #### webContents常用事件
 
-文档地址： https://www.electronjs.org/docs/api/web-contents 
+文档地址： [https://www.electronjs.org/docs/api/web-contents](https://www.electronjs.org/docs/api/web-contents)
 
 - did-finish-load: 导航完成时触发，即选项卡的旋转器将停止旋转，并指派onload事件后。
 - dom-ready: 一个框架中的文本加载完成后触发该事件。
 
 ### 进程对象
 
-文档地址： https://www.electronjs.org/docs/api/process
+文档地址： [https://www.electronjs.org/docs/api/process](https://www.electronjs.org/docs/api/process)
 
 可以获得系统参数，比如内存，系统版本，进程ID等等
 
@@ -141,7 +141,7 @@ function getProcessInfo(){
 
 ### File对象
 
-文档地址： https://www.electronjs.org/docs/api/file-object 
+文档地址： [https://www.electronjs.org/docs/api/file-object](https://www.electronjs.org/docs/api/file-object)
 
 ```html
 <!DOCTYPE html>
@@ -184,7 +184,7 @@ dragWarpper.addEventListener("dragover", (e) => {
 
 ### webview
 
-文档地址： https://www.electronjs.org/docs/api/webview-tag
+文档地址： [https://www.electronjs.org/docs/api/webview-tag](https://www.electronjs.org/docs/api/webview-tag)
 
 需要在main.js的创建窗口时，在webPreferences中配置 webviewTag: true
 
@@ -239,9 +239,9 @@ wb.addEventListener("did-stop-loading", ()=>{
 
 通过window-open打开一个子窗口，通过browser-window-proxy对子窗口进行操作
 
-文档地址： https://www.electronjs.org/docs/api/window-open
+文档地址： [https://www.electronjs.org/docs/api/window-open](https://www.electronjs.org/docs/api/window-open)
 
-https://www.electronjs.org/docs/api/browser-window-proxy
+[https://www.electronjs.org/docs/api/browser-window-proxy](https://www.electronjs.org/docs/api/browser-window-proxy)
 
 ```html
 <!-- 创建一个文件popup_page.html -->
@@ -295,7 +295,7 @@ window.addEventListener("message",(msg)=>{
 
 ### browser-window
 
-文档地址： https://www.electronjs.org/docs/api/browser-window
+文档地址： [https://www.electronjs.org/docs/api/browser-window](https://www.electronjs.org/docs/api/browser-window)
 
 ```javascript
 // Modules to control application life and create native browser window
@@ -340,7 +340,7 @@ function createWindow () {
 
 和webview类似，推荐使用webview
 
-文档地址： https://www.electronjs.org/docs/api/browser-view
+文档地址： [https://www.electronjs.org/docs/api/browser-view](https://www.electronjs.org/docs/api/browser-view)
 
 ```javascript
 const view = new BrowserView();
@@ -363,7 +363,7 @@ setTimeout(()=>{
 
 需要在main.js的创建窗口时，在webPreferences中配置 nodeIntegration: true,enableRemoteModule: true
 
-文档地址： https://www.electronjs.org/docs/api/dialog
+文档地址： [https://www.electronjs.org/docs/api/dialog](https://www.electronjs.org/docs/api/dialog)
 
 ```javascript
 // 主线程使用方法
@@ -428,7 +428,7 @@ function messageDialog(){
 
 ### 系统快捷键
 
-文档地址： https://www.electronjs.org/docs/api/global-shortcut
+文档地址： [https://www.electronjs.org/docs/api/global-shortcut](https://www.electronjs.org/docs/api/global-shortcut)
 
 ```javascript
 // 主进程
@@ -476,11 +476,11 @@ remote.globalShortcut.register("CommandOrControl+G", () => {
 
 ipcMain 从主进程到渲染进程的异步通信
 
-文档地址： https://www.electronjs.org/docs/api/ipc-main
+文档地址： [https://www.electronjs.org/docs/api/ipc-main](https://www.electronjs.org/docs/api/ipc-main)
 
 ipcRenderer 从渲染进程到主进程的异步通信
 
-文档地址： https://www.electronjs.org/docs/api/ipc-renderer
+文档地址： [https://www.electronjs.org/docs/api/ipc-renderer](https://www.electronjs.org/docs/api/ipc-renderer)
 
 ```html
 <div>
@@ -526,9 +526,9 @@ ipcMain.on("sync-message", (event, args) =>{
 
 原生应用菜单
 
-文档地址： https://www.electronjs.org/docs/api/menu
+文档地址： [https://www.electronjs.org/docs/api/menu](https://www.electronjs.org/docs/api/menu)
 
-https://www.electronjs.org/docs/api/menu-item
+[https://www.electronjs.org/docs/api/menu-item](https://www.electronjs.org/docs/api/menu-item)
 
 ```javascript
   // 主进程中弹菜单，主进程很少有需求需要弹出菜单
@@ -590,7 +590,7 @@ function openMenu(){
 
 ### net
 
-文档地址： https://www.electronjs.org/docs/api/net
+文档地址： [https://www.electronjs.org/docs/api/net](https://www.electronjs.org/docs/api/net)
 
 ```html
 <div>
