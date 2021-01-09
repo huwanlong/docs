@@ -52,5 +52,6 @@ module.exports = {
   "/guide/": 'auto',
   "/front-end/": 'auto',
   "/nodejs/": 'auto',
-  "/python/": 'auto'
+  "/python/": 'auto',
+  "/life/":'auto'
 }
