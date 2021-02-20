@@ -33,8 +33,8 @@ module.exports = {
     'Methods'
   ],
   "/python/管理包/": [
+    'anaconda',
     'pip',
-    'anaconda'
   ],
   "/python/数据挖掘/": [
     '',
@@ -49,9 +49,13 @@ module.exports = {
   "/python/深度学习/": [
     ''
   ],
+  "/blog/": [
+    '前端',
+  ],
   "/guide/": 'auto',
   "/front-end/": 'auto',
   "/nodejs/": 'auto',
   "/python/": 'auto',
-  "/life/":'auto'
+  "/life/":'auto',
+  "/repository/":'auto'
 }
