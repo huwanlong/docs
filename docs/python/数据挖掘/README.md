@@ -16,7 +16,7 @@ title: 概述
 
 ps: 如果TA-Lib在win系统上无法下载，可以到下面的地址去下载
 
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+[https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)
 
 ## jupyter  notebook使用
 
@@ -26,7 +26,7 @@ jupyter notebook
 ipython notebook
 ```
 
-打开 http://localhost:8888/ 
+打开 [http://localhost:8888/](http://localhost:8888/)
 
 ```shell
 # 改成中文 修改用户的环境变量LANG为zh_CN.UTF8

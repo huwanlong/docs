@@ -4,14 +4,12 @@ editLink: false
 ---
 ## 计划
 
-[NPM、Yarn](/front-end/NPM+Yarn.html)
+[NPM、Yarn](/frontend/NPM+Yarn.html)
 
-[TS+Vue3](/front-end/TS+Vue3.html)
+[TS+Vue3](/frontend/TS+Vue3.html)
 
-[verdaccio+lerna](/front-end/verdaccio+lerna.html)
+[verdaccio+lerna](/frontend/verdaccio+lerna.html)
 
-[脚手架搭建](/front-end/脚手架搭建.html)
-
-[CMS](/blog/php.html)
+[脚手架搭建](/frontend/脚手架搭建.html)
 
 ~~

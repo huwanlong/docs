@@ -4,7 +4,7 @@ title: Anaconda
 
 ## 下载安装
 
-https://docs.anaconda.com/anaconda/install/windows/
+[https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/)
 
 ## 管理环境
 

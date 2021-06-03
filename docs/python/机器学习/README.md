@@ -4,7 +4,7 @@ title: 概述
 
 ## 人工智能
 
-代码地址：https://gitee.com/workbook/Machine-Learning.git
+代码地址：[https://gitee.com/workbook/Machine-Learning.git](https://gitee.com/workbook/Machine-Learning.git)
 
 ### 关系
 

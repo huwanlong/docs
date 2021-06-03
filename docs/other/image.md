@@ -1,5 +1,5 @@
 ---
-title: test
+title: image
 ---
 <img :src="$withBase('/icons/apple-touch-icon.png')" alt="logo" class="custom">
 

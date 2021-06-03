@@ -1,5 +1,5 @@
 ---
-title: 前端
+title: 小知识点
 ---
 ## vue2兼容IE9-11
 
@@ -19,7 +19,7 @@ if ((navigator.userAgent.indexOf('compatible') > -1 && navigator.userAgent.index
 <![endif]-->
 ```
 
-兼容方法在问题 https://forum.vuejs.org/t/vue-cli-3-babel-polyfills-and-ie11/89531/5  的 ignotus 回答中
+兼容方法在问题 [https://forum.vuejs.org/t/vue-cli-3-babel-polyfills-and-ie11/89531/5](https://forum.vuejs.org/t/vue-cli-3-babel-polyfills-and-ie11/89531/5)  的 ignotus 回答中
 
 安装 npm install --save-dev babel-polyfill
 
