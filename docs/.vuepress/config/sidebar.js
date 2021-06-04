@@ -19,8 +19,8 @@ module.exports = {
     '',
     'NPM',
     'Yarn',
-    'verdaccio',
-    'lerna'
+    'Verdaccio',
+    'Lerna'
   ],
   "/frontend/": 'auto',
   "/python/": 'auto',

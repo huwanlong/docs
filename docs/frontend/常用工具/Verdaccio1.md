@@ -1,5 +1,5 @@
 ---
-title: verdaccio
+title: Verdaccio
 ---
 ## 简介
 

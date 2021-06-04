@@ -1,5 +1,5 @@
 ---
-title: lerna
+title: Lerna
 ---
 
 1. [https://www.jianshu.com/p/8b7e6025354b](https://www.jianshu.com/p/8b7e6025354b)
