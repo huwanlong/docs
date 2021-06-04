@@ -2,6 +2,10 @@
 title: NPM
 ---
 
+## 简介
+
+Nodejs下的包管理器。
+
 官网：[https://www.npmjs.com/](https://www.npmjs.com/)
 
 ## 更新npm
