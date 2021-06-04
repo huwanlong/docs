@@ -1,6 +1,7 @@
 // module.exports = 'auto'
 module.exports = {
-  "/python/管理包/": [
+  "/python/常用工具/": [
+    '',
     'anaconda',
     'pip',
   ],
@@ -13,6 +14,13 @@ module.exports = {
   "/python/机器学习/": [
     '',
     '特征工程'
+  ],
+  "/frontend/常用工具/": [
+    '',
+    'NPM',
+    'Yarn',
+    'verdaccio',
+    'lerna'
   ],
   "/frontend/": 'auto',
   "/python/": 'auto',
