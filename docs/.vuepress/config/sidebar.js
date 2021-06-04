@@ -20,7 +20,8 @@ module.exports = {
     'NPM',
     'Yarn',
     'Verdaccio',
-    'Lerna'
+    'Lerna',
+    'VS Code'
   ],
   "/frontend/": 'auto',
   "/python/": 'auto',
