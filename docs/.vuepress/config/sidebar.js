@@ -19,6 +19,7 @@ module.exports = {
     '',
     'NPM',
     'Yarn',
+    'nvm',
     'Verdaccio',
     'Lerna',
     'VS Code'
