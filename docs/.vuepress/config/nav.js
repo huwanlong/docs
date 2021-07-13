@@ -26,6 +26,10 @@ module.exports = [
       { text: '常用工具', link: '/python/常用工具/' },
     ]
   },
+  {
+    text: '收藏',
+    link: '/bookmarks/'
+  },
   // {
   //   text: '笔记',
   //   items: [

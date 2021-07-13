@@ -27,4 +27,5 @@ module.exports = {
   "/frontend/": 'auto',
   "/python/": 'auto',
   "/other/": 'auto',
+  "/bookmarks/": 'auto',
 }
