@@ -3,6 +3,14 @@ title: Come on
 ---
 ## Basic English
 
+### 10. There is / There are （地方）有...
+
+There are a dog and a cat under the table. There is a frog by the pond. There is a book with a pencil on the desk. There are always many people in the park on Sundays. There is a man (over) here. There is a woman (over) here.
+
+### 9. has / have... 人 / 动物有...
+
+I have a small family. I live together with my parents. I also have a sister. She is a college student, and she lives in Shanghai alone. She has a lot of schoolwork to do every day, so she comes home once a month.
+
 ### 8. It is ... 这是...
 
 I have a pet dog. It is a little poodle. I call it Hairy. I like it because it's cute.
