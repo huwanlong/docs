@@ -98,3 +98,9 @@ ssl_verify: true
 
 ```
 
+## requirements
+
+```shell
+conda list -e > requirements.txt # 导出
+conda install --yes --file requirements.txt # 导入
+```
