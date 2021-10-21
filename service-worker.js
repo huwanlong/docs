@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "9a2dc5c9fbcd3f1736117ca58b48807a"
+    "revision": "3f8a29ab7610b32d59b725a3b1886f36"
   },
   {
     "url": "about.html",
-    "revision": "d69ac8e5d871928ce90c36965b8f90a5"
+    "revision": "f8112d89d9e96529f0e286845f6e29df"
   },
   {
     "url": "app.png",
@@ -158,12 +158,12 @@ self.__precacheManifest = [
     "revision": "307c7fd5d7c711e87df8f5998dc86503"
   },
   {
-    "url": "assets/js/33.15f8d7cc.js",
-    "revision": "b027df88fd8783ce58c5afe000cd527e"
+    "url": "assets/js/33.cdd2141c.js",
+    "revision": "8a507d32f8384c1a50b8a10492c8ece0"
   },
   {
-    "url": "assets/js/34.6e3b7926.js",
-    "revision": "9485cef6b1db032cbc9074e3a1104505"
+    "url": "assets/js/34.eca230ee.js",
+    "revision": "d18eb9084c35c35e13ed6ca2f25cc4fb"
   },
   {
     "url": "assets/js/35.bf9113c1.js",
@@ -226,76 +226,76 @@ self.__precacheManifest = [
     "revision": "484f0797ab8b5aefc3a71da629345158"
   },
   {
-    "url": "assets/js/app.8fba7495.js",
-    "revision": "65ca785cf8323ebb1c4c6e6287f4c0e6"
+    "url": "assets/js/app.b1e493fe.js",
+    "revision": "5817374bf70192b985fa7f2c5e8de032"
   },
   {
     "url": "bookmarks/index.html",
-    "revision": "c779b3279524acd904e88b914c6c96f0"
+    "revision": "24eac9f825d6129211a7683e3ecaab18"
   },
   {
     "url": "english/zero.html",
-    "revision": "9054ec42bc95a523177a4c691b5aa84e"
+    "revision": "1c7f5ca27c6f2ee7a58a6b79ff13a26b"
   },
   {
     "url": "frontend/electron.html",
-    "revision": "89c5f55c437dee33db76a5c9c3633f73"
+    "revision": "ee96123d3fe9d70d0eb2644502a11d04"
   },
   {
     "url": "frontend/more.html",
-    "revision": "4a6b6cb779b99ba71f34fc1597937b7c"
+    "revision": "d33643b6494a2c911ef7d0bb39585d6f"
   },
   {
     "url": "frontend/points.html",
-    "revision": "02eb0ecc4d5db1f435d83cde6ec26991"
+    "revision": "aa45d88e27f26839aad0154d3ca51cf4"
   },
   {
     "url": "frontend/SSR.html",
-    "revision": "cce1ed95e3d4047e431448e27135170a"
+    "revision": "932b82fc186696ffe50c819f957b403e"
   },
   {
     "url": "frontend/webpack4.html",
-    "revision": "fb8750bee071e0b52f4d7164e07c9161"
+    "revision": "f83e22d9d6cadc3c22131e614dbd43a6"
   },
   {
     "url": "frontend/常用工具/index.html",
-    "revision": "b45b2d567c1382918b7331b370205c87"
+    "revision": "290d48f8e4c75a41a1d5763e2fa25313"
   },
   {
     "url": "frontend/常用工具/Lerna.html",
-    "revision": "a13c49d1809819950342eaf53031fba9"
+    "revision": "9a2f054a3e223302a47fcbe223cfc478"
   },
   {
     "url": "frontend/常用工具/NPM.html",
-    "revision": "125a380ba95ab7c03a74190cfd87ff50"
+    "revision": "75d7b950a38a0e8ad884fe6c88f64c5f"
   },
   {
     "url": "frontend/常用工具/nvm.html",
-    "revision": "97944526b3850a9eeb4850350a6a4be9"
+    "revision": "538703f04318295eb2595f6d6a1fe625"
   },
   {
     "url": "frontend/常用工具/Verdaccio.html",
-    "revision": "8bf36b4b979ee6e4a77e1fe55dcc5a9d"
+    "revision": "4742e3ea5d634c190a70363e12feba45"
   },
   {
     "url": "frontend/常用工具/VS Code.html",
-    "revision": "5af8beac6df882ea98fff3d616f06965"
+    "revision": "a5a8d9e75cea995a069903e900b6d26b"
   },
   {
     "url": "frontend/常用工具/Yarn.html",
-    "revision": "35edc6e57d8cb561a6c4dd57d551dc0d"
+    "revision": "454b683d72201ff1af58f6d9e0898569"
   },
   {
     "url": "frontend/微前端.html",
-    "revision": "311ddb826fc18f5782c2b2f437b9bb1d"
+    "revision": "58e6abe025f3555d9f1ca67fb39923db"
   },
   {
     "url": "frontend/脚手架搭建.html",
-    "revision": "a55a223df6372cc2b861a9c3a505bb0e"
+    "revision": "f7598eeb362bc7019cfb1d3ec4e260b2"
   },
   {
     "url": "guide.html",
-    "revision": "c13ea39af5285613ad7e6cbaa2c274ee"
+    "revision": "a4a8ee7758ac490a8138a70de0c0ae84"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -319,59 +319,59 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "24ca8981e9200daf18603ee0172d9e06"
+    "revision": "3e9684b132ae1c15752b17b7ed86f35f"
   },
   {
     "url": "other/cook.html",
-    "revision": "8683f35feee4ad03774493b5a5ccb5bc"
+    "revision": "ebfe5f4016dc00be3c26b328201e7445"
   },
   {
     "url": "other/countup.html",
-    "revision": "b921be863ab81f9f185ecd3042b34fc9"
+    "revision": "9d77d158d8eee5b9884d2ecd60e7f79d"
   },
   {
     "url": "other/image.html",
-    "revision": "c59e37bf63f5aeb4c8838ddfc0b5b969"
+    "revision": "35c7b121e29593c15559cbc8dee8934d"
   },
   {
     "url": "python/常用工具/anaconda.html",
-    "revision": "e179f624537609df3e34d3b0a1e0605f"
+    "revision": "d6a16b94b0cbbc2e9d902564d7e3dafe"
   },
   {
     "url": "python/常用工具/index.html",
-    "revision": "6356ec1f55d79e850070d6f3cf88c947"
+    "revision": "77e8192b56616b6a6c590bbb6c039982"
   },
   {
     "url": "python/常用工具/pip.html",
-    "revision": "2e5b90d84ffb58642bdacc4a3ef200bd"
+    "revision": "bfbcadeb3fe95645e82151dcb4a60e27"
   },
   {
     "url": "python/数据挖掘/index.html",
-    "revision": "3e5dc107b4f408230f66ba86cb20a80b"
+    "revision": "089e44c4d9b536b4ae7eb2acec1c3d92"
   },
   {
     "url": "python/数据挖掘/matplotlib.html",
-    "revision": "5e80c2150a07779a3375003642162ff1"
+    "revision": "7aa27a3a567ff20ef0ad1e558ecfce48"
   },
   {
     "url": "python/数据挖掘/numpy.html",
-    "revision": "6e8decef2b476d500b8081b84ac101f3"
+    "revision": "de153390cf2bf70b6ff67e93435c39ae"
   },
   {
     "url": "python/数据挖掘/pandas.html",
-    "revision": "440afec8729b54a1315e13e05a9d0efa"
+    "revision": "a036b2f8958782f9198a409169e0361b"
   },
   {
     "url": "python/机器学习/index.html",
-    "revision": "af8fe7554b45be294d5cfbd99e36da74"
+    "revision": "6713be260c0864358e0d8e3c872c4233"
   },
   {
     "url": "python/机器学习/特征工程.html",
-    "revision": "55c450b1a680dfa4491e602677c44a0e"
+    "revision": "534494bb7964c71c2977089e16e4a18d"
   },
   {
     "url": "todo.html",
-    "revision": "2d7440ceb783037338d73fdfb9f36f3a"
+    "revision": "0643c8b90c12f0e4692473fd7f7d8a14"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
