@@ -104,3 +104,10 @@ ssl_verify: true
 conda list -e > requirements.txt # 导出
 conda install --yes --file requirements.txt # 导入
 ```
+
+## Linux
+
+```
+https://blog.csdn.net/djfjkj52/article/details/107330301
+```
+
