@@ -56,6 +56,7 @@ set LC_ALL=zh_CN.UTF-8
 - A，在当前cell的上面添加cell
 - B，在当前cell的下面添加cell
 - 双击D：删除当前cell
+- y or m 切换 code 和 markdown
 
 编辑模式：
 
@@ -63,16 +64,3 @@ set LC_ALL=zh_CN.UTF-8
 - 回退：Ctrl+Z
 - 补全代码：变量、方法后跟Tab键
 - 为一行或多行代码添加/取消注释：Ctrl+/
-
-
-
-
-
-
-
-
-
-
-
-
-
