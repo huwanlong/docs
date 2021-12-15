@@ -3,6 +3,132 @@ title: Come on
 ---
 ## Basic English
 
+### 30.介绍现在时行时
+
+
+
+### 29.活用时间名词
+
+
+
+### 28.时刻的说法2
+
+
+
+### 27.时刻的说法1
+
+
+
+### 26.问时刻
+
+
+
+### 25.活用特殊疑问句及一般问句
+
+Paul: Hi, Jane. How's it going?
+
+Jane: Not bad. How about you?
+
+Paul: I'm fine, thank you. By the way, it's my birthday today. Can I treat you to dinner this evening?
+
+Jane: Sure, it's my honor.
+
+Paul: I'm glad to hear that. When can I pick you up?
+
+Jane: How about six o'clock?
+
+Paul: It's a deal. See you then.
+
+### 24.活用特殊疑问句 - 问籍贯及职业
+
+John: Where are you from, Mary?
+
+Mary: I'm from New York, in the United States. And you?
+
+John: Well, I'm from Nanning, Guangxi.
+
+Mary: What do you do here?
+
+John: I'm a computer engineer. What about you?
+
+Mary: I teach English for a living.
+
+### 23.活用特殊疑问句 - 谈天气
+
+A: What's the weather like today?
+
+B: It's rainy today.
+
+It's a bit windy today.
+
+It's sunny today.
+
+It's cold today.
+
+It's chilly today.
+
+It's cool and pleasant today.
+
+It's cloudy today.
+
+It's hot today.
+
+It's smoggy today.
+
+### 22.活用问句2
+
+John: Are you free this afternoon, Peter?
+
+Peter: Sure. What would you like to do?
+
+John: I feel like going to the movies. I hope we can go together.
+
+Peter: Sounds like fun. Let's meet at the movie theater at 3.
+
+John: Fine. See you then.
+
+### 21.活用问句1
+
+A: Excuse me, but where is the train station?
+
+B: Go all the way down this street. Turn left at the first intersection, and you'll see the train station.
+
+A: Thank you very much. / Thanks a lot. / Thanks a million.
+
+B: You're welcome. / Not at all. / You bet.
+
+### 20.特殊疑问句中的助动词要怎么使用？
+
+1. 特殊疑问句中有助动词时，该助动词与主语倒装
+
+   can（能够；可能）、will（将要）、shall（将要）、may（可以；可能）、could（能够）、would（将要）、should（应当）、must（必须）
+
+2. 问句中有动词时，先将疑问词置于句首，再按主语的人称及时态置do或does，再置主语，再置动词原形
+
+### 19.特殊问句
+
+what（什么）、who（谁）、which（哪一个）、when（何时）、where（哪里）、why（为何）、how（如何）
+
+如何形成特殊问句：
+
+1. 疑问词置于句首
+2. 问句中有be动词时，该be动词与主语倒装
+
+ps: 句尾语调要下沉
+
+### 18.一般问句2
+
+主语 + 动词
+
+按主语人称分别使用助动词do或是does；原有的动词一律变成原形
+
+ps: does用于主语是第三人称单数（he、she、it、Peter、the dog、the tree等）时
+
+### 17.一般问句
+
+1. 主语 + be动词 （am、is、are）
+2. 主语 + 助动词（will、can、may、must、should、would、could）
+
 ### 16. Self-introduction 简单的自我介绍
 
 Hi, everybody. My name is David Wang. I come from Guangxi, I'm 24 years old. I'm a computer engineer. I plan to study abroad in the future. Thank you very much.
