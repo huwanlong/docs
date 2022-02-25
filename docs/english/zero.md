@@ -3,29 +3,919 @@ title: Come on
 ---
 ## Volume Three
 
+
+### 80. 
+
+
+
+### 79. 
+
+
+
+### 78. 
+
+
+
+### 77. 
+
+
+
+### 76. 
+
+
+
+### 75. 
+
+
+
+### 74. 
+
+
+
+### 73. 
+
+
+
+### 72. 
+
+
+
+### 71. 
+
+
+
+### 70. 
+
+
+
+### 69. 
+
+
+
+### 68. 
+
+
+
+### 67. 
+
+
+
+### 66. 
+
+
+
+### 65. 
+
+
+
+### 64. 
+
+
+
+### 63. 
+
+
+
+### 62. 
+
+
+
+### 61. 
+
+
+
+### 60. 
+
+
+
+### 59. 
+
+
+
+### 58. 
+
+
+
+### 57. 
+
+
+
+### 56. 
+
+
+
+### 55. 
+
+
+
+### 54. 
+
+
+
+### 53. 
+
+
+
+### 52. 
+
+
+
+### 51. 
+
+
+
+### 40. 
+
+
+
+### 49. 
+
+
+
+### 48. 
+
+
+
+### 47. 
+
+
+
+### 46. 
+
+
+
+### 45. 
+
+
+
+### 44. 
+
+
+
+### 43. 
+
+
+
+### 42. 
+
+
+
+### 41. 
+
+
+
+### 40. 
+
+
+
+### 39. 
+
+
+
+### 38. 
+
+
+
+### 37. 
+
+
+
+### 36. 
+
+
+
+### 35. 
+
+
+
+### 34. 
+
+
+
+### 33. 
+
+
+
+### 32. 
+
+
+
+### 31. 
+
+
+
+### 30. 
+
+
+
+### 29. 
+
+
+
+### 28. 
+
+
+
+### 27. 
+
+
+
+### 26. 
+
+
+
+### 25. 
+
+
+
+### 24. 
+
+
+
+### 23. 
+
+
+
+### 22. 
+
+
+
+### 21. 
+
+
+
+### 20. 
+
+
+
+### 19. 
+
+
+
+### 18. 
+
+
+
+### 17. 
+
+
+
+### 16. 
+
+
+
+### 15. 
+
+
+
+### 14. 
+
+
+
+### 13. 
+
+
+
+### 12. 
+
+
+
+### 11. 
+
+
+
+### 10. 
+
+
+
+### 9. 
+
+
+
+### 8. 
+
+
+
+### 7. 
+
+
+
+### 6. 
+
+
+
+### 5. 
+
+
+
+### 4. 
+
+
+
+### 3. 
+
+
+
+### 2. 
+
+
+
+### 1. 
+
+
+
+
+### 15. 
+
+### 14. 
+
+### 13. 
+
+### 12. 
+
+### 11. 
+
+### 10. 
+
+### 9. 
+
+### 8. 
+
+### 7. 
+
+### 6. 
+
+### 5. 
+
+### 4. 
+
+### 3. 
+
+### 2. 
+
+### 1. 
+
+
 ## Volume Two
+
+### 80. 
+
+
+
+### 79. 
+
+
+
+### 78. 
+
+
+
+### 77. 
+
+
+
+### 76. 
+
+
+
+### 75. 
+
+
+
+### 74. 
+
+
+
+### 73. 
+
+
+
+### 72. 
+
+
+
+### 71. 
+
+
+
+### 70. 
+
+
+
+### 69. 
+
+
+
+### 68. 
+
+
+
+### 67. 
+
+
+
+### 66. 
+
+
+
+### 65. 
+
+
+
+### 64. 
+
+
+
+### 63. 
+
+
+
+### 62. 
+
+
+
+### 61. 
+
+
+
+### 60. 
+
+
+
+### 59. 
+
+
+
+### 58. 
+
+
+
+### 57. 
+
+
+
+### 56. 
+
+
+
+### 55. 
+
+
+
+### 54. 
+
+
+
+### 53. 
+
+
+
+### 52. 
+
+
+
+### 51. 
+
+
+
+### 40. 
+
+
+
+### 49. 
+
+
+
+### 48. 
+
+
+
+### 47. 
+
+
+
+### 46. 
+
+
+
+### 45. 
+
+
+
+### 44. 
+
+
+
+### 43. 
+
+
+
+### 42. 
+
+
+
+### 41. 
+
+
+
+### 40. 
+
+
+
+### 39. 
+
+
+
+### 38. 
+
+
+
+### 37. 
+
+
+
+### 36. 
+
+
+
+### 35. 
+
+
+
+### 34. 
+
+
+
+### 33. 
+
+
+
+### 32. 
+
+
+
+### 31. 
+
+
+
+### 30. 
+
+
+
+### 29. 
+
+
+
+### 28. 
+
+
+
+### 27. 
+
+
+
+### 26. 
+
+
+
+### 25. 
+
+
+
+### 24. 
+
+
+
+### 23. 
+
+
+
+### 22. 
+
+
+
+### 21. 
+
+
+
+### 20. 
+
+
+
+### 19. 
+
+
+
+### 18. 
+
+
+
+### 17. 
+
+
+
+### 16. 
+
+
+
+### 15. 
+
+
+
+### 14. 
+
+
+
+### 13. 
+
+
+
+### 12. 
+
+
+
+### 11. 
+
+
+
+### 10. 
+
+
+
+### 9. 
+
+
+
+### 8. 
+
+
+
+### 7. 
+
+
+
+### 6. 
+
+
+
+### 5. 
+
+
+
+### 4. 
+
+
+
+### 3. 
+
+
+
+### 2. 
+
+
+
+### 1. 
+
+
+
 
 ## Volume One
 
+### 80. 
+
+
+
+### 79. 
+
+
+
+### 78. 
+
+
+
+### 77. 
+
+
+
+### 76. 
+
+
+
+### 75. 
+
+
+
+### 74. 
+
+
+
+### 73. 
+
+
+
+### 72. 
+
+
+
+### 71. 
+
+
+
+### 70. 
+
+
+
+### 69. 
+
+
+
+### 68. 
+
+
+
+### 67. 
+
+
+
+### 66. 
+
+
+
+### 65. 
+
+
+
+### 64. 
+
+
+
+### 63. 
+
+
+
+### 62. 
+
+
+
+### 61. 
+
+
+
+### 60. 
+
+
+
+### 59. 
+
+
+
+### 58. 
+
+
+
+### 57. 
+
+
+
+### 56. 
+
+
+
+### 55. 
+
+
+
+### 54. 
+
+
+
+### 53. 
+
+
+
+### 52. 
+
+
+
+### 51. 
+
+
+
+### 50. 
+
+
+
+### 49. 
+
+
+
+### 48. 
+
+
+
+### 47. 
+
+
+
+### 46. 
+
+
+
+### 45. 
+
+
+
+### 44. 
+
+
+
+### 43. 
+
+
+
+### 42. 复习一般问句并介绍 All we have to do is 之后接动词原形
+
+
+
+### 41. My Hobbies 我的爱好
+
+
+
+### 40. 代词作主语及宾语3
+
+
+
+### 39. 代词作主语及宾语2
+
+
+
+### 38. 代词作主语及宾语1
+
+
+
+### 37. 物主代词作形容词及名词4
+
+
+
+### 36. 物主代词作形容词及名词3
+
+
+
+### 35. 物主代词作形容词及名词2
+
+
+
+### 34. 物主代词作形容词及名词1
+
+
+
+### 33. will 可被 be going to 取代
+
+
+
+### 32. 介绍简单的将来时
+
+
+
+### 31.活用现在进行时
+
+
+
 ### 30.介绍现在时行时
 
-
+主语 + be动词 + 现在分词 某人正在....
 
 ### 29.活用时间名词
 
+A: Excuse me, sir. Do you have time time, please?
 
+B: Sure. It's ten o'clock.
+
+A: Thanks. My train leaves in twenty minutes. I need to get to the station by taxi now. Thanks again.
+
+B: No problem. Good luck.
 
 ### 28.时刻的说法2
 
+A: What time is it by your watch, please?
 
+B: It's one thirty. / It's half past one.
 
 ### 27.时刻的说法1
 
+It's one o'clock sharp.
 
+It's five (minutes) past / after one.
+
+It's fifteen (minutes) past / after one.  It's a quarter past / after one. It's one fifteen.
 
 ### 26.问时刻
 
+What time is it by your watch, please?
 
+What's the time now?
+
+Do you have the time, please?
 
 ### 25.活用特殊疑问句及一般问句
 
@@ -49,7 +939,7 @@ John: Where are you from, Mary?
 
 Mary: I'm from New York, in the United States. And you?
 
-John: Well, I'm from Nanning, Guangxi.
+John: Well, I'm from `Nanning`, `Guangxi`.
 
 Mary: What do you do here?
 
@@ -118,7 +1008,7 @@ what（什么）、who（谁）、which（哪一个）、when（何时）、wher
 1. 疑问词置于句首
 2. 问句中有be动词时，该be动词与主语倒装
 
-ps: 句尾语调要下沉
+`ps`: 句尾语调要下沉
 
 ### 18.一般问句2
 
@@ -126,7 +1016,7 @@ ps: 句尾语调要下沉
 
 按主语人称分别使用助动词do或是does；原有的动词一律变成原形
 
-ps: does用于主语是第三人称单数（he、she、it、Peter、the dog、the tree等）时
+`ps`: does用于主语是第三人称单数（he、she、it、Peter、the dog、the tree等）时
 
 ### 17.一般问句1
 
@@ -135,7 +1025,7 @@ ps: does用于主语是第三人称单数（he、she、it、Peter、the dog、th
 
 ### 16. Self-introduction 简单的自我介绍
 
-Hi, everybody. My name is David Wang. I come from Guangxi, I'm 24 years old. I'm a computer engineer. I plan to study abroad in the future. Thank you very much.
+Hi, everybody. My name is David Wang. I come from `Guangxi`, I'm 24 years old. I'm a computer engineer. I plan to study abroad in the future. Thank you very much.
 
 ### 15. 12个月如何念更正确？
 
@@ -149,18 +1039,18 @@ B: It's July the 8th.
 
 ### 13. 如何念序数词？
 
-|      |         |      |              |      |                |             |                |
-| ---- | ------- | ---- | ------------ | ---- | -------------- | ----------- | -------------- |
-| 1st  | first   | 11th | eleventh     | 21st | twenty-first   | 40th        | fortieth       |
-| 2nd  | second  | 12th | twelfth      | 22nd | twenty-second  | 50th        | fiftieth       |
-| 3rd  | third   | 13th | thirteenth   | 23rd | twenty-third   | 60th        | sixtieth       |
-| 4th  | fourth  | 14th | fourteenth   | 24th | twenty-fourth  | 70th        | seventieth     |
-| 5th  | fifth   | 15th | fifteenth    | 25th | twenty-fifth   | 80th        | eightieth      |
-| 6th  | sixth   | 16th | sixteenth    | 26th | twenty-sixth   | 90th        | ninetieth      |
-| 7th  | seventh | 17th | sevennteenth | 27th | twenty-seventh | 100th       | one hundredth  |
-| 8th  | eighth  | 18th | eighteenth   | 28th | twenty-eighth  | 1,000th     | one thousandth |
-| 9th  | ninth   | 19th | nineteenth   | 29th | twenty-ninth   | 1,000,000th | one millionth  |
-| 10th | tenth   | 20th | twentieth    | 30th | thirtieth      |             |                |
+|      |         |      |             |      |                |             |                |
+| ---- | ------- | ---- | ----------- | ---- | -------------- | ----------- | -------------- |
+| 1st  | first   | 11th | eleventh    | 21st | twenty-first   | 40th        | fortieth       |
+| 2nd  | second  | 12th | twelfth     | 22nd | twenty-second  | 50th        | fiftieth       |
+| 3rd  | third   | 13th | thirteenth  | 23rd | twenty-third   | 60th        | sixtieth       |
+| 4th  | fourth  | 14th | fourteenth  | 24th | twenty-fourth  | 70th        | seventieth     |
+| 5th  | fifth   | 15th | fifteenth   | 25th | twenty-fifth   | 80th        | eightieth      |
+| 6th  | sixth   | 16th | sixteenth   | 26th | twenty-sixth   | 90th        | ninetieth      |
+| 7th  | seventh | 17th | seventeenth | 27th | twenty-seventh | 100th       | one hundredth  |
+| 8th  | eighth  | 18th | eighteenth  | 28th | twenty-eighth  | 1,000th     | one thousandth |
+| 9th  | ninth   | 19th | nineteenth  | 29th | twenty-ninth   | 1,000,000th | one millionth  |
+| 10th | tenth   | 20th | twentieth   | 30th | thirtieth      |             |                |
 
 ### 12. 如何念基数词？
 
@@ -220,7 +1110,7 @@ John is a student, too. He is my classmate. He is a little short. He is from Bei
 
 ### 3. I am ... 我是...
 
-I am a student. I'm 18 years old. I'm quite tall. I'm from Nanning.
+I am a student. I'm 18 years old. I'm quite tall. I'm from `Nanning`.
 
 
 ### 2. 早上、下午、晚上
@@ -234,7 +1124,7 @@ Good evening.
 
 ### 1. 打招呼
 
-A: Good morning. I'm Rourou.
+A: Good morning. I'm `Rourou`.
 
 B: Hi, I'm Peter.
 

@@ -12,7 +12,7 @@ title: 概述
 3. pandas   数据处理
 4. TA-Lib    股票技术分析指标库
 5. tables     hdf5文件
-6. jupyter    数据分析与展示的平台     # conda install jupyter notebook
+6. jupyter    数据分析与展示的平台     # conda install jupyter notebook 或 conda install nb_conda
 
 ps: 如果TA-Lib在win系统上无法下载，可以到下面的地址去下载
 
