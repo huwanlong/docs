@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f19a982dadcfe445dc94604335ab0938"
+    "revision": "74f5a2a6ee577b27794a16fcc393bf88"
   },
   {
     "url": "about.html",
-    "revision": "e24d1e27ed7fccbfa55be63edb636fd5"
+    "revision": "a52e244aa161b14365e3081c32334d0f"
   },
   {
     "url": "app.png",
@@ -74,8 +74,8 @@ self.__precacheManifest = [
     "revision": "0ef13ed9764147148fb31e04d2a11506"
   },
   {
-    "url": "assets/js/14.98cb13a4.js",
-    "revision": "c5d6e083c61484031672d555b9cb9672"
+    "url": "assets/js/14.137dd5f2.js",
+    "revision": "47b00a203ea094b32e0482125ca889e4"
   },
   {
     "url": "assets/js/15.d6f50176.js",
@@ -166,8 +166,8 @@ self.__precacheManifest = [
     "revision": "d18eb9084c35c35e13ed6ca2f25cc4fb"
   },
   {
-    "url": "assets/js/35.2fc3dcac.js",
-    "revision": "0cd50ea9037044c91c476d40247154e1"
+    "url": "assets/js/35.2d4b0071.js",
+    "revision": "b98642eafd28533cb602d9cb57f5bb53"
   },
   {
     "url": "assets/js/36.00c9a477.js",
@@ -226,76 +226,76 @@ self.__precacheManifest = [
     "revision": "484f0797ab8b5aefc3a71da629345158"
   },
   {
-    "url": "assets/js/app.ebd7d39e.js",
-    "revision": "f95acadcd8b771e4d5fedc9d44559b99"
+    "url": "assets/js/app.30fde2e4.js",
+    "revision": "4b7ebb62b7901bcb2347cdc6f75d69df"
   },
   {
     "url": "bookmarks/index.html",
-    "revision": "611605aab4425fe12385ab03e3ad9ce2"
+    "revision": "5b7e88022cb140c68ddfb41f6522b8cd"
   },
   {
     "url": "english/zero.html",
-    "revision": "e34ae18436f4cbadd394d6cf7b4b517e"
+    "revision": "589692516a5a8bfd55960d73c5ccce74"
   },
   {
     "url": "frontend/electron.html",
-    "revision": "d40393949697cfdff5757ab9feffb95a"
+    "revision": "1582d8dd22dd9441a8ebff7bf26e8027"
   },
   {
     "url": "frontend/more.html",
-    "revision": "b423977b1e005f23bddfd7c54aae3db6"
+    "revision": "3ec76974887594e377c4a8ebb478a3cc"
   },
   {
     "url": "frontend/points.html",
-    "revision": "4557aa8e22d94ed13379d170a7f17d10"
+    "revision": "270e2a81781b7108aeaf5fc1869591b7"
   },
   {
     "url": "frontend/SSR.html",
-    "revision": "023e97e710e04dfad2513f1aeebc42c6"
+    "revision": "7d4112220375a797132b710db4c5b8fd"
   },
   {
     "url": "frontend/webpack4.html",
-    "revision": "2cb1746f5c0a67d0f85f27758d26a05d"
+    "revision": "e02c78bda0e9f4bac1bb2e460bafb8fb"
   },
   {
     "url": "frontend/常用工具/index.html",
-    "revision": "b145713d3b31e828b848864f9ce677ae"
+    "revision": "9be1061c6803e7c0a1335cb90383fab5"
   },
   {
     "url": "frontend/常用工具/Lerna.html",
-    "revision": "13add636b5722b5fff64148c86470f29"
+    "revision": "f15feff7a89ef907da579f6e289283fb"
   },
   {
     "url": "frontend/常用工具/NPM.html",
-    "revision": "3095c2e23190ca6138ae3caa6ac384c7"
+    "revision": "56a03860949901f8d882dff1d125889a"
   },
   {
     "url": "frontend/常用工具/nvm.html",
-    "revision": "faba76310449a8da7f3becc14644ffff"
+    "revision": "f3a579ca70ddbc0d57c47a0bfd1c62d4"
   },
   {
     "url": "frontend/常用工具/Verdaccio.html",
-    "revision": "629aaef210d6bf268738ff24e0b21a5a"
+    "revision": "30ef0f3b83a84b668d249ea930035a0f"
   },
   {
     "url": "frontend/常用工具/VS Code.html",
-    "revision": "172b725b2f44b9feb2f2c53551deb3eb"
+    "revision": "92848a439617eb278b3593168d702d56"
   },
   {
     "url": "frontend/常用工具/Yarn.html",
-    "revision": "bb827afabdc53356d312d32a1245e5c7"
+    "revision": "282894ed9c586dd1294a9c31a63ec361"
   },
   {
     "url": "frontend/微前端.html",
-    "revision": "663ff2687a24e0b5e7849593e4a6fbb7"
+    "revision": "afa6f3edf75e80f364983e1dfb044049"
   },
   {
     "url": "frontend/脚手架搭建.html",
-    "revision": "fb2b9d10ff589e79d3d02811ce9f3544"
+    "revision": "acb2f9e8fcb9fd33ab6835c8eabc26b8"
   },
   {
     "url": "guide.html",
-    "revision": "592871302fbc20e8b41015914aa1d8c4"
+    "revision": "798c70b560a9bcd36023af5b2db7a033"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -319,59 +319,59 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a77560e08794ca5603735413e1837acc"
+    "revision": "3eb085603865b9fde6b479b59163d66f"
   },
   {
     "url": "other/cook.html",
-    "revision": "644fb0a4cfa83a0d350538a9289142bb"
+    "revision": "a3dd4d5cca3edd17fdff4ec51aec77a2"
   },
   {
     "url": "other/countup.html",
-    "revision": "ab046f519f18bc707e9f3f794d64fada"
+    "revision": "a7ed5761d8e71a1870dd0964f93fd349"
   },
   {
     "url": "other/image.html",
-    "revision": "d92b0a178fda7e0f1f1b1725152a2ddf"
+    "revision": "64a4354d0d257a9821fd234134eb6147"
   },
   {
     "url": "python/常用工具/anaconda.html",
-    "revision": "d5e3fe6407d290976e560ef5ffff446b"
+    "revision": "323094b615b6c62844682179963c794d"
   },
   {
     "url": "python/常用工具/index.html",
-    "revision": "42eeb216ac74bb881e5c6f56fe747a49"
+    "revision": "ac08025941a8258bfb6fa728a9e9bb65"
   },
   {
     "url": "python/常用工具/pip.html",
-    "revision": "7e6a43486c988b13697b137f67262c14"
+    "revision": "7ebcc51c5b1213dd77ad86003e336703"
   },
   {
     "url": "python/数据挖掘/index.html",
-    "revision": "722a79bbf66031d0f3ded0d4051b2b11"
+    "revision": "48159e9865338da8125211896e7b867e"
   },
   {
     "url": "python/数据挖掘/matplotlib.html",
-    "revision": "a97b111f560687a480e591642591b6e2"
+    "revision": "69f17064d1c7161cddf6ce54e415db88"
   },
   {
     "url": "python/数据挖掘/numpy.html",
-    "revision": "f3b0fd24504b8410916d3ae4f8249d31"
+    "revision": "a405546e145ed689a6a011b9cf8b9c13"
   },
   {
     "url": "python/数据挖掘/pandas.html",
-    "revision": "37bc1f3fe7616016bd8d0b787f8f8965"
+    "revision": "12b86d18208fbfe842cfd71d353ad3b3"
   },
   {
     "url": "python/机器学习/index.html",
-    "revision": "21c62e8977cc40ff64edbf85010be169"
+    "revision": "973be413c6b0e78dedfa4a1071f06506"
   },
   {
     "url": "python/机器学习/特征工程.html",
-    "revision": "d3a1ed8df8dc5ff35c7b26d900e977a2"
+    "revision": "b86eb9c4ed6efafa124b69200b4c5146"
   },
   {
     "url": "todo.html",
-    "revision": "955a700a0341b0bd5b95f9fbb2e27434"
+    "revision": "ee193c04d88c5b1461ff9d3b4732253a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
