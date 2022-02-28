@@ -1,6 +1,6 @@
 // module.exports = 'auto'
 module.exports = {
-  "/python/常用工具/": [
+  "/tools/python/": [
     '',
     'anaconda',
     'pip',
@@ -15,7 +15,7 @@ module.exports = {
     '',
     '特征工程'
   ],
-  "/frontend/常用工具/": [
+  "/tools/frontend/": [
     '',
     'NPM',
     'Yarn',
@@ -24,9 +24,15 @@ module.exports = {
     'Lerna',
     'VS Code'
   ],
+  "/tools/system/": [
+    '',
+    'linux',
+    'git'
+  ],
+  "/tools/": 'auto',
   "/frontend/": 'auto',
   "/python/": 'auto',
   "/other/": 'auto',
   "/bookmarks/": 'auto',
-  "/english/": 'auto',
+  "/languages/": 'auto',
 }
