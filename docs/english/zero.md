@@ -277,607 +277,656 @@ B: No problem. Good luck.
 
 主语 + be动词 + 现在分词 某人正在....
 
-
 ### 31.活用现在进行时
 
+A: What are you doing now?
+
+B: I'm doing nothing. Why?
+
+A: Well, I'm writing a Paper. It's quite difficult. Can you lend me a hand?
+
+B: No problem.
 
 ### 32. 介绍简单的将来时
 
+A: I will go shopping tomorrow. Will you join me?
+
+B: Thanks, but I'm afraid not.
+
+A: Why not?
+
+B: There will be an English test next Monday. I'll have to study for it.
 
 ### 33. will 可被 be going to 取代
 
+A: I'm going to go shopping tomorrow. Are you going to join me?
+
+B: Thanks, but I'm afraid not.
+
+A: Why not?
+
+B: There is going to be an English test next Monday. I'll have to study for it.
+
+A: I see. I wish you good luck.
 
 ### 34. 物主代词作形容词及名词1
 
+This is my car. In other words, this car is mine. That is your car. In other words, that car is yours. My car is smaller than yours. In other words, your car is bigger than mine. Hovever, I like my car. It's old but comfortable.
 
 ### 35. 物主代词作形容词及名词2
 
+- 代词所有格视作形容词，之后须接名词
+- 所有格代词视作名词，之后不可再接任何名词
 
 ### 36. 物主代词作形容词及名词3
 
+A: Whose car is this?
+
+B: It's our car.
+
+A: Whose car is that?
+
+B: It belongs to Mr. & Mrs. Smith. It's their car. In other words, it's theirs.
 
 ### 37. 物主代词作形容词及名词4
 
+Ladies and gentlemen, welcome to Macy's Department Store. This is a very big shopping mall. Please always keep an eye on your children. Thank you very much.
+
+Mr. & Mrs. Smith, you have three children, and we have three children, too. Yours are hard-working, but ours are lazy. Why so?
 
 ### 38. 代词作主语及宾语1
 
+John is my best friend. We go to the same school. I see him quite often. He has a sister. She is only five years old. I seldom see her. It is her birthday tomorrow. I'll buy her a doll. I hope she'll like it.
 
 ### 39. 代词作主语及宾语2
 
+A: Where are you going, Tom?
+
+B: I'm going downtown.
+
+A: Are you going alone?
+
+B: No, I'm going with Mary and Paul. We will try some Italian food. Will you join us?
+
+A: Yes, why not? Going downtown with you guys is certainly fun.
 
 ### 40. 代词作主语及宾语3
 
+Peter and Paul are my friends. I like them very much. They and I live in the same community. There is a park in our community. It is a huge park. There are many kinds of flowers in it. On weekends, we often take a walk in the park. It is indeed a good way to kill time.
 
 ### 41. My Hobbies 我的爱好
 
+My hobbies are hiking and listening to music. On weekends, my friends and I will go hiking in the mountains. I like hiking. It gives me a chance to enjoy nature. I also love listening to music. To me, music is a wonder drug. I have a lot of work to do on weekdays. When I go back home, I enjoy sitting in the armchair and listening to my favorite songs. These two hobbies help relieve my stress.
 
 ### 42. 复习一般问句并介绍 All we have to do is 之后接动词原形
 
+Do you catch a cold sometimes? I'm sure you do. When we catch a cold, do we have to see a doctor at once? Not necessarily. All we need to do is drink more water and take a good rest. If we still don't feel well, then we should see a doctor. The doctor may give us some medicine. We'll get well in a couple of days.
 
-### 43. 
 
+### 43. 连词 when, so , and , because
 
-### 44. 
 
+### 44. 介绍现在进行时
 
-### 45. 
 
+### 45. 介绍过去时
 
-### 46. 
 
+### 46. About Me 我的故事
 
-### 47. 
 
+### 47. 介绍频率副词
 
-### 48. 
 
+### 48. 介绍 that 从句作宾语
 
-### 49. 
 
+### 49. 继续介绍频率副词
 
-### 50. 
 
+### 50. At a Restaurant 在餐厅
 
-### 51. 
 
+### 51. 介绍 "It seems that..."
 
-### 52. 
 
+### 52. Catching a cold 感冒了
 
-### 53. 
 
+### 53. What Are You Going to Do This Evening? 你今晚想要做什么？
 
-### 54. 
 
+### 54. What Do You Want to Be in the Future? 你未来想当什么？
 
-### 55. 
 
+### 55. Hobbies 爱好
 
-### 56. 
 
+### 56. A Phone Dialogue 电话对话
 
-### 57. 
 
+### 57. Buying a Watch 买手表
 
-### 58. 
 
+### 58. Buying Pants (Part One) 买裤子
 
-### 59. 
 
+### 59. Buying Pants (Part Two) 买裤子
 
-### 60. 
 
+### 60. A Letter to a Pen Pal 给笔友的信
 
-### 61. 
 
+### 61. wish 跟 hope 的异同 1
 
-### 62. 
 
+### 62. wish 跟 hope 的异同 2
 
-### 63. 
 
+### 63. Global Warming 全球变暖
 
-### 64. 
 
+### 64. A Letter from David's Pen pal 来自David笔友的一封信
 
-### 65. 
 
+### 65. a lot of 的用法
 
-### 66. 
 
+### 66. True Happiness 真正的幸福
 
-### 67. 
 
+### 67. 介绍  come in  表示“有”的用法
 
-### 68. 
 
+### 68. My Favorite Music 我最喜爱的音乐
 
-### 69. 
 
+### 69. 时间副词短语1
 
-### 70. 
 
+### 70. 时间副词短语2
 
-### 71. 
 
+### 71. An Early Bird 早起的鸟儿
 
-### 72. 
 
+### 72. World war II 第二次世界大战
 
-### 73. 
 
+### 73. A Night Owl 夜猫子
 
-### 74. 
 
+### 74. Stay Fit by Working Out 通过锻炼保持健康
 
-### 75. 
 
+### 75. Man's Best Friend 人类最好的朋友
 
-### 76. 
 
+### 76. Asking for Directions (Part I) 问路1
 
-### 77. 
 
+### 77. Asking for Directions (Part II) 问路2
 
-### 78. 
 
+### 78. Don't Buy Medicine Yourself 别自己买药
 
-### 79. 
 
+### 79. At a clinic 看诊
 
-### 80. 
+
+### 80. Why Should We Have Friends? 为什么我们需要有朋友？
 
 
 ## Volume Two
 
-### 81. 
+### 81. 名词性从句1
 
 
-### 82. 
+### 82. 名词性从句2
 
 
-### 83. 
+### 83. 名词性从句3
 
 
-### 84. 
+### 84. 活用名词性从句1 Part I
 
 
-### 85. 
+### 85. 活用名词性从句1 Part II
 
 
-### 86. 
+### 86. 活用名词性从句2 Part I
 
 
-### 87. 
+### 87. 活用名词性从句2 Part II
 
 
-### 88. 
+### 88. 活用名词性从句3
 
 
-### 89. 
+### 89. 活用名词性从句4
 
 
-### 90. 
+### 90. 活用名词性从句5
 
 
-### 91. 
+### 91. What 作疑问词及复合关系代词的用法
 
 
-### 92. 
+### 92. Life is What We Make It (Part I)  生活靠我们自己创建（第一部分）
 
 
-### 93. 
+### 93. Life is What We Make It (Part II)  生活靠我们自己创建（第二部分）
 
 
-### 94. 
+### 94. 定语从句
 
 
-### 95. 
+### 95. My Friend John 我的朋友约翰
 
 
-### 96. 
+### 96. Window Shopping Together (Part I) 一起来“橱窗购物”（第一部分）
 
 
-### 97. 
+### 97. Window Shopping Together (Part II) 一起来“橱窗购物”（第二部分）
 
 
-### 98. 
+### 98. Harry Potter 哈利 波特
 
 
-### 99. 
+### 99. New England 新英格兰之美
 
 
-### 100. 
+### 100. The Cost of War  战争的代价
 
 
-### 101. 
+### 101. Coffee Shops 咖啡屋
 
 
-### 102. 
+### 102. At a Coffee Shop 在咖啡店
 
 
-### 103. 
+### 103. Swimming in the Sea 海中游泳须知
 
 
-### 104. 
+### 104. Finally on a Diet 终于节食了
 
 
-### 105. 
+### 105. A Bad Night 好一个倒霉的夜晚
 
 
-### 106. 
+### 106. A Summer Plan 暑假计划
 
 
-### 107. 
+### 107. Oversleeping  睡过头了
 
 
-### 108. 
+### 108. School Lunches 再也不吃学校的自助餐了
 
 
-### 109. 
+### 109. New Year Plans 新年计划
 
 
-### 110. 
+### 110. Teaching 教书甘苦谈
 
 
-### 111. 
+### 111. Out of the Rain 雨中小歇
 
 
-### 112. 
+### 112. Preparing for a Trip 旅游行前的准备之道
 
 
-### 113. 
+### 113. Cell Phones  佛要金装，手机要衣装
 
 
-### 114. 
+### 114. A Smooth Flight 我第一次搭飞机的经验
 
 
-### 115. 
+### 115. A Nasty Habit 一个坏习惯
 
 
-### 116. 
+### 116. Giving a speech in Public 公开演讲
 
 
-### 117. 
+### 117. What a Bay Day 真是倒霉的一天
 
 
-### 118. 
+### 118. A Good Role Model 好榜样
 
 
-### 119. 
+### 119. Fluffy the Pet Cat 宠物猫小毛
 
 
-### 120. 
+### 120. A Teacher As Well As a Friend 亦师亦友
 
 
-### 121. 
+### 121. Time to Buy a Watch 是时候买块手表了
 
 
-### 122. 
+### 122. Twin Brothers with Different Personalities 个性迥异的孪生兄弟
 
 
-### 123. 
+### 123. An Email from Jack 杰克发来的一封信
 
 
-### 124. 
+### 124. We Should Cherish Our Planet 我们应该珍惜地球
 
 
-### 125. 
+### 125. The Common Housecat is Truly Unique 不简单的家猫
 
 
-### 126. 
+### 126. Corn 玉米
 
 
-### 127. 
+### 127. Tom Had a Big Problem 汤姆这下头大了
 
 
-### 128. 
+### 128. Wrong Love for Birds 对鸟儿不当的爱
 
 
-### 129. 
+### 129. Nothing in Common 南辕北辙
 
 
-### 130. 
+### 130. Recycling 废物回收利用
 
 
-### 131. 
+### 131. Australia is Worth Visiting 澳大利亚值得一游
 
 
-### 132. 
+### 132. Life-saving Cell Phones  可以救命的手机
 
 
-### 133. 
+### 133. Be Careful, Motorists  汽车驾驶人要小心
 
 
-### 134. 
+### 134. No More Big Families 大家庭式微了
 
 
-### 135. 
+### 135. Having a Baby 生宝宝
 
 
-### 136. 
+### 136. Fat Children 动动吧，胖小子！
 
 
-### 137. 
+### 137. A Long Healthy Life 长寿之道
 
 
-### 138. 
+### 138. Exercise 运动的好处
 
 
-### 139. 
+### 139. A Late Night Call 深夜的一通电话
 
 
-### 140. 
+### 140. Career or Marriage 事业与婚姻
 
 
-### 141. 
+### 141. A Happy Dream 原来是一场梦
 
 
-### 142. 
+### 142. Living through Books 书中自有黄金屋
 
 
-### 143. 
+### 143. At Home in the City 我不要住在乡下
 
 
-### 144. 
+### 144. Flying Like Birds 一圆展翼之梦
 
 
-### 145. 
+### 145. Pets Are Good 养宠物好处多多
 
 
-### 146. 
+### 146. Plans for the Summer 暑假打工去
 
 
-### 147. 
+### 147. Home at Last 终于回家了
 
 
-### 148. 
+### 148. Taking Her Time 慢慢来
 
 
-### 149. 
+### 149. A second Chance 梅开二度
 
 
-### 150. 
+### 150. Becoming a Doctor 当医生
 
 
-### 151. 
+### 151. The Future of Cars 未来车
 
 
-### 152. 
+### 152. Big Trouble 倒大霉了
 
 
-### 153. 
+### 153. Walt Disney 沃尔特 迪斯尼
 
 
-### 154. 
+### 154. Large Feet 大脚丫
 
 
-### 155. 
+### 155. The Grimm Brothers 格林兄弟
 
 
-### 156. 
+### 156. Too Hungry to Wait 还没到家就吃光了
 
 
-### 157. 
+### 157. A New Man 残而不废
 
 
-### 158. 
+### 158. The Best Birthday 最棒的生日派对
 
 
-### 159. 
+### 159. The Stink Bug 臭虫
 
 
-### 160. 
+### 160. Broadway 百老汇
 
 
 ## Volume Three
 
-### 161. 
+### 161. Sri Lanka 斯里兰卡
 
 
-### 162. 
+### 162. A Polite Man 有礼貌的人
 
 
-### 163. 
+### 163. Practice Makes Perfect 熟能生巧
 
 
-### 164. 
+### 164. Books 读书的乐趣
 
 
-### 165. 
+### 165. Failure 失败
 
 
-### 166. 
+### 166. Is Music a Noise? 音乐是噪音吗？
 
 
-### 167. 
+### 167. Enlarging Our Vocabulary 增加我们的词汇量
 
 
-### 168. 
+### 168. Stay Fit for a Test 考前应注意健康
 
 
-### 169. 
+### 169. A High-Tech World 世界科技日日新
 
 
-### 170. 
+### 170. Ecology 生态学
 
 
-### 171. 
+### 171. We Need Society 我们不能离开社会
 
 
-### 172. 
+### 172. Louis Braille 盲人点字法发明人
 
 
-### 173. 
+### 173. Inflation 通货膨胀
 
 
-### 174. 
+### 174. Moods and Weather 心情随天气而变化
 
 
-### 175. 
+### 175. Body Language 肢体语言
 
 
-### 176. 
+### 176. Working Mothers 在职妈妈
 
 
-### 177. 
+### 177. Independence Day 美国国庆节
 
 
-### 178. 
+### 178. Bones and Smoking 骨折与抽烟
 
 
-### 179. 
+### 179. We're Chameleons  我们与变色龙没什么两样
 
 
-### 180. 
+### 180. Credit Cards 信用卡
 
 
-### 181. 
+### 181. Which Way to Go? 大城市浏览须知
 
 
-### 182. 
+### 182. Success  成功
 
 
-### 183. 
+### 183. The Earth 地球
 
 
-### 184. 
+### 184. Just Do Our Best 凡事尽力而为
 
 
-### 185. 
+### 185. Dreams Mirror Life 梦反映现实生活
 
 
-### 186. 
+### 186. Abraham Lincoln 亚伯拉罕 林肯
 
 
-### 187. 
+### 187. Anasazi Pueblos 阿那萨齐部落的石屋城
 
 
-### 188. 
+### 188. The Olympics 奥运会的由来
 
 
-### 189. 
+### 189. Holes on the Moon 月球上坑洞的由来
 
 
-### 190. 
+### 190. The Sun 太阳
 
 
-### 191. 
+### 191. An Expedition 一次探险
 
 
-### 192. 
+### 192. Wood 木材
 
 
-### 193. 
+### 193. Pablo Picasso 毕加索
 
 
-### 194. 
+### 194. Thank You, Doggie! 谢谢你，狗狗！
 
 
-### 195. 
+### 195. A Great Cartoonist 创造史努比的漫画家
 
 
-### 196. 
+### 196. It Runs in the Family 一人生病，全家遭殃
 
 
-### 197. 
+### 197. Avoid Catching a Cold 避免感冒
 
 
-### 198. 
+### 198. Flight Safety 乘机安全须知
 
 
-### 199. 
+### 199. Superman 超人
 
 
-### 200. 
+### 200. Shoes  观其鞋而知其人
 
 
-### 201. 
+### 201. Losing Weight 正确的减肥之道 
 
 
-### 202. 
+### 202. Yoga 瑜珈
 
 
-### 203. 
+### 203. Aikido 合气道
 
 
-### 204. 
+### 204. Dancing Naked for Rain 舞祭
 
 
-### 205. 
+### 205. The Great Pyramid 伟大的金字塔
 
 
-### 206. 
+### 206. The Goddess Mazu 妈祖
 
 
-### 207. 
+### 207. Noah Webster 韦氏大词典创始人
 
 
-### 208. 
+### 208. Sleeping Soundly 一夜好眠
 
 
-### 209. 
+### 209. South African Wines 南非美酒甲天下
 
 
-### 210. 
+### 210. Elephant Training 大象训练之道
 
 
-### 211. 
+### 211. Simon Bolivar  南美洲之父：西蒙 玻利瓦尔
 
 
-### 212. 
+### 212. Diabetes 糖尿病
 
 
-### 213. 
+### 213. The Minotaur  牛头人
 
 
-### 214. 
+### 214. Hibernation 冬眠
 
 
-### 215. 
+### 215. Conan Doyle 柯南 道尔
 
 
-### 216. 
+### 216. Air Pollution 空气污染
 
 
-### 217. 
+### 217. Red Cross Rescue Teams 红十字救援队
 
 
-### 218. 
+### 218. Having Babies Later in Life 高龄产妇
 
 
-### 219. 
+### 219. The Ice Festival in Harbin 哈尔滨冰雕节 
 
 
-### 220. 
+### 220. Curiosity 好奇心
 
 
-### 221. 
+### 221. Karaoke 卡拉OK
 
 
-### 222. 
+### 222. Goose Liver 鹅肝
 
 
-### 223. 
+### 223. A Fun Way to Recycle 有趣的资源回收方式
 
 
-### 224. 
+### 224. Be a Vegetarian 成为素食主义者
 
 
-### 225. 
+### 225. The Great White Shark 大白鲨
 
 
-### 226. 
+### 226. Swimming Hygiene 游泳卫生须知
 
 
-### 227. 
+### 227. The Moulin Rouge 红磨坊
 
 
-### 228. 
+### 228. Campus Violence 校园暴力
 
 
-### 229. 
+### 229. Working Animals 职场动物
 
 
-### 230. 
+### 230. Caring Robots 贴心的机器人
 
