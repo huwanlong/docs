@@ -362,29 +362,79 @@ My hobbies are hiking and listening to music. On weekends, my friends and I will
 
 Do you catch a cold sometimes? I'm sure you do. When we catch a cold, do we have to see a doctor at once? Not necessarily. All we need to do is drink more water and take a good rest. If we still don't feel well, then we should see a doctor. The doctor may give us some medicine. We'll get well in a couple of days.
 
-
 ### 43. 连词 when, so , and , because
 
+My little sister Jane is quite good at singing. She enjoys singing all the time. She sings when she takes a bath. She sings when she takes a rest. She sings even when she studies. No noe complains because she sings so well. She wants to be a singer when she grows up. I'm sure she can make it.
 
 ### 44. 介绍现在进行时
 
+A: What are you doing now?
+
+B: I'm writing a letter.
+
+A: What is your brother doing now?
+
+B: He is playing the piano.
+
+A: What is your little sister doing now?
+
+B: She is playing with her doll.
+
+A: What are your parents doing now?
+
+B: They are sitting in the living room. My mon is watching TV, and my dad is reading a newspaper.
 
 ### 45. 介绍过去时
 
+David: What did you do this morning, Bill?
+
+Bill: I went jogging in the park, David.
+
+David: Did you enjoy it?
+
+Bill: Yes, I did, but I was a little tired after it, I'm getting better now.
+
+David: Good. I hope I can go jogging with you sometime.
+
+BIll: You're welcome anytime. Exercise is good for our health, you know.
 
 ### 46. About Me 我的故事
 
+I come from Nanning, Guangxi, but I was born in Nanjing. My family moved to Taiwan when I was just one year old. I began to lwarn English when i entered junior high school. I hated English grammar, and I didn't like to memorize words. So I gave up learning English. However, six years later, when I was 18, I started to learn English again. I will tell you the rest of the story later on.
 
 ### 47. 介绍频率副词
 
+A: What do you usually do on weekends?
+
+B: I usually go hiking with my friends in the mountains. What do you usually do on weekends? 
+
+A: Well, I'm busy on weekdays, so on weekends I usually sleep late.
+
+B: Why not go hiking with me? It's a lot of fun.
+
+A: Thanks, but I would rather stay home and take a good rest.
 
 ### 48. 介绍 that 从句作宾语
 
+Do you believe that a 7-year-old girl can take care of her family? This is a true story. This girl lives in Jiayi County, Taiwan Province. Her father is serving time in jail, and her mother went blind in a car accident several years ago. Therefore, the little girl has to take care of her mother, one younger sister and one younger brother. She does all the housework, including cooking, but she never complains. What a great, loving girl!
 
 ### 49. 继续介绍频率副词
 
+Mr. Smith always gets to work on time. In ther words, he is always punctual, and he is never lazy at work. He is usually busy with a lot of paperwork, but sometimes he takes a break for a cup of coffee. He often says that he enjoys his work. After work, he rushes home to stay with his family. He hardly ever watches TV, but when he is free, he always plays and sings with his children. He is a great father.
 
 ### 50. At a Restaurant 在餐厅
+
+Customer: Can I have a menu, please?
+
+Waitress: Here you are, sir.
+
+(A few minutes later)
+
+Waitress: Are you ready to order now, sir?
+
+Customer: Yes, I would like a big bowl of beef noodles, please.
+
+Waitress: No problem. I'll be right back with your food.
 
 
 ### 51. 介绍 "It seems that..."
