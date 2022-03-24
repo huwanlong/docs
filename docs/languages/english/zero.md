@@ -436,95 +436,298 @@ Customer: Yes, I would like a big bowl of beef noodles, please.
 
 Waitress: No problem. I'll be right back with your food.
 
-
 ### 51. 介绍 "It seems that..."
 
+It seems that John doesn't look very well. He sneezes and coughs all the time. He has a runny nose. It is very likely that he ahs come down with a cold. I'll tell him to seee a doctor immediately.
 
 ### 52. Catching a cold 感冒了
 
+Mary: You don't look very well, Peter. What's wrong?
+
+Peter: I don't know, Mary. When I woke up this morning, I started to sneeze and cough. I also had a headache.
+
+Mary: Obviously you have caught a cold. You need to ask for sick leave and see your doctor immediately.
+
+Peter: Thanks for your advice. I will.
 
 ### 53. What Are You Going to Do This Evening? 你今晚想要做什么？
 
+Husband: What are you going to do this evening, honey?
+
+Wife: I have no idea.
+
+Husband: How about eating out for a change?
+
+Wife: Sounds like a good idea.
+
+Husband: I hear there is an Italian restaurant around the corner. It's newly opened.
+
+Wife: Good. Let's go there and give it a try.
 
 ### 54. What Do You Want to Be in the Future? 你未来想当什么？
 
+A: What do you want to be in the future?
+
+B: I want to be a doctor.
+
+A: Why do you want to be a doctor?
+
+B: Because I want to save people's lives. Now, what do you want to be when you graduate from college?
+
+A: I want to be an English teacher. This way, I can teach many children to speak and write English.
 
 ### 55. Hobbies 爱好
 
+I have many hobbies. To begin with, I like sports. I'm good at playing basketball. My friend David is also good at playing basketball, so we often play basketball games together. In addition to sports, I play many musical instruments, including the piano and drums. Taking up these hobbies makes me happy every day.
 
 ### 56. A Phone Dialogue 电话对话
 
+(Jane's call phone is ringing, and she is answering it)
+
+Jane: Hello, this is Jane Speaking. Who's it, please?
+
+David: Hi, Jane. This is David. How're you doing?
+
+Jane: Not bad. How about you?
+
+David: Couldn't be better. How about joining me for dinner this evening?
+
+Jane: What's the occasion?
+
+David: It's my birthday today.
+
+Jane: I see. I'll be very glad to have dinner with you.
+
+David: Great. I'll pick you up at six, OK?
+
+Jane: That will be fine. See you then.
 
 ### 57. Buying a Watch 买手表
 
+（At a watch store)
+
+Clerk: Good afternoon. How can I help you?
+
+Peter: Afternoon. I want to buy a watch for my girlfriend. Can you recommend one for me?
+
+Clerk: Well, what price range do you have in mind?
+
+Peter: My price range is up to 100 dollars.
+
+Clerk: How about this one? It is made of stainless steel and looks fancy. Even better, it costs only 70 dollars.
+
+Petter: OK. I'll take it. Please giftwrap it. I'll give it to my girlfriend as her birthday present.
+
+Clerk: No problem.
 
 ### 58. Buying Pants (Part One) 买裤子
 
+(At a clothes shop)
+
+Clerk: May I help you, sir?
+
+Paul: Yes, I'm looking for a pair of pants. I have a 32-inch waist.
+
+Clerk: I see. What color would you like?
+
+Paul: I prefer dark blue.
+
+Clerk: And what material would you like?
+
+Paul: Cotton, please.
+
+Cherk: OK. How about these?
+
+Paul: Fine. Can I try them on?
+
+Clerk: No problem. The fitting room is right there.
+
+Paul: Thanks.
 
 ### 59. Buying Pants (Part Two) 买裤子
 
+(Paul walks out of the fitting room)
+
+Clerk: How do you like them, sir?
+
+Paul: I like them very much, and the material feets good. They just fit me well.
+
+Cleak: I'm glad you like them.
+
+Paul: How much are they?
+
+Clerk: 100 dollars.
+
+Paul: That's way too expensive. Don't you offer and discounts?
+
+Clerk: Well, since you're the first customer this morning, I can give you 20% off.
+
+Pual: Sounds good. I'll take them.
+
+Clerk: Thank you very much, sir.
 
 ### 60. A Letter to a Pen Pal 给笔友的信
 
+Dear Jane,
+
+Hi, my name is David Li. I'm from Beijing, China. I'm 19 years old. I am a freshman studying at Beijing University.
+
+I found your e-mail address at www.penpal.com. By reading your profile, I understand that you enjoy hiking and taking pictures, and that you are also a college student in Canada. I hope we can write letters from now on and get to know each other better.
+
+I wish you good health and happiness.
+
+Hope to hear from you soon.
+
+David
 
 ### 61. wish 跟 hope 的异同 1
 
+1. 相同之处：
+   - 之后均接不定式短语作宾语
+2. 不同之处：
+   - wish 可表示祝福，hope无此用法；
+   - wish 与 hope 皆可接 that 从句作宾语，但wish用于虚拟语气，即与现在事实相反时，that从句须使用过去时动词或过去时助动词，be动词则一律使用were；
 
 ### 62. wish 跟 hope 的异同 2
 
+1. wish 后接that从句时，表示“但愿，真希望....”，that从句使用虚拟语气
+   - 与现在事实相反时，that从句一律使用一般过去时。
+   - 与过去事实相反时，that从句一律使用过去完成时（had + 过去分词）
+2. I hope接that从句宾语时，动词用一般时态，表示极大的可能。
 
 ### 63. Global Warming 全球变暖
 
+Global warming is getting more and more serious. Every year, the temperature is rising, and the climate is changing. Many animals and plants are dying because of climate change. Fish in the sea are also dying because of warmer sea temperatures.
+
+Who should be responsible for global warming? There is no doubt that we human beings are to blame. Our population keeps growing, and cars and factories keep growing, and cars and factories keep increasing in large numbers. They release a lot of heat into the atmosphere, causing global warming. If we don't do anything about it, sooner or later, like all other animals and plants, we human beings will disappear from the world, too.
 
 ### 64. A Letter from David's Pen pal 来自David笔友的一封信
 
+Hi, David,
+
+Glad to receive your letter. I'm Jane Smith. You're right. I have a passion for hiking and photography. I'm studying at the University of Tornoto, majoring in International Law.
+
+I'm an extrover, which means I enjoy making friends and traveling around. As a matter of fact, I'm working my way through college. I got a parttime job at McDonald's half a year age. I have tow more years to go before I graduate. I hope by then I can earn enough money to travel around. Maybe I'll visit China first, but it's too early to tell. Catch you later.
+
+Jane
 
 ### 65. a lot of 的用法
 
+1. 可数名词与不可数名词的差异
+   1. 可数名词：可用 a / one、two 、three... many 等量词或a lot of 、quite a few 等短语修饰。
+   2. 不可数名词：money、water、paper
+2. a lot of 用法
+   1. a lot of 许多... = many + 复数名词 
+   2. a lot of 许多... = much + 不可数名词 = a great deal of + 不可数名词 
 
 ### 66. True Happiness 真正的幸福
 
+Many people think that happiness lies in making a great deal of money. They think that money can buy everything. As the old saying goes, "Money talks". However, there are things which money can't buy. For example, no matter how rich you are, you can't buy good health, and you can't buy true firendship, either. If you are satisfied with what you already have and what you are, you get true happiness.
 
 ### 67. 介绍  come in  表示“有”的用法
 
+物 + come in + 颜色/尺寸 某物有若干颜色/尺寸选择
 
 ### 68. My Favorite Music 我最喜爱的音乐
 
+Music comes in different styles and forms. But my favorite music genre is jazz. I like it because it is smooth and relaxing. Whenever I feel tired or unhappy, I listen to jazz on my cell phone. In no time I find myself calming down and relaxed. Even when I'm studying, I also play jazz as background music. Instead of distracting me from studying, it helps me focus on my schoolwork. Music brightens my day.
 
 ### 69. 时间副词短语1
 
+- in the morning / afternoon / evening 在早上/中午/下午
+- at noon / at noontime / at midday 在正中午
+- at night 在晚上
+- at midnight 在午夜
+- at dawn 在黎明
+- at dusk 在黄昏
+- at sunrise 在日出时
 
 ### 70. 时间副词短语2
 
+- on August 1 在8月1日
+- on the morning / afternoon / evening / night of August 1
+- on Sunday morning / afternoon / evening / night
+- every | each morning / afternoon / evening / night 在每个早上/下午.........
 
 ### 71. An Early Bird 早起的鸟儿
 
+I'm an early bird; in other words, I get up early every morning. I'm usually busy in the morning. Soon after I get up, I brush my teeth and clean my face. Then, I go jogging for half an hour before taking a shower. I grab a bite to eat and then rush to the nearby bus stop. It takes me half an hour to get to work. I work from 8 AM to 12 PM at noontime. I have lunch at an eatery near my office. At 1 PM I'm back to work till 5 PM. Sometimes I have to work overtime, but that happens only once or twice a year. When I get back home, it's usually 6 PM. I chat over dinner with my parents. After dinner, I help Mom do the dishes. I enjoy listening to music instead of watching TV. I go to bed no later than 10 PM.
 
 ### 72. World war II 第二次世界大战
 
+All of us know that World War II took place in Europe on September 1, 1939. The horrible war lasted for 6 years. It ended on September 2, 1945. During the entire war, 50 million to 85 million people lost their lives, including countless small children. Many buildings collapsed because of bombing.
+
+Unfortunately, even today, in some areas across the world, war is still going on, causing many deaths every day, which means many families are broken every now and then. How we wish there would be no war anymore!
 
 ### 73. A Night Owl 夜猫子
 
+My firend Paul is a night owl. He doesn't go to bed until two in the moring. Do you know why he stays up so late? Well, he is addicted to playing video games. He starts to play them soon after he gets back from work. He seldom talks to his family. He just plays games on and on. Even worse, he gets hungry easily, so he eats a lot. He also has the bad habit of smoking. In fact, he is a heavy smoker. In fact, he is a heavy smoker. Unless he can change his lifestyle, his days are numbered.
 
 ### 74. Stay Fit by Working Out 通过锻炼保持健康
 
+Some people love working out. They go to the gym as often as possible. However, exercising every day is not the best thing for your health. Getting the most benefit from a workout depends on how often you rest. If you exercise once a week, you won't get mush benefit, but it is always better than nothing. Going to the gym twice a week will help to keeep you fit. Three times a week will help you to stay healthy. Four of five times a week will improve your health, and you will lose weight. If you never to to the gym, you can still keep fit. Activities such as table tennis and badminton are great ways to exercise with a friend. However, occasionally your friends may be busy, so you will have to do something by yourself, such as going for a walk.
 
 ### 75. Man's Best Friend 人类最好的朋友
 
+In most countries, dogs are the most popular pets. Many people prefer dogs to other animals because they are just like family members. Having a dog is also like having a friend. A dog will help to protect their owner as well as their owner's property. There are many different types of dogs. Some have lots of energy, while others like to just sit and relax. This is why it is necessary to choose the right kind of dog. For example, a family with young childeren will prefer to have a playful dog that has lots of energy. However, training the dog is also very important. The dog must know that it cannot bite one of the children if it is accidentally hurt. Finally, dog owners must be happy to look after their dog when it is sick or old.
 
 ### 76. Asking for Directions (Part I) 问路1
 
+A: Excuse me, but where is the nearest post office?
+
+B: I'm sorry, but I'm new here. You'd better ask someone else.
+
+A: Thanks, anyway. Excuse me, but could you show me the way to the nearest post office, please?
+
+C: No problem. It's just on this street. Go all the way down for two blocks, and you'll see the post office on your right-hand side.
+
+A: Thanks a million.
+
+C: My pleasure.
 
 ### 77. Asking for Directions (Part II) 问路2
 
+A: Excuse me. I've got to rush to the train station. Could you tell me where it is, please?
+
+B: Well, you are on Maple Street now. Go down the street, and turn left at the first intersection. Keep going for two blockes and turn right. You'll be on Main Street where you'll see b big yellow building. That's the train station. You can't miss it.
+
+A: I got it. Thank you very much.
+
+B: You bet. Bye!
 
 ### 78. Don't Buy Medicine Yourself 别自己买药
 
+Many people tend to go to the drugstore to buy medicine. Be careful. If you do so, you may ruin your health. After all, you are not a doctor, and you don't know what side effects the medicine may cause. It's always the best policy to see a doctor if you don't feel well. At the doctor's office, there is always a nurse who will take your temperature and feel your palse. Then the doctor will ask you a few questions or even do some tests before deciding to prescribe some medicine for your illness.
 
 ### 79. At a clinic 看诊
 
+Doctor: What seems to be wrong, Mr. Johnson?
+
+Mr. Johnson: Well, I feel a pain in my chest when I breathe. I don't know why.
+
+Doctor: How long has this been?
+
+Mr.Johnson: It started last night.
+
+Doctor: In that case, you may need a chest X-ray.
+
+Mr.Johnson: Is there anything wrong with my lungs or heart? I'm getting nervous.
+
+Doctor: Don't be. I'll get the nurse to get the X-ray ready. It won't take long.
+
+(Three minutes later)
+
+Doctor: According to the film, I don't see anything wrong with your chest or lungs. Did you get your chest hit by something or what?
+
+Mr.Johnson: Oh, that reminds me. I did get hit by the corner of my desk.
+
+Doctor: Take off your shirt. Now, see? There is a bruise on your chest. That explains everything. You are fine.
+
+Mr.Johnson: What a relief. Thank you, doctor.
 
 ### 80. Why Should We Have Friends? 为什么我们需要有朋友？
+
+We are social beings. This means we cannot live alone. We need friends to help us through hard times. When we feel sad, our friends will comfort and encourage us. When we run into troubles, they will lend us a helping hand. However, we must be careful when we choose friends. Good friends put us on the right track, while bad ones may lead us into wrongdoing. It is not too much to say that a happy life is determined by the friends we make.
 
 
 ## Volume Two
