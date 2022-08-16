@@ -16,5 +16,14 @@ title: 收藏
 
 [nodejs](http://nodejs.cn/learn)
 
+## LuCI
 
-## 数学
+[Openwrt：LuCI入门](https://blog.csdn.net/qq_28812525/article/details/103870169)
+
+[LuCI api](http://openwrt.github.io/luci/api/index.html)
+
+[LuCI js api](http://openwrt.github.io/luci/jsapi/LuCI.request.html)
+
+## 未试文章
+
+[VMware16安装macOS12手把手教程](https://www.bilibili.com/read/cv16108208/)
