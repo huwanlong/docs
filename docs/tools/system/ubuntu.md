@@ -2,7 +2,7 @@
 title: ubuntu
 ---
 
-## 1、初始化
+## 初始化
 
 ### 更新
 
@@ -42,9 +42,9 @@ sudo apt-get install git
 
 在用户主目录下有一个 `.bashrc` 文件
 
-## 2、开发环境
+## 开发环境
 
-### 1、`Anaconda`
+### `Anaconda`
 
 > 参考：https://blog.csdn.net/djfjkj52/article/details/107330301
 
@@ -81,17 +81,17 @@ conda list -e > requirements.txt
 conda install --yes --file requirements.txt 
 ```
 
-###  2、`Node.js`
+###  `Node.js`
 
 > 参考：https://zhuanlan.zhihu.com/p/140961618
 
-##### a、直接安装
+#### 直接安装
 
 ```shell
 sudo apt install nodejs npm
 ```
 
-##### b、`nvm`安装
+#### `nvm`安装
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -108,7 +108,7 @@ node --version
 >
 > 在`ubuntu`中找到安装`nvm`的路径，找到`'.nvm/nvm.sh'`文件，用`sudo vim .nvm/nvm.sh`打开，然后用'/'搜索`‘NVM_NODEJS_ORG_MIRROR’`，enter定位到该位置，修改其中的网址为`https://npm.taobao.org/mirrors/node/`即可
 
-##### c、 常用命令
+#### 常用命令
 
 ```shell
 nvm list [available] # 查看本地安装的所有版本；有可选参数available，显示所有可下载的版本
@@ -117,15 +117,14 @@ nvm use 16.0.0 # 切换版本
 nvm uninstall 16.0.0 # 卸载
 ```
 
-phpstudy
+### `phpstudy`
 
-https://www.cnblogs.com/tilv37/p/5117005.html
+[https://www.cnblogs.com/tilv37/p/5117005.html](https://www.cnblogs.com/tilv37/p/5117005.html)
 
-## 3、开发软件
+## 开发软件
 
-### `Ubuntu Software`中搜索安装
+`Ubuntu Software`中搜索安装
 
-##### `Visual Studio Code`
-
-##### `pycharm-community`
+- `Visual Studio Code`
+- `pycharm-community`
 
