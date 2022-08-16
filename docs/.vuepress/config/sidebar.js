@@ -18,5 +18,4 @@ module.exports = {
   "/python/": "auto",
   "/other/": "auto",
   "/bookmarks/": "auto",
-  "/languages/": "auto",
 };

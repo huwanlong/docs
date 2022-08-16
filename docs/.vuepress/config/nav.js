@@ -33,14 +33,14 @@ module.exports = [
     ],
   },
   {
-    text: "收藏",
-    link: "/bookmarks/",
-  },
-  {
     text: "其它",
     items: [
-      { text: "English", link: "/languages/english/zero/" },
+      { text: "English", link: "/other/english/" },
       { text: "做饭", link: "/other/cook/" },
     ],
+  },
+  {
+    text: "收藏",
+    link: "/bookmarks/",
   },
 ];
