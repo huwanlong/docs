@@ -128,3 +128,13 @@ nvm uninstall 16.0.0 # 卸载
 - `Visual Studio Code`
 - `pycharm-community`
 
+## 虚拟机扩容
+
+```shell
+sudo apt-get install gparted
+```
+
+1. 打开 `gparted`
+2. 右键 `/dev/sda1` 
+3. 选择 `Resize/Move` 
+4. 鼠标拖动到最大，保存
