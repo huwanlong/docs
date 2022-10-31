@@ -6,11 +6,9 @@ title: ubuntu
 
 ### 更新
 
-安装环境之前将`Ubuntu20.04`切换到国内源下载安装包会快很多
+安装环境之前将`Ubuntu20.04`切换到国内源下载安装包会快很多，切换源之后,需要在命令行中完成更新
 
-> 换源 https://zhuanlan.zhihu.com/p/142014944
-
-切换源之后,需要在命令行中完成更新
+点击左侧菜单底下9个点，找到 Software & Updates 修改
 
 先得到软件包列表  `sudo apt-get update`
 

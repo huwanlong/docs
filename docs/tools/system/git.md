@@ -36,7 +36,7 @@ git config --global --unset https.proxy
 ## 设置全局使用提交时名字和邮箱
 
 ```shell
-git config --global username "Your Name"
+git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 ```
 
