@@ -9,13 +9,13 @@ ps -ef | grep python
 kill -9 pid
 ```
 
-## 清空回收站 
+## 清空回收站
 
 ```shell
 sudo rm -rf ~/.local/share/Trash/*
 ```
 
-## 磁盘详情 
+## 磁盘详情
 
 ```shell
 df -h
@@ -30,7 +30,7 @@ nohup python3 app.py start >/dev/null 2>&1 &
 ## 解压
 
 ```shell
-tar -zxvf xx.tar.gz 
+tar -zxvf xx.tar.gz
 ```
 
 ## 打包解包
@@ -40,13 +40,13 @@ tar -cvf xxx.tar *.xx # 打包目录下以`.xx`结尾的文件
 tar -xvf %s -C %s # 解包到某目录
 ```
 
-## SSH远程拷贝文件
+## SSH 远程拷贝文件
 
 ```shell
-scp root@192.168.167.131:/home/root/dome.png /home/user/  
-scp -r root@192.168.167.131:/home/root/test home/user/  
-scp /home/user/dome.png root@192.168.167.131:/home/root/ 
-scp -r /home/user/test root@192.168.167.131:/home/root/  
+scp root@192.168.167.131:/home/root/dome.png /home/user/
+scp -r root@192.168.167.131:/home/root/test home/user/
+scp /home/user/dome.png root@192.168.167.131:/home/root/
+scp -r /home/user/test root@192.168.167.131:/home/root/
 ```
 
 ## screen
@@ -59,6 +59,3 @@ screen -ls # 打印所有screen进程
 screen -r test_screen # 进入screen
 ctrl + a + d # 退出
 ```
-
-
-

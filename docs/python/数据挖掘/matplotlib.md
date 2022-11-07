@@ -4,9 +4,9 @@ title: Matplotlib
 
 ## 介绍
 
-Matplotlib 是专门用于开发2D图表（包括3D图表）的python库
+Matplotlib 是专门用于开发 2D 图表（包括 3D 图表）的 python 库
 
-对应的JS库有  [D3](https://d3js.org/) echarts
+对应的 JS 库有 [D3](https://d3js.org/) echarts
 
 官网：[Matplotlib](https://matplotlib.org/index.html)
 
@@ -14,8 +14,8 @@ Matplotlib 是专门用于开发2D图表（包括3D图表）的python库
 
 容器层
 
-1. 画板层Canvas
-2. 画布层Figure
+1. 画板层 Canvas
+2. 画布层 Figure
 3. 绘图层/坐标系
 
 辅助显示层
@@ -218,7 +218,7 @@ plt.show()
 ### 直方图与柱状图的区别
 
 1. 直方图展示数据的分布，柱状图比较数据的大小（最根本的区别）
-2. 直方图X轴为定量数据，柱状图X轴为分类数据
+2. 直方图 X 轴为定量数据，柱状图 X 轴为分类数据
 3. 直方图柱子无间隔，柱状图柱子有间隔
 4. 直方图柱子宽度可不一，柱状图柱子宽度须一致
 
@@ -272,4 +272,3 @@ plt.axis('equal')
 # 4、显示图像
 plt.show()
 ```
-

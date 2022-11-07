@@ -32,7 +32,7 @@ activate <env_name>
 conda deactivate
 
 # 显示已创建环境
-conda info --envs 
+conda info --envs
 # or
 conda info -e
 # or
@@ -86,7 +86,7 @@ conda upgrade <package_name>
 
 ## 换源
 
-创建文件C:/Users/xxxx/.condarc 
+创建文件 C:/Users/xxxx/.condarc
 
 ```shell
 channels:
@@ -110,4 +110,3 @@ conda install --yes --file requirements.txt # 导入
 ```
 https://blog.csdn.net/djfjkj52/article/details/107330301
 ```
-

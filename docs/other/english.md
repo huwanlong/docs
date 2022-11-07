@@ -4,7 +4,6 @@ title: English
 
 ## Volume One
 
-
 ### 1. 打招呼
 
 A: Good morning. I'm `Rourou`.
@@ -15,7 +14,6 @@ A: How are you?
 
 B: I'm good. Thank you.
 
-
 ### 2. 早上、下午、晚上
 
 Good morning.
@@ -24,71 +22,60 @@ Good afternoon.
 
 Good evening.
 
-
 ### 3. I am ... 我是...
 
 I am a student. I'm 18 years old. I'm quite tall. I'm from `Nanning`.
-
 
 ### 4. He is ... 他是...
 
 John is a student, too. He is my classmate. He is a little short. He is from Beijing.
 
-
 ### 5. She is ... 她是...
 
 Mary is my sister. She is beautiful. She is in Shanghai now. She is a college student.
-
 
 ### 6. We are ... 我们是...
 
 John and I are classmates. We are also good friends. My parents and his parents are good friends, too.
 
-
 ### 7. They are ... 他们是..
 
 Paul and David are twin brothers. They are from Guangzhou. They are handsome and friendly. I like them very much.
-
 
 ### 8. It is ... 这是...
 
 I have a pet dog. It is a little poodle. I call it Hairy. I like it because it's cute.
 
-
 ### 9. has / have... 人 / 动物有...
 
 I have a small family. I live together with my parents. I also have a sister. She is a college student, and she lives in Shanghai alone. She has a lot of schoolwork to do every day, so she comes home once a month.
-
 
 ### 10. There is / There are （地方）有...
 
 There are a dog and a cat under the table. There is a frog by the pond. There is a book with a pencil on the desk. There are always many people in the park on Sundays. There is a man (over) here. There is a woman (over) here.
 
-
-### 11. What day is it today?  今天星期几？
+### 11. What day is it today? 今天星期几？
 
 A: What day is it today?
 
 B: It's Monday today.
 
-`Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`,` Saturday`, `Sunday`
-
+`Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`,`Saturday`, `Sunday`
 
 ### 12. 如何念基数词？
 
-|      |       |      |           |      |              |           |                |
-| :--: | ----- | :--: | --------- | :--: | ------------ | :-------: | -------------- |
-|  1   | one   |  11  | eleven    |  21  | twenty-one   |    40     | forty          |
-|  2   | two   |  12  | twelve    |  22  | twenty-two   |    50     | fifty          |
-|  3   | three |  13  | thirteen  |  23  | twenty-three |    60     | sixty          |
-|  4   | four  |  14  | fourteen  |  24  | twenty-four  |    70     | seventy        |
-|  5   | five  |  15  | fifteen   |  25  | twenty-five  |    80     | eighty         |
-|  6   | six   |  16  | sixteen   |  26  | twenty-six   |    90     | ninety         |
-|  7   | seven |  17  | seventeen |  27  | twenty-seven |    100    | one/a hundred  |
-|  8   | eight |  18  | eighteen  |  28  | twenty-eight |   1,000   | one/a thousand |
-|  9   | nine  |  19  | nineteen  |  29  | twenty-nine  | 1,000,000 | one/a million  |
-|  10  | ten   |  20  | twenty    |  30  | thirty       |           |                |
-
+|     |       |     |           |     |              |           |                |
+| :-: | ----- | :-: | --------- | :-: | ------------ | :-------: | -------------- |
+|  1  | one   | 11  | eleven    | 21  | twenty-one   |    40     | forty          |
+|  2  | two   | 12  | twelve    | 22  | twenty-two   |    50     | fifty          |
+|  3  | three | 13  | thirteen  | 23  | twenty-three |    60     | sixty          |
+|  4  | four  | 14  | fourteen  | 24  | twenty-four  |    70     | seventy        |
+|  5  | five  | 15  | fifteen   | 25  | twenty-five  |    80     | eighty         |
+|  6  | six   | 16  | sixteen   | 26  | twenty-six   |    90     | ninety         |
+|  7  | seven | 17  | seventeen | 27  | twenty-seven |    100    | one/a hundred  |
+|  8  | eight | 18  | eighteen  | 28  | twenty-eight |   1,000   | one/a thousand |
+|  9  | nine  | 19  | nineteen  | 29  | twenty-nine  | 1,000,000 | one/a million  |
+| 10  | ten   | 20  | twenty    | 30  | thirty       |           |                |
 
 ### 13. 如何念序数词？
 
@@ -105,38 +92,32 @@ B: It's Monday today.
 | 9th  | ninth   | 19th | nineteenth  | 29th | twenty-ninth   | 1,000,000th | one millionth  |
 | 10th | tenth   | 20th | twentieth   | 30th | thirtieth      |             |                |
 
-
 ### 14. what's today's date? 今天是几月几日?
 
 A: What's today's date? / What date is (it) today?
 
 B: It's July the 8th.
 
-
-### 15. 12个月如何念更正确？
+### 15. 12 个月如何念更正确？
 
 `January`, `February`,`March`,`April`,`May`,`June`,`July`,`August`,`September`,`October`,`November`,`December`
-
 
 ### 16. Self-introduction 简单的自我介绍
 
 Hi, everybody. My name is David Wang. I come from `Guangxi`, I'm 24 years old. I'm a computer engineer. I plan to study abroad in the future. Thank you very much.
 
+### 17.一般问句 1
 
-### 17.一般问句1
-
-1. 主语 + be动词 （am、is、are）
+1. 主语 + be 动词 （am、is、are）
 2. 主语 + 助动词（will、can、may、must、should、would、could）
 
-
-### 18.一般问句2
+### 18.一般问句 2
 
 主语 + 动词
 
-按主语人称分别使用助动词do或是does；原有的动词一律变成原形
+按主语人称分别使用助动词 do 或是 does；原有的动词一律变成原形
 
-`ps`: does用于主语是第三人称单数（he、she、it、Peter、the dog、the tree等）时
-
+`ps`: does 用于主语是第三人称单数（he、she、it、Peter、the dog、the tree 等）时
 
 ### 19.特殊问句
 
@@ -145,10 +126,9 @@ what（什么）、who（谁）、which（哪一个）、when（何时）、wher
 如何形成特殊问句：
 
 1. 疑问词置于句首
-2. 问句中有be动词时，该be动词与主语倒装
+2. 问句中有 be 动词时，该 be 动词与主语倒装
 
 `ps`: 句尾语调要下沉
-
 
 ### 20.特殊疑问句中的助动词要怎么使用？
 
@@ -156,10 +136,9 @@ what（什么）、who（谁）、which（哪一个）、when（何时）、wher
 
    can（能够；可能）、will（将要）、shall（将要）、may（可以；可能）、could（能够）、would（将要）、should（应当）、must（必须）
 
-2. 问句中有动词时，先将疑问词置于句首，再按主语的人称及时态置do或does，再置主语，再置动词原形
+2. 问句中有动词时，先将疑问词置于句首，再按主语的人称及时态置 do 或 does，再置主语，再置动词原形
 
-
-### 21.活用问句1
+### 21.活用问句 1
 
 A: Excuse me, but where is the train station?
 
@@ -169,8 +148,7 @@ A: Thank you very much. / Thanks a lot. / Thanks a million.
 
 B: You're welcome. / Not at all. / You bet.
 
-
-### 22.活用问句2
+### 22.活用问句 2
 
 John: Are you free this afternoon, Peter?
 
@@ -181,7 +159,6 @@ John: I feel like going to the movies. I hope we can go together.
 Peter: Sounds like fun. Let's meet at the movie theater at 3.
 
 John: Fine. See you then.
-
 
 ### 23.活用特殊疑问句 - 谈天气
 
@@ -219,7 +196,6 @@ John: I'm a computer engineer. What about you?
 
 Mary: I teach English for a living.
 
-
 ### 25.活用特殊疑问句及一般问句
 
 Paul: Hi, Jane. How's it going?
@@ -236,7 +212,6 @@ Jane: How about six o'clock?
 
 Paul: It's a deal. See you then.
 
-
 ### 26.问时刻
 
 What time is it by your watch, please?
@@ -245,22 +220,19 @@ What's the time now?
 
 Do you have the time, please?
 
-
-### 27.时刻的说法1
+### 27.时刻的说法 1
 
 It's one o'clock sharp.
 
 It's five (minutes) past / after one.
 
-It's fifteen (minutes) past / after one.  It's a quarter past / after one. It's one fifteen.
+It's fifteen (minutes) past / after one. It's a quarter past / after one. It's one fifteen.
 
-
-### 28.时刻的说法2
+### 28.时刻的说法 2
 
 A: What time is it by your watch, please?
 
 B: It's one thirty. / It's half past one.
-
 
 ### 29.活用时间名词
 
@@ -272,10 +244,9 @@ A: Thanks. My train leaves in twenty minutes. I need to get to the station by ta
 
 B: No problem. Good luck.
 
-
 ### 30.介绍现在时行时
 
-主语 + be动词 + 现在分词 某人正在....
+主语 + be 动词 + 现在分词 某人正在....
 
 ### 31.活用现在进行时
 
@@ -309,16 +280,16 @@ B: There is going to be an English test next Monday. I'll have to study for it.
 
 A: I see. I wish you good luck.
 
-### 34. 物主代词作形容词及名词1
+### 34. 物主代词作形容词及名词 1
 
 This is my car. In other words, this car is mine. That is your car. In other words, that car is yours. My car is smaller than yours. In other words, your car is bigger than mine. Hovever, I like my car. It's old but comfortable.
 
-### 35. 物主代词作形容词及名词2
+### 35. 物主代词作形容词及名词 2
 
 - 代词所有格视作形容词，之后须接名词
 - 所有格代词视作名词，之后不可再接任何名词
 
-### 36. 物主代词作形容词及名词3
+### 36. 物主代词作形容词及名词 3
 
 A: Whose car is this?
 
@@ -328,17 +299,17 @@ A: Whose car is that?
 
 B: It belongs to Mr. & Mrs. Smith. It's their car. In other words, it's theirs.
 
-### 37. 物主代词作形容词及名词4
+### 37. 物主代词作形容词及名词 4
 
 Ladies and gentlemen, welcome to Macy's Department Store. This is a very big shopping mall. Please always keep an eye on your children. Thank you very much.
 
 Mr. & Mrs. Smith, you have three children, and we have three children, too. Yours are hard-working, but ours are lazy. Why so?
 
-### 38. 代词作主语及宾语1
+### 38. 代词作主语及宾语 1
 
 John is my best friend. We go to the same school. I see him quite often. He has a sister. She is only five years old. I seldom see her. It is her birthday tomorrow. I'll buy her a doll. I hope she'll like it.
 
-### 39. 代词作主语及宾语2
+### 39. 代词作主语及宾语 2
 
 A: Where are you going, Tom?
 
@@ -350,7 +321,7 @@ B: No, I'm going with Mary and Paul. We will try some Italian food. Will you joi
 
 A: Yes, why not? Going downtown with you guys is certainly fun.
 
-### 40. 代词作主语及宾语3
+### 40. 代词作主语及宾语 3
 
 Peter and Paul are my friends. I like them very much. They and I live in the same community. There is a park in our community. It is a huge park. There are many kinds of flowers in it. On weekends, we often take a walk in the park. It is indeed a good way to kill time.
 
@@ -406,7 +377,7 @@ I come from Nanning, Guangxi, but I was born in Nanjing. My family moved to Taiw
 
 A: What do you usually do on weekends?
 
-B: I usually go hiking with my friends in the mountains. What do you usually do on weekends? 
+B: I usually go hiking with my friends in the mountains. What do you usually do on weekends?
 
 A: Well, I'm busy on weekdays, so on weekends I usually sleep late.
 
@@ -585,15 +556,15 @@ David
 1. 相同之处：
    - 之后均接不定式短语作宾语
 2. 不同之处：
-   - wish 可表示祝福，hope无此用法；
-   - wish 与 hope 皆可接 that 从句作宾语，但wish用于虚拟语气，即与现在事实相反时，that从句须使用过去时动词或过去时助动词，be动词则一律使用were；
+   - wish 可表示祝福，hope 无此用法；
+   - wish 与 hope 皆可接 that 从句作宾语，但 wish 用于虚拟语气，即与现在事实相反时，that 从句须使用过去时动词或过去时助动词，be 动词则一律使用 were；
 
 ### 62. wish 跟 hope 的异同 2
 
-1. wish 后接that从句时，表示“但愿，真希望....”，that从句使用虚拟语气
-   - 与现在事实相反时，that从句一律使用一般过去时。
-   - 与过去事实相反时，that从句一律使用过去完成时（had + 过去分词）
-2. I hope接that从句宾语时，动词用一般时态，表示极大的可能。
+1. wish 后接 that 从句时，表示“但愿，真希望....”，that 从句使用虚拟语气
+   - 与现在事实相反时，that 从句一律使用一般过去时。
+   - 与过去事实相反时，that 从句一律使用过去完成时（had + 过去分词）
+2. I hope 接 that 从句宾语时，动词用一般时态，表示极大的可能。
 
 ### 63. Global Warming 全球变暖
 
@@ -601,7 +572,7 @@ Global warming is getting more and more serious. Every year, the temperature is 
 
 Who should be responsible for global warming? There is no doubt that we human beings are to blame. Our population keeps growing, and cars and factories keep growing, and cars and factories keep increasing in large numbers. They release a lot of heat into the atmosphere, causing global warming. If we don't do anything about it, sooner or later, like all other animals and plants, we human beings will disappear from the world, too.
 
-### 64. A Letter from David's Pen pal 来自David笔友的一封信
+### 64. A Letter from David's Pen pal 来自 David 笔友的一封信
 
 Hi, David,
 
@@ -614,17 +585,17 @@ Jane
 ### 65. a lot of 的用法
 
 1. 可数名词与不可数名词的差异
-   1. 可数名词：可用 a / one、two 、three... many 等量词或a lot of 、quite a few 等短语修饰。
+   1. 可数名词：可用 a / one、two 、three... many 等量词或 a lot of 、quite a few 等短语修饰。
    2. 不可数名词：money、water、paper
 2. a lot of 用法
-   1. a lot of 许多... = many + 复数名词 
-   2. a lot of 许多... = much + 不可数名词 = a great deal of + 不可数名词 
+   1. a lot of 许多... = many + 复数名词
+   2. a lot of 许多... = much + 不可数名词 = a great deal of + 不可数名词
 
 ### 66. True Happiness 真正的幸福
 
 Many people think that happiness lies in making a great deal of money. They think that money can buy everything. As the old saying goes, "Money talks". However, there are things which money can't buy. For example, no matter how rich you are, you can't buy good health, and you can't buy true firendship, either. If you are satisfied with what you already have and what you are, you get true happiness.
 
-### 67. 介绍  come in  表示“有”的用法
+### 67. 介绍 come in 表示“有”的用法
 
 物 + come in + 颜色/尺寸 某物有若干颜色/尺寸选择
 
@@ -632,7 +603,7 @@ Many people think that happiness lies in making a great deal of money. They thin
 
 Music comes in different styles and forms. But my favorite music genre is jazz. I like it because it is smooth and relaxing. Whenever I feel tired or unhappy, I listen to jazz on my cell phone. In no time I find myself calming down and relaxed. Even when I'm studying, I also play jazz as background music. Instead of distracting me from studying, it helps me focus on my schoolwork. Music brightens my day.
 
-### 69. 时间副词短语1
+### 69. 时间副词短语 1
 
 - in the morning / afternoon / evening 在早上/中午/下午
 - at noon / at noontime / at midday 在正中午
@@ -642,9 +613,9 @@ Music comes in different styles and forms. But my favorite music genre is jazz. 
 - at dusk 在黄昏
 - at sunrise 在日出时
 
-### 70. 时间副词短语2
+### 70. 时间副词短语 2
 
-- on August 1 在8月1日
+- on August 1 在 8 月 1 日
 - on the morning / afternoon / evening / night of August 1
 - on Sunday morning / afternoon / evening / night
 - every | each morning / afternoon / evening / night 在每个早上/下午.........
@@ -671,7 +642,7 @@ Some people love working out. They go to the gym as often as possible. However, 
 
 In most countries, dogs are the most popular pets. Many people prefer dogs to other animals because they are just like family members. Having a dog is also like having a friend. A dog will help to protect their owner as well as their owner's property. There are many different types of dogs. Some have lots of energy, while others like to just sit and relax. This is why it is necessary to choose the right kind of dog. For example, a family with young childeren will prefer to have a playful dog that has lots of energy. However, training the dog is also very important. The dog must know that it cannot bite one of the children if it is accidentally hurt. Finally, dog owners must be happy to look after their dog when it is sick or old.
 
-### 76. Asking for Directions (Part I) 问路1
+### 76. Asking for Directions (Part I) 问路 1
 
 A: Excuse me, but where is the nearest post office?
 
@@ -685,7 +656,7 @@ A: Thanks a million.
 
 C: My pleasure.
 
-### 77. Asking for Directions (Part II) 问路2
+### 77. Asking for Directions (Part II) 问路 2
 
 A: Excuse me. I've got to rush to the train station. Could you tell me where it is, please?
 
@@ -729,457 +700,306 @@ Mr.Johnson: What a relief. Thank you, doctor.
 
 We are social beings. This means we cannot live alone. We need friends to help us through hard times. When we feel sad, our friends will comfort and encourage us. When we run into troubles, they will lend us a helping hand. However, we must be careful when we choose friends. Good friends put us on the right track, while bad ones may lead us into wrongdoing. It is not too much to say that a happy life is determined by the friends we make.
 
-
 ## Volume Two
 
-### 81. 名词性从句1
+### 81. 名词性从句 1
 
+### 82. 名词性从句 2
 
-### 82. 名词性从句2
+### 83. 名词性从句 3
 
+### 84. 活用名词性从句 1 Part I
 
-### 83. 名词性从句3
+### 85. 活用名词性从句 1 Part II
 
+### 86. 活用名词性从句 2 Part I
 
-### 84. 活用名词性从句1 Part I
+### 87. 活用名词性从句 2 Part II
 
+### 88. 活用名词性从句 3
 
-### 85. 活用名词性从句1 Part II
+### 89. 活用名词性从句 4
 
-
-### 86. 活用名词性从句2 Part I
-
-
-### 87. 活用名词性从句2 Part II
-
-
-### 88. 活用名词性从句3
-
-
-### 89. 活用名词性从句4
-
-
-### 90. 活用名词性从句5
-
+### 90. 活用名词性从句 5
 
 ### 91. What 作疑问词及复合关系代词的用法
 
+### 92. Life is What We Make It (Part I) 生活靠我们自己创建（第一部分）
 
-### 92. Life is What We Make It (Part I)  生活靠我们自己创建（第一部分）
-
-
-### 93. Life is What We Make It (Part II)  生活靠我们自己创建（第二部分）
-
+### 93. Life is What We Make It (Part II) 生活靠我们自己创建（第二部分）
 
 ### 94. 定语从句
 
-
 ### 95. My Friend John 我的朋友约翰
-
 
 ### 96. Window Shopping Together (Part I) 一起来“橱窗购物”（第一部分）
 
-
 ### 97. Window Shopping Together (Part II) 一起来“橱窗购物”（第二部分）
-
 
 ### 98. Harry Potter 哈利 波特
 
-
 ### 99. New England 新英格兰之美
 
-
-### 100. The Cost of War  战争的代价
-
+### 100. The Cost of War 战争的代价
 
 ### 101. Coffee Shops 咖啡屋
 
-
 ### 102. At a Coffee Shop 在咖啡店
-
 
 ### 103. Swimming in the Sea 海中游泳须知
 
-
 ### 104. Finally on a Diet 终于节食了
-
 
 ### 105. A Bad Night 好一个倒霉的夜晚
 
-
 ### 106. A Summer Plan 暑假计划
 
-
-### 107. Oversleeping  睡过头了
-
+### 107. Oversleeping 睡过头了
 
 ### 108. School Lunches 再也不吃学校的自助餐了
 
-
 ### 109. New Year Plans 新年计划
-
 
 ### 110. Teaching 教书甘苦谈
 
-
 ### 111. Out of the Rain 雨中小歇
-
 
 ### 112. Preparing for a Trip 旅游行前的准备之道
 
-
-### 113. Cell Phones  佛要金装，手机要衣装
-
+### 113. Cell Phones 佛要金装，手机要衣装
 
 ### 114. A Smooth Flight 我第一次搭飞机的经验
 
-
 ### 115. A Nasty Habit 一个坏习惯
-
 
 ### 116. Giving a speech in Public 公开演讲
 
-
 ### 117. What a Bay Day 真是倒霉的一天
-
 
 ### 118. A Good Role Model 好榜样
 
-
 ### 119. Fluffy the Pet Cat 宠物猫小毛
-
 
 ### 120. A Teacher As Well As a Friend 亦师亦友
 
-
 ### 121. Time to Buy a Watch 是时候买块手表了
-
 
 ### 122. Twin Brothers with Different Personalities 个性迥异的孪生兄弟
 
-
 ### 123. An Email from Jack 杰克发来的一封信
-
 
 ### 124. We Should Cherish Our Planet 我们应该珍惜地球
 
-
 ### 125. The Common Housecat is Truly Unique 不简单的家猫
-
 
 ### 126. Corn 玉米
 
-
 ### 127. Tom Had a Big Problem 汤姆这下头大了
-
 
 ### 128. Wrong Love for Birds 对鸟儿不当的爱
 
-
 ### 129. Nothing in Common 南辕北辙
-
 
 ### 130. Recycling 废物回收利用
 
-
 ### 131. Australia is Worth Visiting 澳大利亚值得一游
 
+### 132. Life-saving Cell Phones 可以救命的手机
 
-### 132. Life-saving Cell Phones  可以救命的手机
-
-
-### 133. Be Careful, Motorists  汽车驾驶人要小心
-
+### 133. Be Careful, Motorists 汽车驾驶人要小心
 
 ### 134. No More Big Families 大家庭式微了
 
-
 ### 135. Having a Baby 生宝宝
-
 
 ### 136. Fat Children 动动吧，胖小子！
 
-
 ### 137. A Long Healthy Life 长寿之道
-
 
 ### 138. Exercise 运动的好处
 
-
 ### 139. A Late Night Call 深夜的一通电话
-
 
 ### 140. Career or Marriage 事业与婚姻
 
-
 ### 141. A Happy Dream 原来是一场梦
-
 
 ### 142. Living through Books 书中自有黄金屋
 
-
 ### 143. At Home in the City 我不要住在乡下
-
 
 ### 144. Flying Like Birds 一圆展翼之梦
 
-
 ### 145. Pets Are Good 养宠物好处多多
-
 
 ### 146. Plans for the Summer 暑假打工去
 
-
 ### 147. Home at Last 终于回家了
-
 
 ### 148. Taking Her Time 慢慢来
 
-
 ### 149. A second Chance 梅开二度
-
 
 ### 150. Becoming a Doctor 当医生
 
-
 ### 151. The Future of Cars 未来车
-
 
 ### 152. Big Trouble 倒大霉了
 
-
 ### 153. Walt Disney 沃尔特 迪斯尼
-
 
 ### 154. Large Feet 大脚丫
 
-
 ### 155. The Grimm Brothers 格林兄弟
-
 
 ### 156. Too Hungry to Wait 还没到家就吃光了
 
-
 ### 157. A New Man 残而不废
-
 
 ### 158. The Best Birthday 最棒的生日派对
 
-
 ### 159. The Stink Bug 臭虫
 
-
 ### 160. Broadway 百老汇
-
 
 ## Volume Three
 
 ### 161. Sri Lanka 斯里兰卡
 
-
 ### 162. A Polite Man 有礼貌的人
-
 
 ### 163. Practice Makes Perfect 熟能生巧
 
-
 ### 164. Books 读书的乐趣
-
 
 ### 165. Failure 失败
 
-
 ### 166. Is Music a Noise? 音乐是噪音吗？
-
 
 ### 167. Enlarging Our Vocabulary 增加我们的词汇量
 
-
 ### 168. Stay Fit for a Test 考前应注意健康
-
 
 ### 169. A High-Tech World 世界科技日日新
 
-
 ### 170. Ecology 生态学
-
 
 ### 171. We Need Society 我们不能离开社会
 
-
 ### 172. Louis Braille 盲人点字法发明人
-
 
 ### 173. Inflation 通货膨胀
 
-
 ### 174. Moods and Weather 心情随天气而变化
-
 
 ### 175. Body Language 肢体语言
 
-
 ### 176. Working Mothers 在职妈妈
-
 
 ### 177. Independence Day 美国国庆节
 
-
 ### 178. Bones and Smoking 骨折与抽烟
 
-
-### 179. We're Chameleons  我们与变色龙没什么两样
-
+### 179. We're Chameleons 我们与变色龙没什么两样
 
 ### 180. Credit Cards 信用卡
 
-
 ### 181. Which Way to Go? 大城市浏览须知
 
-
-### 182. Success  成功
-
+### 182. Success 成功
 
 ### 183. The Earth 地球
 
-
 ### 184. Just Do Our Best 凡事尽力而为
-
 
 ### 185. Dreams Mirror Life 梦反映现实生活
 
-
 ### 186. Abraham Lincoln 亚伯拉罕 林肯
-
 
 ### 187. Anasazi Pueblos 阿那萨齐部落的石屋城
 
-
 ### 188. The Olympics 奥运会的由来
-
 
 ### 189. Holes on the Moon 月球上坑洞的由来
 
-
 ### 190. The Sun 太阳
-
 
 ### 191. An Expedition 一次探险
 
-
 ### 192. Wood 木材
-
 
 ### 193. Pablo Picasso 毕加索
 
-
 ### 194. Thank You, Doggie! 谢谢你，狗狗！
-
 
 ### 195. A Great Cartoonist 创造史努比的漫画家
 
-
 ### 196. It Runs in the Family 一人生病，全家遭殃
-
 
 ### 197. Avoid Catching a Cold 避免感冒
 
-
 ### 198. Flight Safety 乘机安全须知
-
 
 ### 199. Superman 超人
 
+### 200. Shoes 观其鞋而知其人
 
-### 200. Shoes  观其鞋而知其人
-
-
-### 201. Losing Weight 正确的减肥之道 
-
+### 201. Losing Weight 正确的减肥之道
 
 ### 202. Yoga 瑜珈
 
-
 ### 203. Aikido 合气道
-
 
 ### 204. Dancing Naked for Rain 舞祭
 
-
 ### 205. The Great Pyramid 伟大的金字塔
-
 
 ### 206. The Goddess Mazu 妈祖
 
-
 ### 207. Noah Webster 韦氏大词典创始人
-
 
 ### 208. Sleeping Soundly 一夜好眠
 
-
 ### 209. South African Wines 南非美酒甲天下
-
 
 ### 210. Elephant Training 大象训练之道
 
-
-### 211. Simon Bolivar  南美洲之父：西蒙 玻利瓦尔
-
+### 211. Simon Bolivar 南美洲之父：西蒙 玻利瓦尔
 
 ### 212. Diabetes 糖尿病
 
-
-### 213. The Minotaur  牛头人
-
+### 213. The Minotaur 牛头人
 
 ### 214. Hibernation 冬眠
 
-
 ### 215. Conan Doyle 柯南 道尔
-
 
 ### 216. Air Pollution 空气污染
 
-
 ### 217. Red Cross Rescue Teams 红十字救援队
-
 
 ### 218. Having Babies Later in Life 高龄产妇
 
-
-### 219. The Ice Festival in Harbin 哈尔滨冰雕节 
-
+### 219. The Ice Festival in Harbin 哈尔滨冰雕节
 
 ### 220. Curiosity 好奇心
 
-
-### 221. Karaoke 卡拉OK
-
+### 221. Karaoke 卡拉 OK
 
 ### 222. Goose Liver 鹅肝
 
-
 ### 223. A Fun Way to Recycle 有趣的资源回收方式
-
 
 ### 224. Be a Vegetarian 成为素食主义者
 
-
 ### 225. The Great White Shark 大白鲨
-
 
 ### 226. Swimming Hygiene 游泳卫生须知
 
-
 ### 227. The Moulin Rouge 红磨坊
-
 
 ### 228. Campus Violence 校园暴力
 
-
 ### 229. Working Animals 职场动物
 
-
 ### 230. Caring Robots 贴心的机器人
-

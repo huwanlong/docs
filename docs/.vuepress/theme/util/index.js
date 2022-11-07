@@ -3,32 +3,32 @@ export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^[a-z]+:/i
 
-export function normalize (path) {
+export function normalize(path) {
   return decodeURI(path)
     .replace(hashRE, '')
     .replace(extRE, '')
 }
 
-export function getHash (path) {
+export function getHash(path) {
   const match = path.match(hashRE)
   if (match) {
     return match[0]
   }
 }
 
-export function isExternal (path) {
+export function isExternal(path) {
   return outboundRE.test(path)
 }
 
-export function isMailto (path) {
+export function isMailto(path) {
   return /^mailto:/.test(path)
 }
 
-export function isTel (path) {
+export function isTel(path) {
   return /^tel:/.test(path)
 }
 
-export function ensureExt (path) {
+export function ensureExt(path) {
   if (isExternal(path)) {
     return path
   }
@@ -42,7 +42,7 @@ export function ensureExt (path) {
   return normalized + '.html' + hash
 }
 
-export function isActive (route, path) {
+export function isActive(route, path) {
   const routeHash = decodeURIComponent(route.hash)
   const linkHash = getHash(path)
   if (linkHash && routeHash !== linkHash) {
@@ -53,11 +53,11 @@ export function isActive (route, path) {
   return routePath === pagePath
 }
 
-export function resolvePage (pages, rawPath, base) {
+export function resolvePage(pages, rawPath, base) {
   if (isExternal(rawPath)) {
     return {
       type: 'external',
-      path: rawPath
+      path: rawPath,
     }
   }
   if (base) {
@@ -68,7 +68,7 @@ export function resolvePage (pages, rawPath, base) {
     if (normalize(pages[i].regularPath) === path) {
       return Object.assign({}, pages[i], {
         type: 'page',
-        path: ensureExt(pages[i].path)
+        path: ensureExt(pages[i].path),
       })
     }
   }
@@ -76,7 +76,7 @@ export function resolvePage (pages, rawPath, base) {
   return {}
 }
 
-function resolvePath (relative, base, append) {
+function resolvePath(relative, base, append) {
   const firstChar = relative.charAt(0)
   if (firstChar === '/') {
     return relative
@@ -121,12 +121,10 @@ function resolvePath (relative, base, append) {
  * @param { string } localePath
  * @returns { SidebarGroup }
  */
-export function resolveSidebarItems (page, regularPath, site, localePath) {
+export function resolveSidebarItems(page, regularPath, site, localePath) {
   const { pages, themeConfig } = site
 
-  const localeConfig = localePath && themeConfig.locales
-    ? themeConfig.locales[localePath] || themeConfig
-    : themeConfig
+  const localeConfig = localePath && themeConfig.locales ? themeConfig.locales[localePath] || themeConfig : themeConfig
 
   const pageSidebarConfig = page.frontmatter.sidebar || localeConfig.sidebar || themeConfig.sidebar
   if (pageSidebarConfig === 'auto') {
@@ -141,9 +139,7 @@ export function resolveSidebarItems (page, regularPath, site, localePath) {
     if (config === 'auto') {
       return resolveHeaders(page)
     }
-    return config
-      ? config.map(item => resolveItem(item, pages, base))
-      : []
+    return config ? config.map(item => resolveItem(item, pages, base)) : []
   }
 }
 
@@ -151,24 +147,26 @@ export function resolveSidebarItems (page, regularPath, site, localePath) {
  * @param { Page } page
  * @returns { SidebarGroup }
  */
-function resolveHeaders (page) {
+function resolveHeaders(page) {
   const headers = groupHeaders(page.headers || [])
-  return [{
-    type: 'group',
-    collapsable: false,
-    title: page.title,
-    path: null,
-    children: headers.map(h => ({
-      type: 'auto',
-      title: h.title,
-      basePath: page.path,
-      path: page.path + '#' + h.slug,
-      children: h.children || []
-    }))
-  }]
+  return [
+    {
+      type: 'group',
+      collapsable: false,
+      title: page.title,
+      path: null,
+      children: headers.map(h => ({
+        type: 'auto',
+        title: h.title,
+        basePath: page.path,
+        path: page.path + '#' + h.slug,
+        children: h.children || [],
+      })),
+    },
+  ]
 }
 
-export function groupHeaders (headers) {
+export function groupHeaders(headers) {
   // group h3s under h2
   headers = headers.map(h => Object.assign({}, h))
   let lastH2
@@ -176,15 +174,15 @@ export function groupHeaders (headers) {
     if (h.level === 2) {
       lastH2 = h
     } else if (lastH2) {
-      (lastH2.children || (lastH2.children = [])).push(h)
+      ;(lastH2.children || (lastH2.children = [])).push(h)
     }
   })
   return headers.filter(h => h.level === 2)
 }
 
-export function resolveNavLinkItem (linkItem) {
+export function resolveNavLinkItem(linkItem) {
   return Object.assign(linkItem, {
-    type: linkItem.items && linkItem.items.length ? 'links' : 'link'
+    type: linkItem.items && linkItem.items.length ? 'links' : 'link',
   })
 }
 
@@ -193,42 +191,40 @@ export function resolveNavLinkItem (linkItem) {
  * @param { Array<string|string[]> | Array<SidebarGroup> | [link: string]: SidebarConfig } config
  * @returns { base: string, config: SidebarConfig }
  */
-export function resolveMatchingConfig (regularPath, config) {
+export function resolveMatchingConfig(regularPath, config) {
   if (Array.isArray(config)) {
     return {
       base: '/',
-      config: config
+      config: config,
     }
   }
   for (const base in config) {
     if (ensureEndingSlash(regularPath).indexOf(encodeURI(base)) === 0) {
       return {
         base,
-        config: config[base]
+        config: config[base],
       }
     }
   }
   return {}
 }
 
-function ensureEndingSlash (path) {
-  return /(\.html|\/)$/.test(path)
-    ? path
-    : path + '/'
+function ensureEndingSlash(path) {
+  return /(\.html|\/)$/.test(path) ? path : path + '/'
 }
 
-function resolveItem (item, pages, base, groupDepth = 1) {
+function resolveItem(item, pages, base, groupDepth = 1) {
   if (typeof item === 'string') {
     return resolvePage(pages, item, base)
   } else if (Array.isArray(item)) {
     return Object.assign(resolvePage(pages, item[0], base), {
-      title: item[1]
+      title: item[1],
     })
   } else {
     const children = item.children || []
     if (children.length === 0 && item.path) {
       return Object.assign(resolvePage(pages, item.path, base), {
-        title: item.title
+        title: item.title,
       })
     }
     return {
@@ -238,7 +234,7 @@ function resolveItem (item, pages, base, groupDepth = 1) {
       sidebarDepth: item.sidebarDepth,
       initialOpenGroupIndex: item.initialOpenGroupIndex,
       children: children.map(child => resolveItem(child, pages, base, groupDepth + 1)),
-      collapsable: item.collapsable !== false
+      collapsable: item.collapsable !== false,
     }
   }
 }

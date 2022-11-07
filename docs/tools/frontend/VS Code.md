@@ -1,6 +1,7 @@
 ---
 title: VS Code
 ---
+
 ## 主命令框
 
 `F1` 或 `Ctrl+Shift+P` : 打开命令面板。在打开的输入框内，可以输入任何命令，例如：
@@ -10,7 +11,7 @@ title: VS Code
 3. 在`Ctrl+P`窗口下还可以:
    - 直接输入文件名，跳转到文件
      - `?` 列出当前可执行的动作
-     - `!` 显示 Errors或 Warnings，也可以 `Ctrl+Shift+M`
+     - `!` 显示 Errors 或 Warnings，也可以 `Ctrl+Shift+M`
      - `:` 跳转到行数，也可以 `Ctrl+G` 直接进入
      - `@` 跳转到 symbol（搜索变量或者函数），也可以 `Ctrl+Shift+O` 直接进入
      - `@` 根据分类跳转 symbol，查找属性或函数，也可以 `Ctrl+Shift+O` 后输入:进入
@@ -33,7 +34,7 @@ title: VS Code
 #### 格式调整
 
 - 代码行缩进: `Ctrl+[` 、 `Ctrl+]`
-- 复制或剪切当前行/当前选中内容: `Ctrl+C` 、 `Ctrl+V` 
+- 复制或剪切当前行/当前选中内容: `Ctrl+C` 、 `Ctrl+V`
 - 代码格式化： `Shift+Alt+F`，或 `Ctrl+Shift+P` 后输入 `format code`
 - 上下移动一行： `Alt+Up` 或 `Alt+Down`
 - 向上向下复制一行： `Shift+Alt+Up` 或 `Shift+Alt+Down`
@@ -46,7 +47,7 @@ title: VS Code
 - 移动到行尾： `End`(`Fn+End`)
 - 移动到文件结尾： `Ctrl+End`(`Ctrl+Fn+Home`)
 - 移动到文件开头： `Ctrl+Home`(`Ctrl+Fn+Home`)
-- 移动到定义处：  `F12`
+- 移动到定义处： `F12`
 - 查看定义处缩略图（只看一眼而不跳转过去）： `Alt+F12`
 - 移动到后半个括号： `Ctrl+Shift+]`
 - 选择从光标到行尾： `Shift+End`(`Shift+Fn+Home`)
@@ -90,7 +91,7 @@ title: VS Code
 
 #### 注意
 
-有的笔记本Home/End和方向键为同一个键，使用Home/End时需要使用：`Fn+Home/End`
+有的笔记本 Home/End 和方向键为同一个键，使用 Home/End 时需要使用：`Fn+Home/End`
 
 ## 修改快捷键
 
@@ -139,8 +140,6 @@ title: VS Code
 ]
 ```
 
-
-
 ## 参考
 
 [https://www.cnblogs.com/schut/p/10461840.html](https://www.cnblogs.com/schut/p/10461840.html)
@@ -148,6 +147,3 @@ title: VS Code
 [https://lzw.me/a/vscode-visual-studio-code-shortcut.html](https://lzw.me/a/vscode-visual-studio-code-shortcut.html)
 
 [https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
-
-
-

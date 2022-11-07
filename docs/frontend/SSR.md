@@ -1,6 +1,7 @@
 ---
 title: 服务端渲染
 ---
+
 ## 代码地址
 
 [https://gitee.com/workbook/Demo-SSR.git](https://gitee.com/workbook/Demo-SSR.git)
@@ -10,8 +11,6 @@ title: 服务端渲染
 1. 更好的 SEO，由于搜索引擎爬虫抓取工具可以直接查看完全渲染的页面。
 
 2. 更快的内容到达时间 (time-to-content)，特别是对于缓慢的网络情况或运行缓慢的设备。
-
-   
 
 ## 预渲染
 
@@ -61,9 +60,9 @@ new Vue({
   router,
   components: { App },
   template: '<App/>',
-  mounted () {
+  mounted() {
     document.dispatchEvent(new Event('render-event'))
-  }
+  },
 })
 ```
 
@@ -71,11 +70,9 @@ npm run build
 
 hs -o -p 9999
 
-
-
 ## 服务端渲染
 
-Vue.js是构建客户端应用程序的框架，默认情况下，可以在浏览器中输出Vue组件，进而生成DOM和操作DOM，然而，也可以将同一个组件渲染为服务器端的HTML字符串，将它们直接发送到浏览器，最后将这些静态标记“激活”为客户端上完全可交互的应用程序。
+Vue.js 是构建客户端应用程序的框架，默认情况下，可以在浏览器中输出 Vue 组件，进而生成 DOM 和操作 DOM，然而，也可以将同一个组件渲染为服务器端的 HTML 字符串，将它们直接发送到浏览器，最后将这些静态标记“激活”为客户端上完全可交互的应用程序。
 
 <img :src="$withBase('/assets/img/2-1.png')" alt="2-1" class="custom">
 
@@ -90,13 +87,13 @@ const server = require('express')()
 const renderer = require('vue-server-renderer').createRenderer()
 
 const app = new Vue({
-  template:'<div>hello</div>'
+  template: '<div>hello</div>',
 })
 
 // 服务器端渲染的核心就在于
 // 通过vue-server-renderer插件的renderToString()方法，将vue实例转换为字符串插入到html文件中
-server.get('/',(req,res)=>{
-  renderer.renderToString(app,(err,html)=>{
+server.get('/', (req, res) => {
+  renderer.renderToString(app, (err, html) => {
     if (err) {
       res.status(500).end('Internal Server Error')
       return
@@ -113,13 +110,13 @@ server.get('/',(req,res)=>{
 server.listen(8080)
 ```
 
-实际上我们第一次在浏览器输入URL，并且得到返回页之后，所有的操作仍然是单页面应用在控制。我们所做的服务端渲染，只是在平时返回的单页面应用HTML上增加了对应路由的页面信息，好让爬虫获取到而已
+实际上我们第一次在浏览器输入 URL，并且得到返回页之后，所有的操作仍然是单页面应用在控制。我们所做的服务端渲染，只是在平时返回的单页面应用 HTML 上增加了对应路由的页面信息，好让爬虫获取到而已
 
-明白了这一点，就可以将项目一分为二，也就是分为服务端渲染和客户端渲染。服务端渲染就是上面所做的，根据VUE实例获取对应路由的seo信息，然后添加到返回的单页面HTML上；
+明白了这一点，就可以将项目一分为二，也就是分为服务端渲染和客户端渲染。服务端渲染就是上面所做的，根据 VUE 实例获取对应路由的 seo 信息，然后添加到返回的单页面 HTML 上；
 
 ### 优点
 
-1、更好的SEO，搜索引擎爬虫抓取工具可以直接查看完全渲染的页面
+1、更好的 SEO，搜索引擎爬虫抓取工具可以直接查看完全渲染的页面
 
 2、更快的内容到达时间，用户将会更快速地看到完整渲染的页面，提升用户体验
 
@@ -141,16 +138,14 @@ npm install vue-server-renderer -S
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const base = require('./webpack.base.conf')
-module.exports = merge(base,{
-  target:'node',
-  entry:'./src/entry-server.js',
-  output:{
-    filename:'bundle.server.js',
-    libraryTarget:'commonjs2'
+module.exports = merge(base, {
+  target: 'node',
+  entry: './src/entry-server.js',
+  output: {
+    filename: 'bundle.server.js',
+    libraryTarget: 'commonjs2',
   },
-  plugins:[
-
-  ]
+  plugins: [],
 })
 ```
 
@@ -164,24 +159,26 @@ import Test from '@/components/Test'
 
 Vue.use(Router)
 
-export function createRouter(){
+export function createRouter() {
   return new Router({
     mode: 'history',
     routes: [
       {
         path: '/',
         name: 'Home',
-        component: Home
-      }, {
+        component: Home,
+      },
+      {
         path: '/about',
         name: 'About',
-        component: About
-      }, {
+        component: About,
+      },
+      {
         path: '/test',
         name: 'Test',
-        component: Test
-      }
-    ]
+        component: Test,
+      },
+    ],
   })
 }
 ```
@@ -192,7 +189,7 @@ export function createRouter(){
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import {createRouter} from './router'
+import { createRouter } from './router'
 
 Vue.config.productionTip = false
 
@@ -206,14 +203,14 @@ Vue.config.productionTip = false
 // })
 
 // 工厂
-export function createApp(){
-  const router = createRouter();
+export function createApp() {
+  const router = createRouter()
   const app = new Vue({
     router,
     components: { App },
-    template: '<App/>'
+    template: '<App/>',
   })
-  return {app}
+  return { app }
 }
 ```
 
@@ -222,30 +219,29 @@ export function createApp(){
 import { createApp } from './main'
 
 export default context => {
-  return new Promise((resolve,reject) => {
+  return new Promise((resolve, reject) => {
     const { app } = createApp()
     const router = app.$router
 
     const { url } = context
     const { fullPath } = router.resolve(url).route
 
-    if( fullPath !== url ) {
-      return reject({ url:fullPath })
+    if (fullPath !== url) {
+      return reject({ url: fullPath })
     }
 
     // 更改路由
     router.push(url)
 
-    router.onReady(()=>{
+    router.onReady(() => {
       const matchedComponents = router.getMatchedComponents()
 
-      if(!matchedComponents.length){
-        return reject({code:404})
+      if (!matchedComponents.length) {
+        return reject({ code: 404 })
       }
 
       resolve(app)
-    },reject)
-
+    }, reject)
   })
 }
 ```
@@ -262,60 +258,57 @@ export default context => {
 // src/entry-client.js
 import { createApp } from '../src/main'
 
-const {app} = createApp()
+const { app } = createApp()
 const router = app.$router
 
 // 绑定app根元素
-window.onload = function(){
+window.onload = function() {
   app.$mount('#app')
 }
 ```
-
-
 
 ```javascript
 // build/webpack.client.conf.js
 const webpack = require('webpack')
 const path = require('path')
-function resolve(dir){
-  return path.join(__dirname,'..',dir)
+function resolve(dir) {
+  return path.join(__dirname, '..', dir)
 }
 
 module.exports = {
-  entry: "./src/entry-client.js",
-  output:{
-    path:path.resolve(__dirname,'../dist'),
-    publicPath:'/dist',
-    filename:'bundle.client.js'
+  entry: './src/entry-client.js',
+  output: {
+    path: path.resolve(__dirname, '../dist'),
+    publicPath: '/dist',
+    filename: 'bundle.client.js',
   },
-  plugins:[],
-  resolve:{
+  plugins: [],
+  resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      vue$: 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-    }
+    },
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
-        test:/\.vue$/,
-        loader:'vue-loader',
-        options:{
-            compilerOptions:{
-              preserveWhitespace:false,
-            }
-        }
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        options: {
+          compilerOptions: {
+            preserveWhitespace: false,
+          },
+        },
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
-      }
-    ]
-  }
+        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')],
+      },
+    ],
+  },
 }
-
 ```
 
 ```javascript
@@ -327,7 +320,7 @@ const renderer = require('vue-server-renderer').createRenderer()
 const createApp = require('./dist/bundle.server.js')['default']
 
 // 设置静态资源目录
-server.use('/',exp.static(__dirname+'/dist'))
+server.use('/', exp.static(__dirname + '/dist'))
 const clientBundleFileUrl = '/bundle.client.js'
 
 // const app = new Vue({
@@ -336,18 +329,18 @@ const clientBundleFileUrl = '/bundle.client.js'
 
 // 服务器端渲染的核心就在于
 // 通过vue-server-renderer插件的renderToString()方法，将vue实例转换为字符串插入到html文件中
-server.get('*',(req,res)=>{
+server.get('*', (req, res) => {
+  const context = { url: req.url }
 
-  const context = {url:req.url}
-
-  createApp(context).then(app=>{
-    renderer.renderToString(app,(err,html)=>{
-      if (err) {
-        res.status(500).end('Internal Server Error')
-        return
-      }
-      res.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
-      res.end(`
+  createApp(context).then(
+    app => {
+      renderer.renderToString(app, (err, html) => {
+        if (err) {
+          res.status(500).end('Internal Server Error')
+          return
+        }
+        res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' })
+        res.end(`
         <!DOCTYPE html>
         <html lang="en">
           <head><title>SSR</title></head>
@@ -355,17 +348,18 @@ server.get('*',(req,res)=>{
           <body>${html}</body>
         </html>
       `)
-    })
-  },err=>{
-    if(err.code===404){
-      res.status(404).end('404')
-    }
-  })
+      })
+    },
+    err => {
+      if (err.code === 404) {
+        res.status(404).end('404')
+      }
+    },
+  )
 })
-server.listen(9999,()=>{
-  console.log("服务器已启动！")
+server.listen(9999, () => {
+  console.log('服务器已启动！')
 })
-
 ```
 
 ```shell
@@ -378,7 +372,7 @@ nodemon server.js
 
 如果页面有数据是请求的接口的呢？
 
-把接口数据放到store里面，然后在HTML页面加一个__INITIAL_STATE__,在entry-client.js里处理，把数据放到客户端实例store里
+把接口数据放到 store 里面，然后在 HTML 页面加一个**INITIAL_STATE**,在 entry-client.js 里处理，把数据放到客户端实例 store 里
 
 ```javascript
 // store/index.js
@@ -388,27 +382,26 @@ import axios from 'axios'
 
 Vue.use(Vuex)
 
-export function createStore(){
+export function createStore() {
   let store = new Vuex.Store({
-    state:{
-      homeInfo:''
+    state: {
+      homeInfo: '',
     },
-    mutations:{
+    mutations: {
       setHomeInfo(state, res) {
         state.homeInfo = res
-      }
+      },
     },
-    actions:{
+    actions: {
       getHomeInfo({ commit }) {
-        return axios.get('http://localhost:9999/api/getHomeInfo').then(res=>{
-          commit('setHomeInfo',res.data)
+        return axios.get('http://localhost:9999/api/getHomeInfo').then(res => {
+          commit('setHomeInfo', res.data)
         })
-      }
-    }
+      },
+    },
   })
   return store
 }
-
 ```
 
 ```vue
@@ -417,54 +410,47 @@ export function createStore(){
   <div>
     我是首页
     <router-link to="/test">测试</router-link>
-    <div>{{homeInfo}}</div>
+    <div>{{ homeInfo }}</div>
   </div>
 </template>
 
 <script>
 export default {
-  serverRequest(store){
+  serverRequest(store) {
     return store.dispatch('getHomeInfo')
   },
-  computed:{
-    homeInfo(){
+  computed: {
+    homeInfo() {
       return this.$store.state.homeInfo
-    }
-  }
-
+    },
+  },
 }
 </script>
 
-<style>
-
-</style>
-
+<style></style>
 ```
-
-
 
 ```javascript
 // main.js
 import Vue from 'vue'
 import App from './App'
-import {createRouter} from './router'
-import {createStore} from './store'
+import { createRouter } from './router'
+import { createStore } from './store'
 
 Vue.config.productionTip = false
 
-export function createApp(){
-  const router = createRouter();
-  const store = createStore();
+export function createApp() {
+  const router = createRouter()
+  const store = createStore()
 
   const app = new Vue({
     router,
     store,
     components: { App },
-    template: '<App/>'
+    template: '<App/>',
   })
-  return {app}
+  return { app }
 }
-
 ```
 
 ```javascript
@@ -473,62 +459,63 @@ export function createApp(){
 import { createApp } from './main'
 
 export default context => {
-  return new Promise((resolve,reject) => {
+  return new Promise((resolve, reject) => {
     const { app } = createApp()
     const router = app.$router
 
     const { url } = context
     const { fullPath } = router.resolve(url).route
 
-    if( fullPath !== url ) {
-      return reject({ url:fullPath })
+    if (fullPath !== url) {
+      return reject({ url: fullPath })
     }
 
     // 更改路由
     router.push(url)
 
-    router.onReady(()=>{
+    router.onReady(() => {
       // 获取相应路由下的组件
       const matchedComponents = router.getMatchedComponents()
 
       // 没有路由匹配 返回404
-      if(!matchedComponents.length){
-        return reject({code:404})
+      if (!matchedComponents.length) {
+        return reject({ code: 404 })
       }
 
       // resolve(app)
 
       // 遍历路由下所有的组件，如果有需要服务端渲染的请求，则进行请求
-      Promise.all(matchedComponents.map(component=>{
-        if(component.serverRequest){
-          // 组件中如果有serverRequest对象 判断是否需要服务端请求数屈打成招，并传入一个store参数
-          return component.serverRequest(app.$store)
-        }
-      })).then(()=>{
-        context.state = app.$store.state;
-        resolve(app)
-      }).catch(reject)
-
-    },reject)
+      Promise.all(
+        matchedComponents.map(component => {
+          if (component.serverRequest) {
+            // 组件中如果有serverRequest对象 判断是否需要服务端请求数屈打成招，并传入一个store参数
+            return component.serverRequest(app.$store)
+          }
+        }),
+      )
+        .then(() => {
+          context.state = app.$store.state
+          resolve(app)
+        })
+        .catch(reject)
+    }, reject)
   })
 }
-
-
 ```
 
 ```javascript
 // build/entry-client.js
 import { createApp } from '../src/main'
 
-const {app} = createApp()
+const { app } = createApp()
 const router = app.$router
 
-if(window.__INITIAL_STATE__){
+if (window.__INITIAL_STATE__) {
   app.$store.replaceState(window.__INITIAL_STATE__)
 }
 
 // 绑定app根元素
-window.onload = function(){
+window.onload = function() {
   app.$mount('#app')
 }
 ```
@@ -542,10 +529,10 @@ const renderer = require('vue-server-renderer').createRenderer()
 const createApp = require('./dist/bundle.server.js')['default']
 
 // 设置静态资源目录
-server.use('/',exp.static(__dirname+'/dist'))
+server.use('/', exp.static(__dirname + '/dist'))
 const clientBundleFileUrl = '/bundle.client.js'
 
-server.get('/api/getHomeInfo',(req,res)=>{
+server.get('/api/getHomeInfo', (req, res) => {
   res.send('SSR发送请求了')
 })
 
@@ -553,22 +540,21 @@ server.get('/api/getHomeInfo',(req,res)=>{
 //   template:'<div>hello</div>'
 // })
 
-
 // 服务器端渲染的核心就在于
 // 通过vue-server-renderer插件的renderToString()方法，将vue实例转换为字符串插入到html文件中
-server.get('*',(req,res)=>{
+server.get('*', (req, res) => {
+  const context = { url: req.url }
 
-  const context = {url:req.url}
-
-  createApp(context).then(app=>{
-    let state = JSON.stringify(context.state);
-    renderer.renderToString(app,(err,html)=>{
-      if (err) {
-        res.status(500).end('Internal Server Error')
-        return
-      }
-      res.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
-      res.end(`
+  createApp(context).then(
+    app => {
+      let state = JSON.stringify(context.state)
+      renderer.renderToString(app, (err, html) => {
+        if (err) {
+          res.status(500).end('Internal Server Error')
+          return
+        }
+        res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' })
+        res.end(`
         <!DOCTYPE html>
         <html lang="en">
           <head><title>SSR</title></head>
@@ -577,24 +563,16 @@ server.get('*',(req,res)=>{
           <body>${html}</body>
         </html>
       `)
-    })
-  },err=>{
-    if(err.code===404){
-      res.status(404).end('404')
-    }
-  })
+      })
+    },
+    err => {
+      if (err.code === 404) {
+        res.status(404).end('404')
+      }
+    },
+  )
 })
-server.listen(9999,()=>{
-  console.log("服务器已启动！")
+server.listen(9999, () => {
+  console.log('服务器已启动！')
 })
-
 ```
-
-
-
-
-
-
-
-
-

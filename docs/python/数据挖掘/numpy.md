@@ -4,15 +4,15 @@ title: Numpy
 
 ## 介绍
 
-Numpy (Numerical Python) 是一个开源的Python科学计算库，用于快速处理任意维度的数组。
+Numpy (Numerical Python) 是一个开源的 Python 科学计算库，用于快速处理任意维度的数组。
 
-Numpy支持常见的数组和矩阵操作。对于同样的数值计算任务，使用Numpy比直接使用Python要简洁的多。
+Numpy 支持常见的数组和矩阵操作。对于同样的数值计算任务，使用 Numpy 比直接使用 Python 要简洁的多。
 
-Numpy使用ndarray对象来处理多维数组，该对象是一个快速而灵活的大数据容器。
+Numpy 使用 ndarray 对象来处理多维数组，该对象是一个快速而灵活的大数据容器。
 
 ## ndarray
 
-NumPy提供了一个N维数组类型ndarray，它描述了相同类型的"items"的集合
+NumPy 提供了一个 N 维数组类型 ndarray，它描述了相同类型的"items"的集合
 
 ### 优势
 
@@ -20,9 +20,9 @@ NumPy提供了一个N维数组类型ndarray，它描述了相同类型的"items"
    - ndarray - 相同类型 - 通用性不强
    - list - 不同类型 - 通用性很强
 2. 并行化运算
-   - ndarray支持向量化运算
+   - ndarray 支持向量化运算
 3. 底层语言
-   - Numpy底层使用C语言编写，内部解除了GIL（全局解释器锁），其对数组的操作速度不受Python解释器的限制，效率远高于纯Python代码。
+   - Numpy 底层使用 C 语言编写，内部解除了 GIL（全局解释器锁），其对数组的操作速度不受 Python 解释器的限制，效率远高于纯 Python 代码。
 
 ### 属性
 
@@ -34,7 +34,7 @@ NumPy提供了一个N维数组类型ndarray，它描述了相同类型的"items"
 | ndarray.itemsize | 一个数组元素的长度（字节） |
 | ndarray.dtype    | 数组元素的类型             |
 
-在创建ndarray的时候，如果没有指定类型，默认：整数 int64/int32 浮点数 float64/float32
+在创建 ndarray 的时候，如果没有指定类型，默认：整数 int64/int32 浮点数 float64/float32
 
 ### 使用
 
@@ -62,7 +62,7 @@ np.array([1.1, 2.2, 3.3], dtype="float32")
 
 ### 生成数组
 
-#### 1、生成0和1的数组
+#### 1、生成 0 和 1 的数组
 
 ```python
 np.zeros(shape=(3, 4), dtype="float32") # 生成一组0
@@ -125,7 +125,7 @@ np.unique(temp)
 set(temp.flatten())
 ```
 
-## ndarray运算
+## ndarray 运算
 
 ### 逻辑运算
 
@@ -191,24 +191,24 @@ arr / 10
 
 ##### 广播机制
 
-执行broadcast的前提在于，两个nadarray执行的是element-wise的运算，Broadcast机制的功能是为了方便不同形状的ndarray(numpy库的核心数据结构)进行数学运算。
+执行 broadcast 的前提在于，两个 nadarray 执行的是 element-wise 的运算，Broadcast 机制的功能是为了方便不同形状的 ndarray(numpy 库的核心数据结构)进行数学运算。
 
-当操作两个数组时，numpy会逐个比较它们的shape(构成的元组tuple)，只有在下述情况下，两个数组才能够进行数组与数组的运算。
+当操作两个数组时，numpy 会逐个比较它们的 shape(构成的元组 tuple)，只有在下述情况下，两个数组才能够进行数组与数组的运算。
 
 - 维度相等
-- shape（其中相对应的一个地方为1）
+- shape（其中相对应的一个地方为 1）
 
 #### 矩阵运算
 
-英文matrix，和array的区别是矩阵必须是2维的，但是array可以是多维的。
+英文 matrix，和 array 的区别是矩阵必须是 2 维的，但是 array 可以是多维的。
 
 矩阵和二维数组的区别？
 
 np.mat() 将数组转换成矩阵类型
 
-矩阵乘法规则（M行,N列）x (N行,L列) = (M行,L列)
+矩阵乘法规则（M 行,N 列）x (N 行,L 列) = (M 行,L 列)
 
-如果是ndarray
+如果是 ndarray
 
 ```python
 np.dot(data,data1)
@@ -216,7 +216,7 @@ np.matmul(data,data1)
 data @ data1
 ```
 
-如果是martix
+如果是 martix
 
 ```python
 data*data1
@@ -228,7 +228,7 @@ numpy.hstack 水平拼接
 
 numpy.vstack 竖拼接
 
-numpy.concatenate((a1,a2),axis=0)     水平|竖拼接
+numpy.concatenate((a1,a2),axis=0) 水平|竖拼接
 
 ```python
 # 分割
@@ -236,7 +236,7 @@ numpy.split(x,3) # 分三份
 numpy.split(x,[3,4,6,10]) # 按索引分割
 ```
 
-## IO操作与数据处理
+## IO 操作与数据处理
 
 ### 读取数据
 
@@ -249,13 +249,4 @@ np.genfromtxt("test.csv", delimiter=",") # 会有问题，读不出字符串
 两种思路：
 
 - 直接删除含有缺失值的样本
-- 替换/插补  （补入平均值或中位数）
-
-
-
-
-
-
-
-
-
+- 替换/插补 （补入平均值或中位数）

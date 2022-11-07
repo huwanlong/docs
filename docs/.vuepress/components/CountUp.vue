@@ -13,56 +13,54 @@ export default {
   props: {
     startVal: {
       type: Number,
-      default: 0
+      default: 0,
     },
     endVal: {
       type: Number,
-      required: true
+      required: true,
     },
     decimalPlaces: {
       type: Number,
-      default: 0
+      default: 0,
     },
     duration: {
       type: Number,
-      default: 2
+      default: 2,
     },
     delay: {
       type: Number,
-      default: 0
-    }
+      default: 0,
+    },
   },
   mounted() {
     this.init()
   },
   data() {
     return {
-      counter: null
+      counter: null,
     }
   },
   methods: {
     init() {
-      import("countup.js").then(module => {
+      import('countup.js').then(module => {
         this.$nextTick(() => {
           this.counter = new module.CountUp(this.$refs.countUp, this.endVal, {
             startVal: this.startVal,
             decimalPlaces: this.decimalPlaces,
-            duration: this.duration
+            duration: this.duration,
           })
           setTimeout(() => {
             this.counter.start()
           }, this.delay)
         })
       })
-    }
+    },
   },
   beforeDestroy() {
     this.counter.reset()
     this.counter = null
-  }
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

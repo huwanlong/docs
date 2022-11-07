@@ -2,9 +2,9 @@
 title: nvm
 ---
 
-##  简介
+## 简介
 
-nodejs的版本管理工具，下载nvm-setup.zip包安装
+nodejs 的版本管理工具，下载 nvm-setup.zip 包安装
 
 下载地址：[https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
 
@@ -50,4 +50,3 @@ nvm version # 显示nvm版本。version可简化为v。
 [https://www.cnblogs.com/gaozejie/p/10689742.html](https://www.cnblogs.com/gaozejie/p/10689742.html)
 
 [https://www.cnblogs.com/MrWangHao/p/14445715.html](https://www.cnblogs.com/MrWangHao/p/14445715.html)
-

@@ -4,7 +4,7 @@ title: Lerna
 
 ## 简介
 
-lerna是GitHub上面开源的一款js代码库管理软件， 用来对一系列相互耦合比较大、又相互独立的js git库进行管理。
+lerna 是 GitHub 上面开源的一款 js 代码库管理软件， 用来对一系列相互耦合比较大、又相互独立的 js git 库进行管理。
 
 ## 基础
 
@@ -23,18 +23,18 @@ lerna.json
 
 ## 管理模式
 
-使用lerna管理项目时，可以选择两种模式。
+使用 lerna 管理项目时，可以选择两种模式。
 
 ### 固定模式
 
-默认的为固定模式(Fixed mode)，当使用lerna init命令初始化项目时，就默认为固定模式，也可以使用 lerna init --independent 命令初始化项目，这个时候就为独立模式(Independent mode)。
- 固定模式中，packages下的所有包共用一个版本号(version)，会自动将所有的包绑定到一个版本号上(该版本号也就是lerna.json中的version字段)，所以任意一个包发生了更新，这个共用的版本号就会发生改变。
+默认的为固定模式(Fixed mode)，当使用 lerna init 命令初始化项目时，就默认为固定模式，也可以使用 lerna init --independent 命令初始化项目，这个时候就为独立模式(Independent mode)。
+固定模式中，packages 下的所有包共用一个版本号(version)，会自动将所有的包绑定到一个版本号上(该版本号也就是 lerna.json 中的 version 字段)，所以任意一个包发生了更新，这个共用的版本号就会发生改变。
 
 ### 独立模式
 
-独立模式允许每一个包有一个独立的版本号，在使用lerna publish命令时，可以为每个包单独制定具体的操作，同时可以只更新某一个包的版本号。此种模式时，lerna.json中的version字段指定为`independent`即可。
+独立模式允许每一个包有一个独立的版本号，在使用 lerna publish 命令时，可以为每个包单独制定具体的操作，同时可以只更新某一个包的版本号。此种模式时，lerna.json 中的 version 字段指定为`independent`即可。
 
-## lerna.json解析
+## lerna.json 解析
 
 ```json
 {
@@ -42,14 +42,11 @@ lerna.json
   "npmClient": "npm",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ]
+      "ignoreChanges": ["ignored-file", "*.md"]
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]      
+      "npmClientArgs": ["--no-package-lock"]
     }
   },
   "packages": ["packages/*"]
@@ -57,8 +54,8 @@ lerna.json
 ```
 
 - version , 当前库的版本
-- npmClient , 允许指定命令使用的client， 默认是 npm， 可以设置成 yarn
-- command.publish.ignoreChanges ， 可以指定那些目录或者文件的变更不会被publish
+- npmClient , 允许指定命令使用的 client， 默认是 npm， 可以设置成 yarn
+- command.publish.ignoreChanges ， 可以指定那些目录或者文件的变更不会被 publish
 - command.bootstrap.ignore ， 指定不受 bootstrap 命令影响的包
 - command.bootstrap.npmClientArgs ， 指定默认传给 lerna bootstrap 命令的参数
 - command.bootstrap.scope ， 指定那些包会受 lerna bootstrap 命令影响
@@ -66,7 +63,7 @@ lerna.json
 
 ## 常用命令
 
-### lerna publish 
+### lerna publish
 
 发布新的库版本
 
@@ -79,9 +76,9 @@ lerna publish <commit-id> # 发布指定commit-id的代码
 
 - 识别出修改的包
 - 创建新的版本号
-- 修改package.json
-- 提交修改 打上版本的tag
-- 推送到git上
+- 修改 package.json
+- 提交修改 打上版本的 tag
+- 推送到 git 上
 
 ### lerna bootstrap
 
@@ -92,15 +89,15 @@ lerna publish <commit-id> # 发布指定commit-id的代码
 
 ### lerna list
 
-列举当前lerna 库包含的包
+列举当前 lerna 库包含的包
 
 ### lerna changed
 
-显示自上次relase tag以来有修改的包
+显示自上次 relase tag 以来有修改的包
 
 ### lerna diff
 
-显示自上次relase tag以来有修改的包的差异， 执行 git diff
+显示自上次 relase tag 以来有修改的包的差异， 执行 git diff
 
 ### lerna exec
 
@@ -112,14 +109,14 @@ lerna exec -- rm -rf ./node_modules # 删除每个目录下的node_modules
 
 ### lerna run
 
-执行每个包package.json中的脚本命令
+执行每个包 package.json 中的脚本命令
 
 ### lerna init
 
-创建一个新的lerna库或者是更新lerna版本
+创建一个新的 lerna 库或者是更新 lerna 版本
 
-- 修改package.json中lerna版本
-- 创建lerna.json
+- 修改 package.json 中 lerna 版本
+- 创建 lerna.json
 
 ### lerna add
 
@@ -127,11 +124,11 @@ lerna exec -- rm -rf ./node_modules # 删除每个目录下的node_modules
 
 ### lerna clean
 
-删除各个包下的node_modules
+删除各个包下的 node_modules
 
 ### lerna import
 
-导入指定git仓库的包作为lerna管理的包
+导入指定 git 仓库的包作为 lerna 管理的包
 
 ```shell
 lerna import <path-to-external-repository>

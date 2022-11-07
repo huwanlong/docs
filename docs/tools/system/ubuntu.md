@@ -8,27 +8,27 @@ title: ubuntu
 
 安装环境之前将`Ubuntu20.04`切换到国内源下载安装包会快很多，切换源之后,需要在命令行中完成更新
 
-点击左侧菜单底下9个点，找到 Software & Updates 修改
+点击左侧菜单底下 9 个点，找到 Software & Updates 修改
 
-先得到软件包列表  `sudo apt-get update`
+先得到软件包列表 `sudo apt-get update`
 
 更新`ubuntu`和已安装的软件 `sudo apt-get dist-upgrade`
 
 ### root
 
-先切换到root用户 `su root` (`Ubuntu`安装后,root默认密码是一串随机字符串,可以用`sudo passwd`改密码)
+先切换到 root 用户 `su root` (`Ubuntu`安装后,root 默认密码是一串随机字符串,可以用`sudo passwd`改密码)
 
 ### ssh
 
-安装ssh `apt-get install openssh-server`
+安装 ssh `apt-get install openssh-server`
 
-使用`ps -e | grep ssh`，如果只有ssh-agent表示还没启动，需要`/etc/init.d/ssh start`；有`sshd`说明已启动。
+使用`ps -e | grep ssh`，如果只有 ssh-agent 表示还没启动，需要`/etc/init.d/ssh start`；有`sshd`说明已启动。
 
 `vim /etc/ssh/sshd_config`
 
-`PermitRootLogin prohibit-password`  改成  `PermitRootLogin yes`
+`PermitRootLogin prohibit-password` 改成 `PermitRootLogin yes`
 
-重启  `/etc/init.d/ssh restart `
+重启 `/etc/init.d/ssh restart`
 
 ### git
 
@@ -52,7 +52,7 @@ sudo apt-get install git
 # 激活环境
 source ~/miniconda3/bin/activate
 # 更新
-conda update conda 
+conda update conda
 # 创建新环境
 conda create --name <env_name> <package_names>
 # 如
@@ -60,11 +60,11 @@ conda create -n python38 python=3.8 numpy pandas
 # 切换环境
 activate <env_name>
 # 退出当前环境
-conda deactivate 
+conda deactivate
 # 显示已创建环境
-conda info -e 
+conda info -e
 # 删除环境
-conda remove --name <env_name> --all 
+conda remove --name <env_name> --all
 # 在当前环境中安装包
 conda install <package_name>
 # 卸载当前环境中的包
@@ -74,12 +74,12 @@ conda update <package_name>
 # 更新所有包
 conda update --all
 # 导出
-conda list -e > requirements.txt 
+conda list -e > requirements.txt
 # 导入
-conda install --yes --file requirements.txt 
+conda install --yes --file requirements.txt
 ```
 
-###  `Node.js`
+### `Node.js`
 
 > 参考：https://zhuanlan.zhihu.com/p/140961618
 
@@ -95,7 +95,7 @@ sudo apt install nodejs npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
-脚本将会从 `Github` 克隆项目到`~/.nvm`文件夹，如果是`sudo`或使用root用户来执行这条命令，那么会克隆到`/root/.nvm`文件夹，重新打开终端
+脚本将会从 `Github` 克隆项目到`~/.nvm`文件夹，如果是`sudo`或使用 root 用户来执行这条命令，那么会克隆到`/root/.nvm`文件夹，重新打开终端
 
 ```shell
 nvm --version
@@ -104,7 +104,7 @@ node --version
 
 > 换源：https://blog.csdn.net/qq_14815199/article/details/104610163
 >
-> 在`ubuntu`中找到安装`nvm`的路径，找到`'.nvm/nvm.sh'`文件，用`sudo vim .nvm/nvm.sh`打开，然后用'/'搜索`‘NVM_NODEJS_ORG_MIRROR’`，enter定位到该位置，修改其中的网址为`https://npm.taobao.org/mirrors/node/`即可
+> 在`ubuntu`中找到安装`nvm`的路径，找到`'.nvm/nvm.sh'`文件，用`sudo vim .nvm/nvm.sh`打开，然后用'/'搜索`‘NVM_NODEJS_ORG_MIRROR’`，enter 定位到该位置，修改其中的网址为`https://npm.taobao.org/mirrors/node/`即可
 
 #### 常用命令
 
@@ -133,6 +133,6 @@ sudo apt-get install gparted
 ```
 
 1. 打开 `gparted`
-2. 右键 `/dev/sda1` 
-3. 选择 `Resize/Move` 
+2. 右键 `/dev/sda1`
+3. 选择 `Resize/Move`
 4. 鼠标拖动到最大，保存

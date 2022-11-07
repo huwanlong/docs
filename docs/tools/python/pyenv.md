@@ -14,7 +14,7 @@ pip install pyenv-win --target %USERPROFILE%/.pyenv
 
 设置一个系统变量`PYENV`，值为`C:\Users\用户名\.pyenv\pyenv-win`
 
-path里面添加：
+path 里面添加：
 
 ```shell
 %PYENV%\bin
@@ -49,9 +49,8 @@ pyenv install -l
 # 或是使用pyenv global XXX 切换到一个特定的python版本
 # 然后进入项目目录中，创建虚拟环境
 python -m venv myvirtuaenv # python -m venv XXX（虚拟环境名）
-# 切换到 myvirtuaenv 目录下，激活虚拟环境
-activate
+# 激活虚拟环境
+.\myvirtuaenv\Scripts\activate
 # 退出虚拟环境
 deactivate
 ```
-

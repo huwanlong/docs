@@ -21,17 +21,17 @@ module.exports = {
     editLinks: true,
     editLinkText: '帮助我改善此页面！',
     smoothScroll: true,
-    sidebarDepth: 2
+    sidebarDepth: 2,
   },
   markdown: {
     lineNumbers: true,
-    extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ],
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'],
     evergreen: true,
     extendMarkdown: md => {
       md.set({
-          html: true
+        html: true,
       })
       md.use(require('markdown-it-katex'))
-    }
-  }
+    },
+  },
 }

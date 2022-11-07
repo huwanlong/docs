@@ -8,7 +8,7 @@ title: Yarn
 
 中文文档：[https://yarn.bootcss.com/](https://yarn.bootcss.com/)
 
-## 安装yarn
+## 安装 yarn
 
 ```shell
 npm install yarn -g # 安装yarn
@@ -19,7 +19,7 @@ npm update yarn -g # 更新yarn
 ## 新建工程
 
 ```shell
-yarn init 
+yarn init
 yarn init -y
 ```
 
@@ -64,7 +64,7 @@ yarn info [package] readme # 输出README部分
 
 ```shell
 yarn list
-yarn global list 
+yarn global list
 yarn list --depth=0 # 限制依赖的深度
 ```
 

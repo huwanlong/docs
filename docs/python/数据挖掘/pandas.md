@@ -4,17 +4,17 @@ title: Pandas
 
 ## 介绍
 
-- 2008年WesMcKinney开发出的库
-- 专门用于数据挖掘的开源Python库
-- 以Numpy为基础，借力Numpy模块在计算方面性能高的优势
-- 基于matplotlib，能够简便的画图
+- 2008 年 WesMcKinney 开发出的库
+- 专门用于数据挖掘的开源 Python 库
+- 以 Numpy 为基础，借力 Numpy 模块在计算方面性能高的优势
+- 基于 matplotlib，能够简便的画图
 - 独特的数据结构
 
 ### 为什么用？
 
 - 便捷的数据处理能力
 - 读取文件方便
-- 封装了Matplotlib、Numpy的画图和计算
+- 封装了 Matplotlib、Numpy 的画图和计算
 
 ### 核心数据结构
 
@@ -28,9 +28,9 @@ title: Pandas
 
 既有行索引，又有列索引的二维数组
 
-行索引，表明不同行，横向索引，叫index
+行索引，表明不同行，横向索引，叫 index
 
-列索引，表明不同列，纵向索引，叫columns
+列索引，表明不同列，纵向索引，叫 columns
 
 #### 常用属性
 
@@ -40,13 +40,13 @@ index 行索引列表
 
 columns 列索引列表
 
-values 直接获取其中array的值
+values 直接获取其中 array 的值
 
-T  行列转置
+T 行列转置
 
 #### 常用方法
 
-head()  开头几行
+head() 开头几行
 
 tail() 最后几行
 
@@ -96,15 +96,15 @@ df.set_index("month", drop=True)
 new_df = df.set_index(["year", "month"])
 ```
 
-### MultiIndex与Panel
+### MultiIndex 与 Panel
 
-#### MultiIndex 
+#### MultiIndex
 
 多级或分层索引对象
 
-- index属性
-  - names: levels的名称
-  - levels: 每个level的元组值
+- index 属性
+  - names: levels 的名称
+  - levels: 每个 level 的元组值
 
 ```python
 print(new_df.index)
@@ -116,7 +116,7 @@ print(new_df.index.levels)
 
 pandas.Panel(data=None,items=None,major_axis=None,minor_axis=None,copy=False,dtype=None)
 
-存储3维数组的Panel结构
+存储 3 维数组的 Panel 结构
 
 - items - axis 0，每个项目对应于内部包含的数据帧(DataFrame)。
 - major_axis - axis 1，它是每个数据帧(DataFrame)的索引(行)。
@@ -132,7 +132,7 @@ p.major_xs("2013-01-01")
 p.minor_xs("first")
 ```
 
-注：Pandas从版本0.20.0开始弃用，推荐的用于表示3D数据的方法是DataFrame上的MultiIndex方法
+注：Pandas 从版本 0.20.0 开始弃用，推荐的用于表示 3D 数据的方法是 DataFrame 上的 MultiIndex 方法
 
 ### Series
 
@@ -154,7 +154,7 @@ sr.index # 索引
 sr.values # 值
 ```
 
-总结：DataFrame是Series的容器，Panel是DataFrame的容器
+总结：DataFrame 是 Series 的容器，Panel 是 DataFrame 的容器
 
 ## 基本数据操作
 
@@ -189,7 +189,7 @@ data.iloc[1, 0] = 222
 
 #### 内容排序
 
-使用df.sort_values(key=,ascending=)对内容进行排序
+使用 df.sort_values(key=,ascending=)对内容进行排序
 
 单个键或者多个键进行排序，默认升序
 
@@ -197,7 +197,7 @@ ascending=False:降序 True:升序
 
 #### 索引排序
 
-使用df.sort_index对索引进行排序
+使用 df.sort_index 对索引进行排序
 
 ```python
 data.sort_values(by="high", ascending=False) # DataFrame内容排序
@@ -213,7 +213,7 @@ sr.sort_values(ascending=False).head()
 sr.sort_index().head()
 ```
 
-## DataFrame运算
+## DataFrame 运算
 
 ### 算术运算
 
@@ -227,7 +227,7 @@ data["close"].sub(data["open"]).head() # close减open
 
 query(expr) expr:查询字符串
 
-isin(values) 判断是否为values
+isin(values) 判断是否为 values
 
 ```python
 data[data["p_change"] > 2].head() # p_change > 2
@@ -243,7 +243,7 @@ data[data["turnover"].isin([4.19, 2.39])]
 
 describe()
 
-综合分析：能够直接得出很多统计结果，count,mean,std,min,max等
+综合分析：能够直接得出很多统计结果，count,mean,std,min,max 等
 
 ```python
 data.describe()
@@ -253,13 +253,13 @@ data.idxmax(axis=0) #最大值位置
 
 #### 累计统计函数
 
-cumsum 计算前1/2/3/../n个数的和
+cumsum 计算前 1/2/3/../n 个数的和
 
-cummax 计算前1/2/3/../n个数的最大值
+cummax 计算前 1/2/3/../n 个数的最大值
 
-cummin 计算前1/2/3/../n个数的最小值
+cummin 计算前 1/2/3/../n 个数的最小值
 
-cumprod 计算前1/2/3/../n个数的积
+cumprod 计算前 1/2/3/../n 个数的积
 
 ```python
 data["p_change"].sort_index().cumsum().plot()
@@ -271,13 +271,13 @@ apply(func, axis=0)
 
 func: 自定义函数
 
-axis=0: 默认按列运算，axis=1按行运算
+axis=0: 默认按列运算，axis=1 按行运算
 
 ```python
 data.apply(lambda x: x.max() - x.min())
 ```
 
-## Pandas画图
+## Pandas 画图
 
 ### pandas.DataFrame.plot
 
@@ -322,20 +322,20 @@ data[:10].to_csv("test.csv", columns=["open"], index=False, mode="a", header=Fal
 
 ### HDF5
 
-read_hdf()与to_hdf()
+read_hdf()与 to_hdf()
 
-HDF5文件的读取和存储需要指定一个键，值为要存储的DataFrame
+HDF5 文件的读取和存储需要指定一个键，值为要存储的 DataFrame
 
-pandas.read_hdf(path_or_buf, key=None, **kwargs)
+pandas.read_hdf(path_or_buf, key=None, \*\*kwargs)
 
-从h5文件当中读取数据
+从 h5 文件当中读取数据
 
 - path_or_buffer: 文件路径
 - key: 读取的键
 - mode: 打开文件的模式
 - reurn: The Selected object
 
-DataFrame.to_hdf(path_or_buf, key, **kwargs)
+DataFrame.to_hdf(path_or_buf, key, \*\*kwargs)
 
 ```python
 day_close = pd.read_hdf("./stock_data/day/day_close.h5")
@@ -348,7 +348,7 @@ read_json()
 
 pandas.read_json(path_or_buf=None,orient=None,typ="frame",lines=False)
 
-- 将JSON格式转换成默认的Pandas DataFrame格式
+- 将 JSON 格式转换成默认的 Pandas DataFrame 格式
 - orient: string,Indication of expected JSON string format.
   - 'split': dict like {index -> [index], columns -> [columns], data -> [values]}
   - 'records': list like [{column -> value}, ..., {column -> value}]
@@ -356,8 +356,8 @@ pandas.read_json(path_or_buf=None,orient=None,typ="frame",lines=False)
   - 'columns': dict like {column -> {index -> value}}, 默认该格式
   - 'values': just the values array
 - lines: boolean, default False
-  - 按照每行读取json对象
-- typ: default 'frame'，指定转换成的对象类型series或者dataframe
+  - 按照每行读取 json 对象
+- typ: default 'frame'，指定转换成的对象类型 series 或者 dataframe
 
 ```python
 sa = pd.read_json("Sarcasm_Headlines_Dataset.json", orient="records", lines=True)
@@ -367,25 +367,25 @@ sa.to_json("test.json", orient="records", lines=True)
 
 ## 缺失值处理
 
-- replace实现数据替换
-- dropna实现缺失值的删除
-- fillna实现缺失值的填充
-- isnull判断是否有缺失数据NaN
+- replace 实现数据替换
+- dropna 实现缺失值的删除
+- fillna 实现缺失值的填充
+- isnull 判断是否有缺失数据 NaN
 
 如何进行缺失值处理？
 
 - 删除含有缺失值的样本
 - 替换/插补数据
 
-### 如何处理NaN?
+### 如何处理 NaN?
 
-- 判断是否有NaN
+- 判断是否有 NaN
   - pd.isnull(df)
   - pd.notnull(df)
 - 删除含有缺失值的样本
-  - df.dropna(inplace=True) 默认按行删除 inplace:True修改原数据，False返回新数据，默认False
+  - df.dropna(inplace=True) 默认按行删除 inplace:True 修改原数据，False 返回新数据，默认 False
 - 替换/插补数据
-  - df.fillna(value,inplace=True) value替换的值 inplace:True修改原数据，False返回新数据，默认False
+  - df.fillna(value,inplace=True) value 替换的值 inplace:True 修改原数据，False 返回新数据，默认 False
 
 ```python
 import pandas as pd
@@ -404,15 +404,15 @@ pd.notnull(data1).all()
 
 # 方法2：替换
 # 含有缺失值的字段
-# Revenue (Millions)    
+# Revenue (Millions)
 # Metascore
 movie["Revenue (Millions)"].fillna(movie["Revenue (Millions)"].mean(), inplace=True)
 movie["Metascore"].fillna(movie["Metascore"].mean(), inplace=True)
 ```
 
-### 不是缺失值NaN
+### 不是缺失值 NaN
 
-不是缺失值NaN，有默认标记的
+不是缺失值 NaN，有默认标记的
 
 ```python
 # 读取数据
@@ -445,13 +445,13 @@ data_new.dropna(inplace=True)
    - 自动分组 sr = pd.qcut(data, bins)
    - 自定义分组 sr = pd.cut(data, [])
 
-2. 将分组好的结果转换成one-hot编码（哑变量）
+2. 将分组好的结果转换成 one-hot 编码（哑变量）
 
    pd.get_dummies(sr, prefix=)
 
 ```python
 # 1）准备数据
-data = pd.Series([165,174,160,180,159,163,192,184], index=['No1:165', 'No2:174','No3:160', 'No4:180', 'No5:159', 'No6:163', 'No7:192', 'No8:184']) 
+data = pd.Series([165,174,160,180,159,163,192,184], index=['No1:165', 'No2:174','No3:160', 'No4:180', 'No5:159', 'No6:163', 'No7:192', 'No8:184'])
 # 2）分组
 # 自动分组
 sr = pd.qcut(data, 3)
@@ -470,11 +470,11 @@ pd.get_dummies(sr, prefix="身高")
 
 ### 按方向
 
-pd.concat([data1, data2], axis=1)  axis：0为列索引；1为行索引
+pd.concat([data1, data2], axis=1) axis：0 为列索引；1 为行索引
 
 ### 按索引
 
-pd.merge(left, right, how="inner", on=[])  on：索引
+pd.merge(left, right, how="inner", on=[]) on：索引
 
 ```python
 left = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'],
@@ -534,4 +534,3 @@ col.groupby(by="color")["price1"].max()
 # 或者用Series的方法进行分组聚合
 col["price1"].groupby(col["color"]).max()
 ```
-
