@@ -1,10 +1,9 @@
 // module.exports = 'auto'
 module.exports = {
-  '/tools/python/': ['', 'anaconda', 'pip', 'pyenv'],
   '/python/数据挖掘/': ['', 'matplotlib', 'numpy', 'pandas'],
   '/python/机器学习/': ['', '特征工程'],
-  '/python/Django/': ['', 'command'],
   '/tools/frontend/': ['', 'NPM', 'Yarn', 'nvm', 'Verdaccio', 'Lerna', 'VS Code'],
+  '/tools/python/': ['', 'anaconda', 'pip', 'pyenv'],
   '/tools/system/': ['', 'linux', 'ubuntu', 'git', 'vim'],
   '/tools/': 'auto',
   '/frontend/': 'auto',

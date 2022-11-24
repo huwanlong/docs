@@ -1,10 +1,15 @@
 ---
-title: 命令
+title: Django
 ---
 
- 
+## 官网
 
-## 根据主题
+[Django](https://docs.djangoproject.com/zh-hans/4.1/contents/)
+
+[DRF](https://www.django-rest-framework.org/)
+
+
+## 命令
 
 ### 创建项目
 
@@ -48,7 +53,7 @@ python -m django --version
 python manage.py shell
 ```
 
-## 所有命令
+### 所有命令
 
 ```shell
 # 查看django版本
@@ -81,3 +86,11 @@ python manage.py test myapp
 # shell
 python manage.py shell
 ```
+
+## 相关知识
+
+### WSGI ASGI
+
+[https://www.jianshu.com/p/65807220b44a](https://www.jianshu.com/p/65807220b44a)
+
+[https://blog.csdn.net/p515659704/article/details/110411508](https://blog.csdn.net/p515659704/article/details/110411508)
