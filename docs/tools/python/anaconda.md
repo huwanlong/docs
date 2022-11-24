@@ -84,7 +84,6 @@ conda upgrade --all
 conda update <package_name>
 # or
 conda upgrade <package_name>
-
 ```
 
 ## 换源
@@ -98,7 +97,6 @@ channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 ssl_verify: true
-
 ```
 
 ## requirements
@@ -112,10 +110,9 @@ conda install --yes --file requirements.txt # 导入
 
 ```shell
 conda config --set auto_activate_base true # 打开powershell可以直接进base环境
-
 ```
 
 ## Linux
 
-[anaconda](/tools/system/ubuntu.html#anaconda)
+[miniconda](/tools/system/ubuntu.html#miniconda)
 

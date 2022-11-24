@@ -42,7 +42,7 @@ sudo apt-get install git
 
 ## 开发环境
 
-### `Anaconda`
+### `miniconda`
 
 > 参考：[https://blog.csdn.net/djfjkj52/article/details/107330301](https://blog.csdn.net/djfjkj52/article/details/107330301)
 
