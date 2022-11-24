@@ -12,6 +12,9 @@ title: Anaconda
 # 版本
 conda --version
 
+# 查看当前配置
+conda config --show
+
 # 更新
 conda update conda
 
@@ -110,3 +113,11 @@ conda install --yes --file requirements.txt # 导入
 ```
 https://blog.csdn.net/djfjkj52/article/details/107330301
 ```
+
+## 其它配置
+
+```shell
+conda config --set auto_activate_base true # 打开powershell可以直接进base环境
+
+```
+

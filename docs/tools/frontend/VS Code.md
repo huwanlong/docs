@@ -147,3 +147,21 @@ title: VS Code
 [https://lzw.me/a/vscode-visual-studio-code-shortcut.html](https://lzw.me/a/vscode-visual-studio-code-shortcut.html)
 
 [https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+
+## 扩展使用
+
+### Markdown All in One
+
+```shell
+ctrl + shift + v # 预览 
+```
+
+[更多用法](https://blog.csdn.net/weixin_33895604/article/details/88702076)
+
+### koroFileHeader
+```shell
+ctrl + alt + i # 头部加注释
+ctrl + alt + h # 函数加注释，默认是ctrl+alt+t，因为冲突，所以做了修改
+```
+[更多用法](https://juejin.cn/post/6844903694165606408)

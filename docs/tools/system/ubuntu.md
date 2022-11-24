@@ -136,3 +136,30 @@ sudo apt-get install gparted
 2. 右键 `/dev/sda1`
 3. 选择 `Resize/Move`
 4. 鼠标拖动到最大，保存
+
+## VirtualBox
+
+### 安装
+
+[https://blog.csdn.net/no1xium/article/details/108891360](https://blog.csdn.net/no1xium/article/details/108891360)
+
+### 网络
+
+安装后，虚拟机和主机可能不在同一个网段，需要虚拟机关机后设置网卡
+
+![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
+
+![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
+
+### 共享文件夹
+
+`/media/sf_share/`
+
+### 命令
+
+```shell
+右ctrl + F # 切换全屏
+```
+
+
+
