@@ -108,16 +108,14 @@ conda list -e > requirements.txt # 导出
 conda install --yes --file requirements.txt # 导入
 ```
 
-## Linux
-
-```
-https://blog.csdn.net/djfjkj52/article/details/107330301
-```
-
 ## 其它配置
 
 ```shell
 conda config --set auto_activate_base true # 打开powershell可以直接进base环境
 
 ```
+
+## Linux
+
+[anaconda](/tools/system/ubuntu.html#anaconda)
 

@@ -44,7 +44,7 @@ sudo apt-get install git
 
 ### `Anaconda`
 
-> 参考：https://blog.csdn.net/djfjkj52/article/details/107330301
+> 参考：[https://blog.csdn.net/djfjkj52/article/details/107330301](https://blog.csdn.net/djfjkj52/article/details/107330301)
 
 #### 常用命令
 
@@ -79,9 +79,75 @@ conda list -e > requirements.txt
 conda install --yes --file requirements.txt
 ```
 
+### `pyenv`
+
+> 参考：[https://blog.kyomind.tw/ubuntu-pyenv/](https://blog.kyomind.tw/ubuntu-pyenv/)
+> [https://blog.csdn.net/weixin_42892543/article/details/122544900](https://blog.csdn.net/weixin_42892543/article/details/122544900)
+> 
+#### 安装
+```shell
+# 系统没有python命令，安装python-is-python3包可以指定python为默认的python3
+sudo apt install python-is-python3
+
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+```
+
+#### 环境变量
+```shell
+# 这一段貌似有问题
+echo -e 'if shopt -q login_shell; then' \
+      '\n  export PYENV_ROOT="$HOME/.pyenv"' \
+      '\n  export PATH="$PYENV_ROOT/bin:$PATH"' \
+      '\n eval "$(pyenv init --path)"' \
+      '\nfi' >> ~/.bashrc
+# 需要改成下面两条，先记录一下，后续观察
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+
+echo -e 'if [ -z "$BASH_VERSION" ]; then'\
+      '\n  export PYENV_ROOT="$HOME/.pyenv"'\
+      '\n  export PATH="$PYENV_ROOT/bin:$PATH"'\
+      '\n  eval "$(pyenv init --path)"'\
+      '\nfi' >>~/.profile
+echo 'if command -v pyenv >/dev/null; then eval "$(pyenv init -)"; fi' >> ~/.bashrc
+source ~/.bashrc
+```
+#### 安装依赖
+```shell
+sudo apt-get install libc6-dev gcc
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
+```
+#### 指定源下载
+
+> 参考：[https://blog.csdn.net/qq_43213352/article/details/104343365](https://blog.csdn.net/qq_43213352/article/details/104343365)
+
+```shell
+v=3.6.0; wget https://npm.taobao.org/mirrors/python//$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v 
+```
+
+#### 安装pyenv-virtualenv
+```shell
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+```
+
+#### 使用方法
+```shell
+# 以3.8.7（需要先install）创建虚拟环境
+pyenv virtualenv 3.8.7 test 
+# 激活
+pyenv activate test
+# 退出
+pyenv deactivate test
+# 删除
+pyenv uninstall test
+```
+
+[常用命令](/tools/python/pyenv.html#常用命令)
+
 ### `Node.js`
 
-> 参考：https://zhuanlan.zhihu.com/p/140961618
+> 参考：[https://zhuanlan.zhihu.com/p/140961618](https://zhuanlan.zhihu.com/p/140961618)
 
 #### 直接安装
 
@@ -102,7 +168,7 @@ nvm --version
 node --version
 ```
 
-> 换源：https://blog.csdn.net/qq_14815199/article/details/104610163
+> 换源：[https://blog.csdn.net/qq_14815199/article/details/104610163](https://blog.csdn.net/qq_14815199/article/details/104610163)
 >
 > 在`ubuntu`中找到安装`nvm`的路径，找到`'.nvm/nvm.sh'`文件，用`sudo vim .nvm/nvm.sh`打开，然后用'/'搜索`‘NVM_NODEJS_ORG_MIRROR’`，enter 定位到该位置，修改其中的网址为`https://npm.taobao.org/mirrors/node/`即可
 
@@ -151,15 +217,38 @@ sudo apt-get install gparted
 
 ![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
 
+### 代理
+
+ubuntu : Settings > Network > Network Proxy
+
+v2rayN : 设置 > 参数设置 > v2rayN设置 > 允许来自局域网的连接
+
+命令行 :
+
+```shell
+# 设置代理
+export http_proxy=http://192.168.56.1:10809
+export https_proxy=http://192.168.56.1:10809
+# 查看代理
+env | grep -i proxy
+# 取消代理
+unset http_proxy
+unset https_proxy
+```
+
 ### 共享文件夹
 
-`/media/sf_share/`
+默认目录为`/media/sf_share/`，也可以自定义目录，如果发现该目录没有权限，可以执行以下命令把当前用户添加到vboxsf用户组，重启后生效
+```shell
+sudo usermod -aG vboxsf $(whoami)
+```
 
 ### 命令
 
 ```shell
 右ctrl + F # 切换全屏
 ```
+
 
 
 
