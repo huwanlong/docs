@@ -55,12 +55,13 @@ pyenv rehash
 ## 使用方法
 
 ```shell
-# 可以将用pyenv安装的python目录配置到环境变量中，
-# 或是使用pyenv global XXX 切换到一个特定的python版本
-# 然后进入项目目录中，创建虚拟环境
-python -m venv myvirtuaenv # python -m venv XXX（虚拟环境名）
+# 将pyenv相关环境变量放到Path中所有python相关的最上面
+# 使用pyenv global XXX 切换到一个特定的python版本
+# 或在项目目录中pyenv local XXX 给项目一个固定的版本
+# 进入项目目录创建虚拟环境
+python -m venv .venv # python -m venv XXX（虚拟环境名）
 # 激活虚拟环境
-.\myvirtuaenv\Scripts\activate
+.\.venv\Scripts\activate
 # 退出虚拟环境
 deactivate
 ```
