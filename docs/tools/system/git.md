@@ -11,8 +11,8 @@ git branch -a
 git branch test
 # 切换分支
 git checkout test
-# 提交到test分支
-git push origin test
+# 提交到test分支，第一次要如此操作，以后就可以git push了
+git push --set-upstream origin test
 # 删除分支
 git branch -d test
 # 强制删除分支
