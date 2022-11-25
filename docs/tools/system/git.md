@@ -1,11 +1,22 @@
 ---
 title: git
 ---
-
-## git clone 其他分支到某个目录
-
+## 分支操作
 ```shell
-git clone -b 'dev' https://xxx.com/yyy.git dirName
+# 将dev分支拉下来
+git clone -b dev https://xxx.com/yyy.git dirName
+# 列出所有分支
+git branch -a
+# 创建分支
+git branch test
+# 切换分支
+git checkout test
+# 提交到test分支
+git push origin test
+# 删除分支
+git branch -d test
+# 强制删除分支
+git branch -D test
 ```
 
 ## 设置项目默认用户名和密码
@@ -22,8 +33,8 @@ echo "    helper = store" >> .git/config
 ### 配置代理
 
 ```shell
-git config --global http.proxy localhost:1080
-git config --global https.proxy localhost:1080
+git config --global http.proxy localhost:10809
+git config --global https.proxy localhost:10809
 ```
 
 ### 去掉代理
