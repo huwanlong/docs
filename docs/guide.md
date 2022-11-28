@@ -16,6 +16,8 @@ editLink: false
 
 [Electron](/frontend/electron.html)
 
+[工具](/frontend/tools/) -  [`NPM`](/frontend/tools/NPM.html) [`Yarn`](/frontend/tools/Yarn.html) [`nvm`](/frontend/tools/nvm.html) [`Verdaccio`](/frontend/tools/Verdaccio.html) [`Lerna`](/frontend/tools/Lerna.html)
+
 ### Python
 
 [数据挖掘](/python/数据挖掘/)
@@ -24,10 +26,8 @@ editLink: false
 
 [Django](/python/Django/)
 
+[工具](/python/tools/) - [`Anaconda`](/python/tools.html#anaconda) [`pip`](/python/tools.html#pip) [`pyenv`](/python/tools.html#pyenv)
+
 ### 工具
-
-[前端](/tools/frontend/) -  [`NPM`](/tools/frontend/NPM.html) [`Yarn`](/tools/frontend/Yarn.html) [`nvm`](/tools/frontend/nvm.html) [`Verdaccio`](/tools/frontend/Verdaccio.html) [`Lerna`](/tools/frontend/Lerna.html) 
-
-[Python](/tools/python/) - [`Anaconda`](/tools/python.html#anaconda) [`pip`](/tools/python.html#pip) [`pyenv`](/tools/python.html#pyenv)
 
 [系统](/tools/system/) - [`linux`](/tools/system/linux.html) [`ubuntu`](/tools/system/ubuntu.html) [`git`](/tools/system/git.html) [`vim`](/tools/system/vim.html) [`VS Code`](/tools/system/VS%20Code.html)

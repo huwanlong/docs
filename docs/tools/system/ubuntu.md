@@ -43,10 +43,10 @@ sudo apt-get install git
 ## 开发环境
 
 ### `miniconda`
-[miniconda](/tools/python.html#miniconda)
+[miniconda](/python/tools.html#miniconda)
 
 ### `pyenv`
-[pyenv](/tools/python.html#linux安装)
+[pyenv](/python/tools.html#linux安装)
 
 
 ### `Node.js`
