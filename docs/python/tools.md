@@ -508,6 +508,40 @@ pipdeptree -f | tee requirements.txt # 生成requirements.txt
 
 [代码规范 PEP](https://peps.python.org/)
 
+### pylint
+
+检查违反 PEP 8 规范和常见错误的工具
+
+#### 安装
+
+```shell
+pip install pylint
+```
+
+#### 使用
+
+```shell
+pylint [options] {source_file_or_directory}
+```
+
+### flake8
+
+Python官方发布的一款辅助检测Python代码是否符合规范的工具
+
+参考：[https://zhuanlan.zhihu.com/p/392178725](https://zhuanlan.zhihu.com/p/392178725)
+
+#### 安装
+
+```shell
+pip install flake8
+```
+
+#### 使用
+
+```shell
+flake8 {directory}
+```
+
 ### black
 
 代码格式化工具
@@ -528,29 +562,28 @@ black {source_file_or_directory}
 black -S {source_file_or_directory}
 ```
 
-### falsk8
+### autopep8
 
-Python官方发布的一款辅助检测Python代码是否符合规范的工具
-
-参考：[https://zhuanlan.zhihu.com/p/392178725](https://zhuanlan.zhihu.com/p/392178725)
+代码格式化工具
 
 #### 安装
 
-```shell
-pip install flake8
+​```shell
+pip install autopep8
 ```
 
 #### 使用
 
 ```shell
-flake8 {directory}
+autopep8 --in-place --aggressive --aggressive test.py # 将格式化后的代码重新写入文件中
+autopep8 --aggressive --aggressive test.py # 直接看格式化效果，不覆盖原有的代码
 ```
 
 ### mypy
 
-参考：[https://www.modb.pro/db/127528](https://www.modb.pro/db/127528)
-
 mypy是一款针对python的静态类型检查程序，默认情况下mypy不会提醒代码任何错误，如果使用的是Python3.6及以上版本，可以使用typing模块为代码进行类型标注，然后mypy就可以根据这些类型提示检查应用程序
+
+参考：[https://www.modb.pro/db/127528](https://www.modb.pro/db/127528)
 
 #### 安装
 
@@ -562,21 +595,6 @@ pip install mypy
 
 ```shell
 mypy test.py
-```
-
-### autopep8
-
-#### 安装
-
-```shell
-pip install autopep8
-```
-
-#### 使用
-
-```shell
-autopep8 --in-place --aggressive --aggressive test.py # 将格式化后的代码重新写入文件中
-autopep8 --aggressive --aggressive test.py # 直接看格式化效果，不覆盖原有的代码
 ```
 
 ### pydocstyle
