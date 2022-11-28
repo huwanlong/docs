@@ -386,7 +386,7 @@ pyenv update
 pyenv rehash  
 ```
 
-## 依赖库管理
+## 依赖库管理工具
 
 ### pipreqs
 #### 特点
@@ -558,7 +558,7 @@ pip install black
 
 ```shell
 black {source_file_or_directory}
-# 跳过字符串格式化 Black 会默认将字符串格式化为使用双引号包裹，但有些项目已经使用了单引号的规范且不应修改为双引号，就需要加上一个 -S / --skip-string-normalization 的选项。
+# 跳过字符串格式化 Black 会默认将字符串格式化为使用双引号包裹，但有些项目已经使用了单引号的规范且不应修改为双引号，就需要加上一个 `-S / --skip-string-normalization` 的选项。
 black -S {source_file_or_directory}
 ```
 
@@ -568,13 +568,13 @@ black -S {source_file_or_directory}
 
 #### 安装
 
-​```shell
+```shell
 pip install autopep8
 ```
 
 #### 使用
 
-```shell
+​```shell
 autopep8 --in-place --aggressive --aggressive test.py # 将格式化后的代码重新写入文件中
 autopep8 --aggressive --aggressive test.py # 直接看格式化效果，不覆盖原有的代码
 ```
@@ -646,7 +646,16 @@ isort . # 格式化目录
 isort test.py --diff # 只显示修改建议，但不会修改文件
 ```
 
+## 开发工具
+
+### VS Code
+
+配置：[https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+
+参考：[https://www.cnblogs.com/it-tsz/p/9346110.html](https://www.cnblogs.com/it-tsz/p/9346110.html)
+
 ## 参考
+
 1. [Conda和Pyenv哪个好](https://www.zhihu.com/question/265550980/answer/1538304825)
 2. [virtualenv和conda的区别](https://blog.csdn.net/zhouchen1998/article/details/84671528)
 3. [依赖库管理](https://blog.csdn.net/qq_38556887/article/details/125426029)
