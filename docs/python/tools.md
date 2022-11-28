@@ -506,15 +506,130 @@ pipdeptree -f | tee requirements.txt # 生成requirements.txt
 
 ## 格式化工具
 
+[代码规范 PEP](https://peps.python.org/)
+
+### black
+
+代码格式化工具
+
+参考：[https://muzing.top/posts/a29e4743/](https://muzing.top/posts/a29e4743/)
+
+#### 安装
+
+```shell
+pip install black
+```
+
+#### 使用
+
+```shell
+black {source_file_or_directory}
+# 跳过字符串格式化 Black 会默认将字符串格式化为使用双引号包裹，但有些项目已经使用了单引号的规范且不应修改为双引号，就需要加上一个 -S / --skip-string-normalization 的选项。
+black -S {source_file_or_directory}
+```
+
 ### falsk8
+
+Python官方发布的一款辅助检测Python代码是否符合规范的工具
+
+参考：[https://zhuanlan.zhihu.com/p/392178725](https://zhuanlan.zhihu.com/p/392178725)
+
+#### 安装
+
+```shell
+pip install flake8
+```
+
+#### 使用
+
+```shell
+flake8 {directory}
+```
+
+### mypy
+
+参考：[https://www.modb.pro/db/127528](https://www.modb.pro/db/127528)
+
+mypy是一款针对python的静态类型检查程序，默认情况下mypy不会提醒代码任何错误，如果使用的是Python3.6及以上版本，可以使用typing模块为代码进行类型标注，然后mypy就可以根据这些类型提示检查应用程序
+
+#### 安装
+
+```shell
+pip install mypy
+```
+
+#### 使用
+
+```shell
+mypy test.py
+```
+
+### autopep8
+
+#### 安装
+
+```shell
+pip install autopep8
+```
+
+#### 使用
+
+```shell
+autopep8 --in-place --aggressive --aggressive test.py # 将格式化后的代码重新写入文件中
+autopep8 --aggressive --aggressive test.py # 直接看格式化效果，不覆盖原有的代码
+```
 
 ### pydocstyle
 
+静态分析工具，用于检查是否符合python 文档字符串约定，支持 PEP 257 开箱即用
+
+#### 安装
+
+```shell
+pip install pydocstyle
+```
+
+#### 使用
+
+```shell
+pydocstyle test.py # 格式化指定文件
+pydocstyle . # 格式化目录
+```
+
 ### isort
 
-### black
+#### 背景
+
+PEP8 有建议 Python 模块中 import 的导入顺序
+
+1. 首先引入标准库里的模块
+2. 然后引入第三方模块
+3. 最后引入自己的模块
+
+属于同一个部分的 import 语句按字母顺序排列
+
+isort 可以自动将 Python 模块中的 import 进行排序，并自动按类型划分以满足上面说的 PEP8 规范
+
+官网：[https://pycqa.github.io/isort/docs/configuration/options.html](https://pycqa.github.io/isort/docs/configuration/options.html)
+
+参考：[https://zhuanlan.zhihu.com/p/392489048](https://zhuanlan.zhihu.com/p/392489048)
+
+#### 安装
+
+```shell
+pip install isort
+```
+
+#### 使用
+
+```shell
+isort test.py test1.py # 格式化指定文件
+isort . # 格式化目录
+isort test.py --diff # 只显示修改建议，但不会修改文件
+```
 
 ## 参考
 1. [Conda和Pyenv哪个好](https://www.zhihu.com/question/265550980/answer/1538304825)
 2. [virtualenv和conda的区别](https://blog.csdn.net/zhouchen1998/article/details/84671528)
 3. [依赖库管理](https://blog.csdn.net/qq_38556887/article/details/125426029)
+5. [pylint、Flake8、Isort、Autopep8、Yapf、Black区别](https://www.cnblogs.com/bonelee/p/11045196.html)
