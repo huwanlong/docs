@@ -26,8 +26,8 @@ editLink: false
 
 ### 工具
 
-[前端](/tools/frontend/) -  [`NPM`](/tools/frontend/NPM.html) [`Yarn`](/tools/frontend/Yarn.html) [`nvm`](/tools/frontend/nvm.html) [`Verdaccio`](/tools/frontend/Verdaccio.html) [`Lerna`](/tools/frontend/Lerna.html) [`VS Code`](/tools/frontend/VS%20Code.html)
+[前端](/tools/frontend/) -  [`NPM`](/tools/frontend/NPM.html) [`Yarn`](/tools/frontend/Yarn.html) [`nvm`](/tools/frontend/nvm.html) [`Verdaccio`](/tools/frontend/Verdaccio.html) [`Lerna`](/tools/frontend/Lerna.html) 
 
-[Python](/tools/python/) - [`Anaconda`](/tools/python/anaconda.html) [`pip`](/tools/python/pip.html) [`pyenv`](/tools/python/pyenv.html)
+[Python](/tools/python/) - [`Anaconda`](/tools/python.html#anaconda) [`pip`](/tools/python.html#pip) [`pyenv`](/tools/python.html#pyenv)
 
-[系统](/tools/system/) - [`linux`](/tools/system/linux.html) [`ubuntu`](/tools/system/ubuntu.html) [`git`](/tools/system/git.html) [`vim`](/tools/system/vim.html)
+[系统](/tools/system/) - [`linux`](/tools/system/linux.html) [`ubuntu`](/tools/system/ubuntu.html) [`git`](/tools/system/git.html) [`vim`](/tools/system/vim.html) [`VS Code`](/tools/system/VS%20Code.html)

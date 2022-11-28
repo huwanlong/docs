@@ -11,4 +11,3 @@ title: 概述
 3. [nvm](/tools/frontend/nvm.html)
 4. [Verdaccio](/tools/frontend/Verdaccio.html)
 5. [Lerna](/tools/frontend/Lerna.html)
-6. [VS Code](/tools/frontend/VS%20Code.html)

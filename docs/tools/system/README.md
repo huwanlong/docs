@@ -10,3 +10,4 @@ title: 概述
 2. [ubuntu](/tools/system/ubuntu.html)
 3. [git](/tools/system/git.html)
 4. [vim](/tools/system/vim.html)
+5. [VS Code](/tools/system/VS%20Code.html)

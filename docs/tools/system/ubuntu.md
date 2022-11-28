@@ -43,107 +43,11 @@ sudo apt-get install git
 ## 开发环境
 
 ### `miniconda`
-
-> 参考：[https://blog.csdn.net/djfjkj52/article/details/107330301](https://blog.csdn.net/djfjkj52/article/details/107330301)
-
-#### 常用命令
-
-```shell
-# 激活环境
-source ~/miniconda3/bin/activate
-# 更新
-conda update conda
-# 创建新环境
-conda create --name <env_name> <package_names>
-# 如
-conda create -n python38 python=3.8 numpy pandas
-# 切换环境
-activate <env_name>
-# 退出当前环境
-conda deactivate
-# 显示已创建环境
-conda info -e
-# 删除环境
-conda remove --name <env_name> --all
-# 在当前环境中安装包
-conda install <package_name>
-# 卸载当前环境中的包
-conda remove <package_name>
-# 更新指定包
-conda update <package_name>
-# 更新所有包
-conda update --all
-# 导出
-conda list -e > requirements.txt
-# 导入
-conda install --yes --file requirements.txt
-```
+[miniconda](/tools/python.html#miniconda)
 
 ### `pyenv`
+[pyenv](/tools/python.html#linux安装)
 
-> 参考：[https://blog.kyomind.tw/ubuntu-pyenv/](https://blog.kyomind.tw/ubuntu-pyenv/)
-> [https://blog.csdn.net/weixin_42892543/article/details/122544900](https://blog.csdn.net/weixin_42892543/article/details/122544900)
-> 
-#### 安装
-```shell
-# 系统没有python命令，安装python-is-python3包可以指定python为默认的python3
-sudo apt install python-is-python3
-
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-```
-
-#### 环境变量
-```shell
-# 这一段貌似有问题
-echo -e 'if shopt -q login_shell; then' \
-      '\n  export PYENV_ROOT="$HOME/.pyenv"' \
-      '\n  export PATH="$PYENV_ROOT/bin:$PATH"' \
-      '\n eval "$(pyenv init --path)"' \
-      '\nfi' >> ~/.bashrc
-# 需要改成下面两条，先记录一下，后续观察
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-
-echo -e 'if [ -z "$BASH_VERSION" ]; then'\
-      '\n  export PYENV_ROOT="$HOME/.pyenv"'\
-      '\n  export PATH="$PYENV_ROOT/bin:$PATH"'\
-      '\n  eval "$(pyenv init --path)"'\
-      '\nfi' >>~/.profile
-echo 'if command -v pyenv >/dev/null; then eval "$(pyenv init -)"; fi' >> ~/.bashrc
-source ~/.bashrc
-```
-#### 安装依赖
-```shell
-sudo apt-get install libc6-dev gcc
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
-```
-#### 指定源下载
-
-> 参考：[https://blog.csdn.net/qq_43213352/article/details/104343365](https://blog.csdn.net/qq_43213352/article/details/104343365)
-
-```shell
-v=3.6.0; wget https://npm.taobao.org/mirrors/python//$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v 
-```
-
-#### 安装pyenv-virtualenv
-```shell
-git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-```
-
-#### 使用方法
-```shell
-# 以3.8.7（需要先install）创建虚拟环境
-pyenv virtualenv 3.8.7 test 
-# 激活
-pyenv activate test
-# 退出
-pyenv deactivate test
-# 删除
-pyenv uninstall test
-```
-
-[常用命令](/tools/python/pyenv.html#常用命令)
 
 ### `Node.js`
 
