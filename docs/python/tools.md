@@ -563,6 +563,23 @@ pip install flake8
 flake8 {directory}
 ```
 
+### pycodestyle
+
+pycodestyle 检查器提供基于 PEP-8 样式约定的代码建议，原名`pep8`
+
+#### 安装
+
+```shell
+pip install pycodestyle
+```
+
+#### 使用
+
+```shell
+pycodestyle test.py
+pycodestyle --statistics -qq test.py # 查看错误发生的频率
+```
+
 ### black
 
 代码格式化工具
@@ -598,6 +615,24 @@ pip install autopep8
 ```shell
 autopep8 --in-place --aggressive --aggressive test.py # 将格式化后的代码重新写入文件中
 autopep8 --aggressive --aggressive test.py # 直接看格式化效果，不覆盖原有的代码
+```
+
+### yapf
+
+Yapf是另一种有自己的配置项列表的重新格式化代码的工具。它与 Autopep8 的不同之处在于它不仅会指出代码中违反 PEP 8 规范的地方，还会对没有违反 PEP 8 但代码风格不一致的地方重新格式化，旨在令代码的可读性更强。
+
+[配置项](https://github.com/google/yapf#usage)
+
+#### 安装
+
+```shell
+pip install yapf
+```
+
+#### 使用
+
+```shell
+yapf [options] {source_file_or_directory}
 ```
 
 ### mypy
