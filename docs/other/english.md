@@ -866,27 +866,57 @@ We are social beings. This means we cannot live alone. We need friends to help u
 
 ### 161. Sri Lanka 斯里兰卡
 
+The famed Italian explorer Marco Polo considered Sri Lanka the finest island of its size in the world. Sri Lanka is slightly larger than the U.S. state of West Virginia. Through the years, this exotic island has had many names: Serendib, Ceylon, the Teardrop of India, and the Pearl of the Indian Ocean, just to name a few. Many visitors through the years have admired its richness and beauth. From 1798 until it gained independence from England in 1948, Sri Lankan culture was greatly influenced by the British. Thus, tea is an important part of Sri Lankan life. Ceylon tea from Sri Lanka is acclaimed as one of the best tea in the world, and tea is in production all year round. Sri Lanka is an island with many positive things to offer the curious traveler.
+
 ### 162. A Polite Man 有礼貌的人
+
+When making a request, he says, "Please," and then, "Thank you," when he receives something. He stands up when a lady stands up, and he doesn't sit down until she is seated. He does not interrupt other people when they are talking, and he listens to what they have to say. He does not talk or laugh loudly in public. When eating, he doesn't speak with his mouth full of food. He always says, "Bless you," when someone else sneezes. And he uses a handkerchief when he sneezes or coughs. He is the prefect example of a polite person.
 
 ### 163. Practice Makes Perfect 熟能生巧
 
+"Practice makes perfect" has often been said of learning a new skill. This is equally true of learning mathematics. Take Maggie for example. She would read the explanations and the sample problems in her book, and think she understood them so well that she didn't have to work out the problems. She never regarded mathematics as hard until examination times came. Then she found that she lacked the experience in applying what she had learned from reading to the solving of problems. Mathematics is practiced best throught the actual experience of solving problems, not just through reading about how to solve them. In math, just like a foreign language, practice makes perfect.
+
 ### 164. Books 读书的乐趣
+
+Books are to mankind what memory is to the individual. They contain the history of our race, the discoveries we have made, and the accumulated knowledge and experience of many different time periods. They picture for us the wonder and beauty of nature and explain to us its many changes. Books teach us how to face and overcome difficult challenges, and comfort us when we are grieving. Books can change hours of boredom into moments of joy. They fill our minds with ideas and even a few happy thoughts. Like a good memory, a good book is a priceless treasure. If you find yourself bored by a book that educated people regard as important, be honest with yourself. The difficulty is probably not in the book but in you. Often a book, which now seems boring or difficult, will be easy to grasp and fascinating to read when you are more intellectually mature.
 
 ### 165. Failure 失败
 
+Failure is never pleasurable. It hurts adults and children alike. On the other hand, it can make a positive contribution to your life once you learn how to take advantage of it. Step one is to ask, "Why did I fail?" Step two is to resist the natural impulse to blame someone else. Don't beat yourself up over your failure, either. Ask yourself what you did wrong and how you can improve. If someone else can help, don't be shy about asking. Maybe he or she has been through the same thing before. Many people enjoy helping others overcome a problem with which they have already struggled. This can save you a lot of time in learning how not to repeat the same mistakes in the future.
+
 ### 166. Is Music a Noise? 音乐是噪音吗？
+
+A music lover of the nineteenth century might have had to make a considerable sacrifice of time and money to follow his hobby. However, the arrival of the radio has made an almost unbelievable difference in our lives. Nowadays, people do not have to pay money to follow their hobby of listening to music. Instead, they have to pay to get away from all the noise. Music has become part of the noise system that surrounds us. It is constantly in the air. It assails us at home and at school, in a taxi, and even along the sidewalk. There are even companies that make a living recommending the right kind of background music to anyone who may ask-be he the manager of a store selling expensive gowns, or a dentist with a waiting room full of nervous patients.
 
 ### 167. Enlarging Our Vocabulary 增加我们的词汇量
 
+No one knows how man learned to make words. Perhaps he began by imitating animals. Perhaps he imitated sounds he heard all around him: the crashing of ocean waves, bees buzzing, or a stone falling to the ground. In some way he learned to make words. As the centuries went by, he made more words. This is waht we mean by language. The words we know are our vocabular. We should try to expand our vocabulary whenever possible. We should read as many books as we can, too. Of course, we will most likely come across words we didn't know before. When we find a new word, we should look it up in the dictionary. The dictionary is the most useful book of all.
+
 ### 168. Stay Fit for a Test 考前应注意健康
+
+MInd and body work together. That is why it is important for you to take care of your body as well as your mind when you are preparing for an exam. Follow the common-sense rules of health: get sufficient sleep and rest, eat proper foods, and plan recreation and exercise. In relation to health and exams, two cautions are in order. First, don't skip meals prior to a test in order to keep studying. Secondly, don't miss your regular sleep by sitting up late "cramming" for the test. Cramming is an attempt to learn in a short period of time what should have been learned through consistent study. These two habits are harmful to one's health and rarely pay off in the long run. It is likely that you will be more confused than better prepared on the fay of the test if you have missed meals or lost sleep.
 
 ### 169. A High-Tech World 世界科技日日新
 
+We are all aware that technology has created a world that even our ancestors would not have believed possible. Many of them would have been scared if they had know how society would become. We take most of this new world completely for granted. We merely push buttons, dial telephones and board jet planes without asking questions. We do not have a real sense of the fact that we know almost nothing about how these gadgets and machines work. Read popular magazines or watch commercials on TV, and you will see that faster transportation and more completely automatic conveniences are in the works. Many strange-looking machines will create an even happier world of tomorrow. Our children will live in a world more technologically advanced than the world which even we think is possible.
+
 ### 170. Ecology 生态学
+
+In the last 150 years or so, scientists have become interested in the way animals and plants live together. This interest has created a new branch of science called ecology. Over millions of years, plants and animals have learned to change themselves so they can fit perfectly into their environment. For example, a saltwater fish lives best in the ocean and a mouse is healthiest in a field. Certain organisms may be found in a large area, but they do not live in all of it. They are usually only found in a small part of it. This is the place where it is easiest for them to live. Ecologists call this place their habitat. They study the way organisms survive in their natural habitat.
 
 ### 171. We Need Society 我们不能离开社会
 
+In our efforts to improve society, we must keep in mind that everything in life is not always predictable. For example, things such as raising a family, coping with illness, making a decent living and preparing for old age are commong things in life that we all must face. These things do not always happen the way we plan.
+
+Society is nothing more than a community. When we discuess the kind of society in which we want to live, we must remember its purpose. The reason why we must have society is to help people have the best possible life. In short, society should help people live their lives. If society helps us overcome the unpredictable obstacles we all face in life, it will make life even more worth living.
+
 ### 172. Louis Braille 盲人点字法发明人
+
+Louis Braille was born in France in 1809. His father had a small business making leather goods. One day, Louis went into his father's workshop to cut some leather. Suddenly the knife slipped and hit him in the eye. An infection soon spread to his other eye, and Louis went completely blind.
+
+At ten, Louis entered a school for the blind. One day his class went to visit a special exhibit. Here, Louis learned about a special militay code, which was make up of raised letters written on very thich paper.
+
+Louis decided to write i the same way so blind people could "read" with their fingers. However, it was very difficult to feel the differences between letters. Instead, Braille developed his own system using a series of six dots. Today, Louis Braille's system is used around the world.
 
 ### 173. Inflation 通货膨胀
 
