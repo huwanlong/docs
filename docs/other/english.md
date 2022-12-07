@@ -920,9 +920,15 @@ Louis decided to write i the same way so blind people could "read" with their fi
 
 ### 173. Inflation 通货膨胀
 
+Inflation is an economic situation in which prices increase at the same time that the value of a nation's currency decreases. During times of inflation, people buy less because they cannot afford the inflated, or higher, prices. Since people buy less, production slows down, and many companies have to lay off workers. As this happens, more and more people start to worry about the future. Because of an increase in the number of unemployed workers, many people cannot afford to buy things they want. This period of high unemployment and low spending is called a recession. When two or more quarters have a decline in GDP, then a country is going through a recession. A quarter is one-fourth of the year. Thus, if you notice that less money is being made from the products your country produces during half the year, you can be certain it is going through a recession.
+
 ### 174. Moods and Weather 心情随天气而变化
 
+When stormy weather appears. Psychologists say that rain or snow can bring on depression in many people. A friend of mine lived in Alaska for three years, and she stayed depressed for about six months of the year. The reason for her depression was due to the fact that the sun barely makes an appearance during half of the year in that part of the world. In contrast, during sunny weather, people in Alaska and elsewhere tend to be happier and friendlier. During pleasant weather, people are more willing to help each other. But when the summer weather becomes too hot and humid, people are likely to become more irritable.
+
 ### 175. Body Language 肢体语言
+
+In additon to speaking with our voices, we alse talk with our bodies. People often move their hands to emphasize what they are saying and to show the person listening to them that they are saying something important. They also make facial gestures, such as raising their eyebrows or tilting their heads at an angle. Listeners use gestures, too. They may nod their heads to show that they have understood or shake them to indicate disagreement. While the power of speech gives us the ability to make a point, and the tone of our voice indicates our mood, it is our body language that is often more meaningful than our words.
 
 ### 176. Working Mothers 在职妈妈
 
