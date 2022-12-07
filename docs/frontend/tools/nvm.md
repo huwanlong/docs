@@ -45,6 +45,17 @@ nvm root [path] # 设置存储不同版本node的目录。如果未设置，默�
 nvm version # 显示nvm版本。version可简化为v。
 ```
 
+## 报错
+
+```shell
+exit status 5: 乱码
+exit status 1: 乱码
+```
+
+解决方法
+
+使用管理员运行cmd执行命令
+
 ## 参考
 
 [https://www.cnblogs.com/gaozejie/p/10689742.html](https://www.cnblogs.com/gaozejie/p/10689742.html)
