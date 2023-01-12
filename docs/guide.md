@@ -24,7 +24,7 @@ editLink: false
 
 [机器学习](/python/机器学习/)
 
-[Django](/python/Django/)
+[Django](/python/django/)
 
 [工具](/python/tools/) - [`Anaconda`](/python/tools.html#anaconda) [`pip`](/python/tools.html#pip) [`pyenv`](/python/tools.html#pyenv)
 

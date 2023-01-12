@@ -22,7 +22,7 @@ module.exports = [
     text: 'Python',
     items: [
       { text: '开发工具', link: '/python/tools/' },
-      { text: 'Django', link: '/python/Django/' },
+      { text: 'Django', link: '/python/django/' },
       { text: '数据挖掘', link: '/python/数据挖掘/' },
       { text: '机器学习', link: '/python/机器学习/' },
     ],

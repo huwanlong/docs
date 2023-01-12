@@ -44,6 +44,12 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+## 区分文件名大小写
+
+```shell
+git config core.ignorecase false
+```
+
 ## 设置全局使用提交时名字和邮箱
 
 ```shell
