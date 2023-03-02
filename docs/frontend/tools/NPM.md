@@ -26,18 +26,6 @@ npm install # 安装package.json中的包，如果node_modules中有的包刚不
 npm install --force # 强制安装package.json中的包，node_modules中有的也会安装
 ```
 
-如果出现以下错误
-
-```shell
-npm err! Error: connect ECONNREFUSED 127.0.0.1:8087
-```
-
-解决方法
-
-```shell
-npm config set proxy null
-```
-
 ## 查看安装信息
 
 ```shell
@@ -72,6 +60,8 @@ npm config get key # 读取值
 npm config delete key # 删除
 npm config list # 显示当前配置
 npm config set registry https://registry.npm.taobao.org # 设置淘宝镜像
+npm config set proxy localhost:10809 # 添加代理
+npm config set proxy null # 去掉代理 npm err! Error: connect ECONNREFUSED 127.0.0.1:10809
 ```
 
 ## 创建模块

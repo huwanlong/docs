@@ -56,3 +56,11 @@ git config core.ignorecase false
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 ```
+
+## 未检测到此文件的改变，或者这是一个二进制文件
+
+```shell
+# 因为文件的权限发生了变化，git默认权限的改变也算文件发生了变化
+git config --add core.filemode false
+```
+
