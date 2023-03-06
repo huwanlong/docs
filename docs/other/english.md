@@ -932,43 +932,109 @@ In additon to speaking with our voices, we alse talk with our bodies. People oft
 
 ### 176. Working Mothers 在职妈妈
 
+The majority of women with children in industrialized nations work outside the home. Society has been slow to accept this fact, and it has done little to make life easier for working mothers. Not only do they have to work hard in the workplace, but back home, they have a lot of chores to do. It's not too much to say that working mothers live a tough life every day. Finding good, reliable childcare is often difficult. There are not enough daycare centers, and many working mothers do not have family members who are available to help them take care of their children.
+
+Fathers do more to help rear their children than they did in the past. But they, too, have to work. Working mothers are not astisfied with the child-care arrangements available to them. Thus, What to do and which daycare center to depend on are critical questiosn working mothers struggle with each day.
+
 ### 177. Independence Day 美国国庆节
+
+Americans celebrate their National Day every year on July 4th. It was on this day in 1776 that the colonists declared their independence from England. They did this on a piece of paper known as the Declaration of Independence. Thomas Jefferson is credited with writing most of it. He later became America's third president.
+
+Nowadays, most Americans have a day off work and get together with family and friends for a barbecue or a picnic. Most friends for a barbecue or a picnic. Most children set off fireworks in the evening with their parents. The occasion is also marked by lavish fireworks displays in some communities. Of course, the flag is flown across America on the Fourth of July as a token of patriotism.
 
 ### 178. Bones and Smoking 骨折与抽烟
 
+"Smoking is bad not only for your lungs, but for your bones as well, " says the American Academy of Orthopedic Surgeons. Smoking increases your risk of developing osteoporosis, a disease that especially affects older women. The bones in people with this disease are weak and full of holes. Smoking causes osteoporosis, or fragile bones, by reducting the blood supply to your bones and slowing the production of bone-forming cells. Fragile bones increase your risk of a hip fracture as you age.
+
+Fractures take longer to heal in smokers. Smokers also have a higher rate of complications after surgery than nonsmokers. Thus, if you are a smoker, it is in your best interest to stop. Not only will your lungs thank you, but your bones will be pleased as well.
+
 ### 179. We're Chameleons 我们与变色龙没什么两样
+
+Most of us have learned to vary our language and our behavior to meet the needs of different circustances. We fell free to yell at our children when they have misbehaved, but we are not likely to shout at our bosses when they have upset us. We tease our friends, but we don't often joke around with strangers. Likewise, we may accept hugs and kissed from members of our family, but many of us get uneasy when people we don't know very well touch us. If you think about it, there are thousands of ways that we show that someone is a friend or someone we've just met.
 
 ### 180. Credit Cards 信用卡
 
+When you pay for something with your credit card, the salesman will take your card and fill out a form using a computer or a machine. He will ask you to sign the form and then give you a copy. The credit card company sends you a bill once a month, showing the purchases you made and any balance left to pay from the month before. Usually, you have thirty days to pay before they charge you interest for new purchases. With a credit card, you find it easy and convenient to buy things.
+
+For many people, however, a credit card can be a dangerous thing. This is because they spend more money than they could repay in thirty days' time. If so, they may end up in debt. For safety's sake, some have decided not to use credit cards any more.
+
 ### 181. Which Way to Go? 大城市浏览须知
+
+One of a tourist's greatest problems in a new city is often finding her way to the things she needs and wants, such as food, a place to stay, and fun things to do. Most cities have a complicated transportation system, and a visitor will do well to master this system.
+
+The first thing she should do is buy a  public transportation map of the city as soon as she arrives. Next, she should become familiar with the local routes and timetables. Armed with this knowledge, a tourist should be able to find her way around any part of the city. After all, it can be quite fun to travel through a new city, exploring intersting spots on the map.
 
 ### 182. Success 成功
 
+There are no secrets to success. Success is doing the things you should do. It is not doing the things you know you should not do. It is not limited to any one area of your life. It is a part of every one of your relationships. You should try to be a success as a parent, a wife or husband, a neighbor, and a worker. You cannot become a success one day and stop there. You will always need to do things so that you can stay successful. Success is having the courage to fail and still keep going. It is refusing to let a loss stop you from reaching your lifelong goals. Anyone can be a success if he puts his mind to it.
+
 ### 183. The Earth 地球
+
+When you stand on the beach and look at the sea, the horizon, or skyline, seems to stretch straight across from left to right for hundreds of kilometers. However, the horizon isn't a straight line. As you look at the far left and right edges of this line, you will notice what seem to be slight curvatures. The reason for these curves is that our earth is shaped like a sphere, or ball.
+
+Seen from space, the earth is almost perfectly round and appears to have a smooth surface. The earth is one of many planets in our solar system. However, it is the only planet that has the right conditions for human life. Other planets would be too cold or too hot for humans, or the atmosphere would be too poisonous. The next time you go to the beach, remember that there is no other place like this planet anywhere else in the universe.
 
 ### 184. Just Do Our Best 凡事尽力而为
 
+The people who seem to get the most out of life are those who have one thing in common: They go all out, no matter what they are doing. It does not matter if it is work or play. In everything, they try to do the best they can. They are satisfied with nothing but the best. These are the people who excel in sports, business, art and politics, to name a few. A friend of mine is just this type of person. He is always winning awards for being the top salesman in his company. By nature, most people do not always try to be the best at everything they do, but it would not hurt society if everyone tried to follow my friend's example.
+
 ### 185. Dreams Mirror Life 梦反映现实生活
+
+Have you ever dreamed your feet were stuck to the ground and you could not get off the railroad tracks in time to get away from the train that was speeding towards you? For thousands of years, people have tried to figure out these kinds of dreams mean. Scientists and scholars alike think they may have begun to understand. They think that these dreams mirror our real lives. If we understand our dreams, we might be able to improve our lives.
+
+For example, being chased and yet unable to move often means that something in our lives seems hopeless. Nightmares that include falling mean we are insecure about something important. When we dream of ourselves in helpless situations night after night, we can use this information to improve some of the things in our real lives. After all, no one wants every dream to come true.
 
 ### 186. Abraham Lincoln 亚伯拉罕 林肯
 
+Abraham Lincoln was born in a log cabin in what is now Kentucky. He was elected President of the United States in 1860. Soon after he become president, Several states withdrew from the Union and formed the Confederate States of America. Later, war between the North and the South broke out. Known as the Civil War, it lasted for four years. Lincoln dreamed for a unified country. Lincoln's wisdom and political ability make him an able-bodied leader. Not only did his leadership help the North win the war, but it also contributed to the removal of slavery. Unfortunately, he did not live to see his dream fulfilled. A mad actor killed him while he was at the theater, days before the war came to an end.
+
 ### 187. Anasazi Pueblos 阿那萨齐部落的石屋城
+
+By the 9th century, several Indian tribes had prospered in North America. One of these was the Anasazi. The Anasazi Indians lived in pueblos. Pueblos are large, multistory apartment compounds made of stone. Its name comes from the Spanish word for "town". A pueblo usually contains dozens of houses constructed below cliffs. It was large enough to hold up to hundreds of families.
+
+Aside from living quarters, each pueblo included one or more circular underground rooms. They provided a suitable place where the elders led religious ceremonies and the villagers settled their affairs. When the Spanish first arrived in the area, they heard stories of cities made of gold, but none of these cities was ever found. Anasazi pueblos were probably the source of this myth.
 
 ### 188. The Olympics 奥运会的由来
 
+Ancient Greeks were romantic, loved freedom, and valued physical fitness and strength in their education of the youth. Their love of sports was in harmony with their religion. To honor their chief god, Zeus, they held games once every four years at the foot of Mt. Olympus. The games were mode up of contests of sports, music, and literature. Only men participated in the original games, and they did so in the nude. Athletes that had been selected and sent by cities competed for prizes. Winners were awarded a crown made of wild olive leaves. When the olive crown was presented to the winner, there were people singing poems to express their respect. Greeks loved the games so much that they would stop any war in progress to let the athletes come and return home safely after the games.
+
 ### 189. Holes on the Moon 月球上坑洞的由来
+
+There are many holes, or craters, on the moon. A few decades age, it was believed that the holes were caused by volcanic eruptions. Today, scientists believe that objects from outer space created them. The process is actually quite simple. When a meteorite strikes the ground, a huge amount of heat is produced. This heat melts the meteorite and the nearby soil. A part of  the meteorite and the soil evaporates and leaves a large hole behind. Normally, the larger the meteorite is, the larger the hole it creates. Scientists estimate that the meteorite that produced the largest lunar crater weighed more than 200 billion tons. Lunar scientists are learning all the time, and soon they will have solved all the mysteries of the moon.
 
 ### 190. The Sun 太阳
 
+The sun is the star that is the central body of our solar system. Around this star, Earth and other planets revolve, and from it they receive light and heat. The sun is part of the Milky Way and is only one of billions of stars in the universe. Despite being an ordinary star, our sun is more important to man than any other star. If there were no heat or light from the sun, there could be no life on Earth.
+
+On average, the distance from the sun to Earth is 93 million miles, yet the sun comes closer to Earth than any other star. Therefore, scientists study it to learn about stars much farther away. The surface of the sun consists of hot gases that give off light and heat. Only a very small portion of the star's energy reaches Earth, and the rest is lost in space.
+
 ### 191. An Expedition 一次探险
+
+Before the discovery of the American continents by Europeans in the fifteenth century, there was an interestion expedition. Late in the tenth century, Eric the Red, a Norwegian, discovered Greenland and planned a colony there. Shortly afterward, a Norwegian ship bound for Greenland lost its way and landed on a coast after nine days' sail to the south. In the year 1000, Leif the Lucky, a son of Eric, explored this region. He named it Vinland. It is assumed that what he found was the coast of Newfoundland. The Norwegian sailors tried a few years later to start a colony there, but the project was abandoned because of the unfriendliness of the natives. Even though these efforts failed, it is amazing that the landings were at such an early date.
 
 ### 192. Wood 木材
 
+The resources of the American did not differ strikingly from those of Europe, except in one way. Especially by comparision with the British, Americans had a plentiful supply of wood. Wood was the foundation of economy. First of all, houses and buildings were made of wood to an extent that was unknown in Britain. Secondly, wood was used as a fuel for heating and cooking. It was used for other things, too, but these are the two most important. Whereas Englishmen could be arrested for chopping down a tree on the king's land, Americans could find available wood everywhere they looked. Even today, America has an abundance of wood.
+
 ### 193. Pablo Picasso 毕加索
+
+It sometimes happens that an artist will acquire traditioal skills and then, wishing to break away from the past, he will discard them. Pablo Picasso is a good example of an artist who did just that. Early in his career, he mastered the techniques of drawing and painting. Then he learned to do without the old ways and moved towards something entirely his own.
+
+A top European artist, Picasso drew and sculpted. However, he is most famous for his unusual paintings. The Spaniard is said to have been brilliant and generous. At the same time, he was also chauvinistic and ruthless. Even so, that didn't lessen his reputation as a great artist. In fact, his artistic explorations helped shape the course of 20th-century modern art. The art world has not been the same since Picasso came on the scene.
 
 ### 194. Thank You, Doggie! 谢谢你，狗狗！
 
+Dog-training centers the world over train dog guides for the blind, deaf, and other physically challenged people. German shepherds, Labradors, and golden retrievers are used as guides for the blind. These particular breeds have proven successful because of their willingness, health, and mild temperament.
+
+Service dogs for the deaf are usually mixed breeds rescued from animal shelters. Friendly, energetic, and intelligent dogs are chosen to alert their masters to sounds in their home or work environment.
+
+Training a guide dog is a multi-step process. "Seeing" dogs are taught to be on duty when in harness. When out of harness, they behave like any other dog and are treated as family pets. "Hearing" dogs have a less rigid set of rules. Masters of these dogs may have a physical challenge, but all their dogs see is love.
+
 ### 195. A Great Cartoonist 创造史努比的漫画家
+
+At the time of his death in 2000, Charles M.Schulz's work appeared in over 2300 newspapers. He had published more than 1400 books and his talent had earned him many awards throughout his 50-year career. What was it that Schulz did to earn him so much recognition around the world? He created the beloved comic strip, "Peanuts".
+
+Who can forget such characers as Charlie Brown and Snoopy? It was one of the first comic strips with more than two or three characters. Each "Peanuts" character brought special humor and insight to life. His comic strip dealt with psychology, social commentary, and humor. What made it special was that all these issues were dealt with from a child's viewpoint. "There is a market for innocence." said Schulz.
 
 ### 196. It Runs in the Family 一人生病，全家遭殃
 
