@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7788f5fc6f6aed099f4c79378028ed8c"
+    "revision": "4eedfeae90cd05957e411cd8a1b34fe4"
   },
   {
     "url": "about.html",
-    "revision": "a77fc904e2b59f12ff25790677acb800"
+    "revision": "ba7ad11ac3ad3bd18399140542d195c5"
   },
   {
     "url": "app.png",
@@ -118,11 +118,11 @@ self.__precacheManifest = [
     "revision": "f316e887b7b9c689fc555178302c5774"
   },
   {
-    "url": "assets/js/19.018fa903.js",
-    "revision": "22585c08e4d2d6f7c81e0d5169d2e497"
+    "url": "assets/js/19.bb05d55c.js",
+    "revision": "0db286d8e55ba593f6458b32b109a2c0"
   },
   {
-    "url": "assets/js/2.23b71ba4.js",
+    "url": "assets/js/2.c0ec5dc5.js",
     "revision": "3bbfc7bb79ce079d21fd86c69ff61cd4"
   },
   {
@@ -178,8 +178,8 @@ self.__precacheManifest = [
     "revision": "84b764343fa3e0c3817d895634f2a75f"
   },
   {
-    "url": "assets/js/32.2d1e2adc.js",
-    "revision": "1c011c28f381a9664e084e13273deee9"
+    "url": "assets/js/32.dbdc0b0b.js",
+    "revision": "b121f14fec0c0817d9f757f6faab07c2"
   },
   {
     "url": "assets/js/33.2eb1f348.js",
@@ -238,8 +238,8 @@ self.__precacheManifest = [
     "revision": "ebffb858d844f81495655e1495ef2b24"
   },
   {
-    "url": "assets/js/46.92d32b30.js",
-    "revision": "be691f11f737fb2a56973b550d2ecd54"
+    "url": "assets/js/46.1177bc2a.js",
+    "revision": "82fe8d905780ccbf0feaca3d34c876c0"
   },
   {
     "url": "assets/js/47.d6a0a4b7.js",
@@ -278,64 +278,64 @@ self.__precacheManifest = [
     "revision": "495eaeaffc7014e0f7c0e7d3065487c5"
   },
   {
-    "url": "assets/js/app.a747f241.js",
-    "revision": "932d9054ea336be8c3195d2ef022dfcf"
+    "url": "assets/js/app.00f5a3c0.js",
+    "revision": "c46de060047a4ffe3e50e2d3a93dabe4"
   },
   {
     "url": "bookmarks/index.html",
-    "revision": "96d25c2c7a56ea5fbc10fb0d0362473d"
+    "revision": "b71d98b75290dbc79ea5bb648b5a5480"
   },
   {
     "url": "frontend/electron.html",
-    "revision": "1a774192b7575d490863c409b041563e"
+    "revision": "14019a98d4a03884aca290d2c6bf5a89"
   },
   {
     "url": "frontend/points.html",
-    "revision": "302716cc1446047ab7e6a0aa27c8e92f"
+    "revision": "53329b221275d701b4ff73716d96f0fe"
   },
   {
     "url": "frontend/SSR.html",
-    "revision": "825949e8d59ddf5193b9247edc40ecb2"
+    "revision": "c0ce5e19bad81d3ce6156e155c0d625c"
   },
   {
     "url": "frontend/tools/index.html",
-    "revision": "6f25bc6de179e2ef2a9f83697c16556a"
+    "revision": "e10892dbe661ddf89e1095d9ea97a62d"
   },
   {
     "url": "frontend/tools/Lerna.html",
-    "revision": "e422a0bd55b3b3e251ad59635652898d"
+    "revision": "6d0893dc0e01d7d2e0ae9cc7063d9fc2"
   },
   {
     "url": "frontend/tools/NPM.html",
-    "revision": "1d2280a353cbdf1cecc08099330af874"
+    "revision": "b6d878a303f4787072cf36eafbf18bea"
   },
   {
     "url": "frontend/tools/nvm.html",
-    "revision": "c4333dfc47360bda74fbad1fd5f9933f"
+    "revision": "ec2f66bf4a651ff2dad2d597c8908e8c"
   },
   {
     "url": "frontend/tools/Verdaccio.html",
-    "revision": "d22bda029ecc489139e94ae29690baa5"
+    "revision": "b22056a96d0690bcdadc090cf0cd48fb"
   },
   {
     "url": "frontend/tools/Yarn.html",
-    "revision": "141b61a26146608af6e41ca72d22d7bb"
+    "revision": "a12d7da1ab4ebd06a8fdef9d6e86814d"
   },
   {
     "url": "frontend/webpack4.html",
-    "revision": "dcc4bdbbbe917a851c3a44031d315455"
+    "revision": "13e297acb1c88ba60674b3106f2cc92b"
   },
   {
     "url": "frontend/微前端.html",
-    "revision": "3b57c9c91071013c0015f8a91a10191b"
+    "revision": "85781afa60bf0a45198d06d53fb0055a"
   },
   {
     "url": "frontend/脚手架搭建.html",
-    "revision": "165a23d8b89cb8bbe6ee50299878441f"
+    "revision": "84943b68f31ff693ecb63b39572ce82a"
   },
   {
     "url": "guide.html",
-    "revision": "17f8075963fdf6b4e5d7839970e4f118"
+    "revision": "f34b701dbfe8946c5e32d63c80117025"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -359,99 +359,99 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "78ab4956f832bf54f113540aec39f01a"
+    "revision": "ed29a586af8705332e844f1bbc990ff3"
   },
   {
     "url": "other/c.html",
-    "revision": "1ccd0b4680904446de4f5a2ff22c8189"
+    "revision": "d4fb0f1fc4493954b4905f7830e109a9"
   },
   {
     "url": "other/cook.html",
-    "revision": "63a8529a555bdfb956c705c8daaba40f"
+    "revision": "a5bf65c0b276e9b53e1b2bd7ea7258a0"
   },
   {
     "url": "other/countup.html",
-    "revision": "93308f8816ccccf0ccb207b2bfe6cdfd"
+    "revision": "10e4b4e3b3ef94ca82bbd3c0d11cddec"
   },
   {
     "url": "other/english.html",
-    "revision": "c9a7e2c80eb674d3c7b615f1d66a11fa"
+    "revision": "68b7a2adc65b29098859f09aa65e8035"
   },
   {
     "url": "other/image.html",
-    "revision": "f2b0c26dd0fb66467dbb1bc5f1a08e3e"
+    "revision": "15c986c54670a1b438483504f3fdf0f2"
   },
   {
     "url": "other/index.html",
-    "revision": "92773a5485dce9e7ddaf9ad32e961214"
+    "revision": "0d3a70b81936cdae450d8a01b468d052"
   },
   {
     "url": "python/basic.html",
-    "revision": "59c9fea3896a116d61a18911689a4808"
+    "revision": "c2d7f76421203053af8422ad7cc1d0e9"
   },
   {
     "url": "python/django.html",
-    "revision": "40dc66bb0f30963d800c8c0e1bd8c22b"
+    "revision": "1e53770997d8a94ec824580a29e85f2a"
   },
   {
     "url": "python/lib.html",
-    "revision": "48e896cf1c3991e8c8368ace70d38174"
+    "revision": "d1fd8988314189d15a7b44e90043c544"
   },
   {
     "url": "python/tools.html",
-    "revision": "ad0a30c551e4e06e59b8b9df5f5e8b61"
+    "revision": "c36e6abd1d087f51793a7cdfcb179481"
   },
   {
     "url": "python/数据挖掘/index.html",
-    "revision": "b19d19ea9209b3946cc5b428e0d7e27b"
+    "revision": "3132b96d75b4a717b77e0e1ebd4eb760"
   },
   {
     "url": "python/数据挖掘/matplotlib.html",
-    "revision": "55929d6a42257094053f2e3029f4bebc"
+    "revision": "68f30854551a6c6fd0da19844734ac9e"
   },
   {
     "url": "python/数据挖掘/numpy.html",
-    "revision": "06ee591335e16e60cf59bb9e40913c54"
+    "revision": "f7a0ba9fd9081124128fa96903d96e23"
   },
   {
     "url": "python/数据挖掘/pandas.html",
-    "revision": "6f0db43bfebcf825bb15db11192f4bf6"
+    "revision": "7c3c04c286415b503511dcda104c8d12"
   },
   {
     "url": "python/机器学习/index.html",
-    "revision": "4994ae2d09d914add3ece30cbb6ee128"
+    "revision": "fb21409d9f1d92cf3193705f4febd0de"
   },
   {
     "url": "python/机器学习/特征工程.html",
-    "revision": "9aac5a2e439da2c787475caaa61ed416"
+    "revision": "3048fe064f6d372edbfe64bbca1f2e53"
   },
   {
     "url": "tools/system/docker.html",
-    "revision": "521675a175dd4950406f32295a798984"
+    "revision": "b93a2672fde6275686d79e9f096dcfa8"
   },
   {
     "url": "tools/system/git.html",
-    "revision": "33c25fb73be79e21941b72b61b846f43"
+    "revision": "a5341912f5a9455abea89d22f1ef3719"
   },
   {
     "url": "tools/system/index.html",
-    "revision": "5c95611ffda5ed9cd5b420ebf1f19662"
+    "revision": "4f7e8ab1acd3037632e2ad97410f61be"
   },
   {
     "url": "tools/system/linux.html",
-    "revision": "ab273cfc309ab429154a52073b8850f1"
+    "revision": "e1d57cae9cfa516cd09184b9618fca64"
   },
   {
     "url": "tools/system/ubuntu.html",
-    "revision": "486ce090a0a234f443d72c2bd8cc834a"
+    "revision": "a273f971300f141a9b2e67f9d6ca709a"
   },
   {
     "url": "tools/system/vim.html",
-    "revision": "42e437e2d7131af4104c83856db95b23"
+    "revision": "09860a763a349d1a92434f17b8ad17d5"
   },
   {
     "url": "tools/system/VS Code.html",
-    "revision": "00db450506f9b29e98c136dd96dd463f"
+    "revision": "e9d7cb6e8e8ee4a49b642a89d421bdfe"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
