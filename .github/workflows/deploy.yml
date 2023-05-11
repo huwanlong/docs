@@ -42,7 +42,7 @@ jobs:
       # 如果缓存没有命中，安装依赖，根据实际来改，也可以是npm，这里是用的yarn
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: yarn && yarn docs:build
  
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -50,6 +50,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # 部署到 gh-pages 分支
           BRANCH: gh-pages
-          BUILD_SCRIPT: yarn && yarn docs:build
           # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
           FOLDER: docs/.vuepress/dist
