@@ -50,5 +50,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # 部署到 gh-pages 分支
           BRANCH: gh-pages
+          BUILD_SCRIPT: yarn && yarn docs:build
           # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
           FOLDER: docs/.vuepress/dist
