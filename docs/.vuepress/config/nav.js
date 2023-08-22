@@ -35,10 +35,15 @@ module.exports = [
       { text: 'Linux', link: '/tools/system/linux/' },
       { text: 'Git', link: '/tools/system/git/' },
       { text: 'Vim', link: '/tools/system/vim/' },
+      { text: 'Mac', link: '/tools/system/mac/' },
     ],
   },
   {
     text: '收藏',
     link: '/bookmarks/',
+  },
+  {
+    text: 'ChatGPT',
+    link: 'https://chat.hwl.cool/',
   },
 ]

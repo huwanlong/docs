@@ -11,3 +11,4 @@ title: 概述
 3. [linux](/tools/system/linux.html)
 4. [git](/tools/system/git.html)
 5. [vim](/tools/system/vim.html)
+6. [mac](/tools/system/mac.html)
