@@ -3,10 +3,10 @@ module.exports = [
     text: '首页',
     link: '/',
   },
-  {
-    text: '指南',
-    link: '/guide/',
-  },
+  // {
+  //   text: '指南',
+  //   link: '/guide/',
+  // },
   {
     text: '前端',
     items: [
@@ -15,7 +15,6 @@ module.exports = [
       { text: 'Webpack4', link: '/frontend/webpack4/' },
       { text: 'Vue SSR', link: '/frontend/SSR/' },
       { text: '微前端', link: '/frontend/微前端/' },
-      { text: '知识点', link: '/frontend/points/' },
     ],
   },
   {
@@ -30,11 +29,12 @@ module.exports = [
   {
     text: '工具',
     items: [
-      { text: 'Ubuntu', link: '/tools/system/ubuntu/' },
-      { text: 'VS Code', link: '/tools/system/VS%20Code/' },
-      { text: 'Linux', link: '/tools/system/linux/' },
+      { text: 'Docker', link: '/tools/system/docker/' },
       { text: 'Git', link: '/tools/system/git/' },
       { text: 'Vim', link: '/tools/system/vim/' },
+      { text: 'VS Code', link: '/tools/system/VS%20Code/' },
+      { text: 'Ubuntu', link: '/tools/system/ubuntu/' },
+      { text: 'Linux', link: '/tools/system/linux/' },
       { text: 'Mac', link: '/tools/system/mac/' },
     ],
   },

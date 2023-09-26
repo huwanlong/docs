@@ -16,7 +16,7 @@ editLink: false
 
 [Electron](/frontend/electron.html)
 
-[工具](/frontend/tools/) -  [`NPM`](/frontend/tools/NPM.html) [`Yarn`](/frontend/tools/Yarn.html) [`nvm`](/frontend/tools/nvm.html) [`Verdaccio`](/frontend/tools/Verdaccio.html) [`Lerna`](/frontend/tools/Lerna.html)
+[工具](/frontend/tools/) -  [`pnpm`](/frontend/tools/pnpm.html) [`NPM`](/frontend/tools/NPM.html) [`Yarn`](/frontend/tools/Yarn.html) [`nvm`](/frontend/tools/nvm.html) [`Verdaccio`](/frontend/tools/Verdaccio.html) [`Lerna`](/frontend/tools/Lerna.html)
 
 ### Python
 
