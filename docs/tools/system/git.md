@@ -19,14 +19,14 @@ git branch -d test
 git branch -D test
 ```
 
-## 设置项目默认用户名和密码
+## 贮藏
 
 ```shell
-echo "[credential]" >> .git/config
-echo "    helper = store" >> .git/config
+# 【贮藏】将工作区内修改的内容存到缓冲区
+git stash 
+# 【弹出贮藏】将缓冲区的最新内容返回给工作区
+git stash pop
 ```
-
-> 参考：https://blog.csdn.net/weixin_34401479/article/details/91703949
 
 ## 代理
 
@@ -35,6 +35,9 @@ echo "    helper = store" >> .git/config
 ```shell
 git config --global http.proxy localhost:10809
 git config --global https.proxy localhost:10809
+
+git config http.proxy localhost:10809
+git config https.proxy localhost:10809
 ```
 
 ### 去掉代理
@@ -42,25 +45,26 @@ git config --global https.proxy localhost:10809
 ```shell
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+git config --unset http.proxy
+git config --unset https.proxy
 ```
 
-## 区分文件名大小写
+## 常用设置
 
 ```shell
+# 设置默认用户名和密码
+echo "[credential]" >> .git/config
+echo "    helper = store" >> .git/config
+
+# 区分文件名大小写
 git config core.ignorecase false
-```
 
-## 设置全局使用提交时名字和邮箱
-
-```shell
+# 设置全局使用提交时名字和邮箱
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
-```
 
-## 未检测到此文件的改变，或者这是一个二进制文件
-
-```shell
+# 未检测到此文件的改变，或者这是一个二进制文件
 # 因为文件的权限发生了变化，git默认权限的改变也算文件发生了变化
 git config --add core.filemode false
 ```
-
