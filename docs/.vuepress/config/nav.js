@@ -34,6 +34,7 @@ module.exports = [
       { text: 'Vim', link: '/tools/system/vim/' },
       { text: 'VS Code', link: '/tools/system/VS%20Code/' },
       { text: 'Ubuntu', link: '/tools/system/ubuntu/' },
+      { text: 'Centos', link: '/tools/system/centos/' },
       { text: 'Linux', link: '/tools/system/linux/' },
       { text: 'Mac', link: '/tools/system/mac/' },
     ],

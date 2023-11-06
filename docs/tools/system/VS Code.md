@@ -151,6 +151,11 @@ title: VS Code
 
 ## 扩展使用
 
+### remote ssh
+
+> https://blog.csdn.net/chouzhou9701/article/details/125072235
+
+
 ### Markdown All in One
 
 ```shell
@@ -188,6 +193,3 @@ ctrl + alt + h # 函数加注释，默认是ctrl+alt+t，因为冲突，所以�
 将文件`C:\Users\xxx\.ssh\known_hosts`打开，找到连接失败的服务器那一行删除掉，保存关闭
 
 可以通过在`git bash`中，`ssh xxx@192.168.1.xxx`看能不能连上
-
-
-

@@ -1,6 +1,6 @@
 // module.exports = 'auto'
 module.exports = {
-  '/tools/system/': ['', 'docker', 'git', 'vim', 'VS Code', 'ubuntu', 'linux', 'mac'],
+  '/tools/system/': ['', 'docker', 'git', 'vim', 'VS Code', 'ubuntu', 'centos', 'linux', 'mac'],
   '/tools/': 'auto',
   '/frontend/tools/': ['', 'pnpm', 'NPM', 'Yarn', 'nvm', 'Verdaccio', 'Lerna'],
   '/frontend/': 'auto',

@@ -28,6 +28,8 @@ docker images
 
 `docker rmi 镜像的标识（通过docker images查看到 image id）`
 
+删除全部本地镜像 `docker rmi $(docker images)`
+
 ### 镜像的导入导出（不规范）
 
 导出 docker save -o 导出路径 镜像ID 如 `docker save -o ./tomcat.image b8`
@@ -61,7 +63,7 @@ docker run -d -p 宿主机端口:窗口端口 --name 容器名称 镜像的标�
 
 ### 查看容器的日志
 
-docker logs -f 容器ID
+docker logs -f 容器ID --tail 100
 
 ### 进入容器内部
 
@@ -244,12 +246,3 @@ services:
       - 1883:1883
     restart: always
 ```
-
-
-
-
-
-
-
-
-
