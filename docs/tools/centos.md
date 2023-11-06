@@ -10,9 +10,9 @@ title: centos
 
 安装后，虚拟机和主机可能不在同一个网段，需要虚拟机关机后设置网卡
 
-![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
+![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
 
-![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
+![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
 
 然后
 
@@ -23,6 +23,7 @@ cp ifcfg-enp0s3 ifcfg-enp0s8
 nmcli c reload
 reboot
 ```
+
 ### ssh
 
 ```shell
@@ -68,8 +69,6 @@ sudo systemctl start docker
 
 ```
 
-
-
 #### 换源
 
 ```shell
@@ -97,4 +96,4 @@ docker-compose --version # docker-compose版本
 
 #### 使用
 
-[使用](/tools/system/docker.html)
+[使用](/tools/docker.html)

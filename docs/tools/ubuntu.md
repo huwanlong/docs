@@ -117,9 +117,9 @@ sudo apt-get install gparted
 
 安装后，虚拟机和主机可能不在同一个网段，需要虚拟机关机后设置网卡
 
-![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
+![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
 
-![An image](./../../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
+![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
 
 ### 代理
 

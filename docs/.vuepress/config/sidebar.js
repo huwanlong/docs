@@ -1,7 +1,6 @@
 // module.exports = 'auto'
 module.exports = {
-  '/tools/system/': ['', 'docker', 'git', 'vim', 'VS Code', 'ubuntu', 'centos', 'linux', 'mac'],
-  '/tools/': 'auto',
+  '/tools/': ['', 'docker', 'git', 'vim', 'VS Code', 'ubuntu', 'centos', 'linux', 'mac'],
   '/frontend/tools/': ['', 'pnpm', 'NPM', 'Yarn', 'nvm', 'Verdaccio', 'Lerna'],
   '/frontend/': 'auto',
   '/python/数据挖掘/': ['', 'matplotlib', 'numpy', 'pandas'],

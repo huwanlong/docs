@@ -29,14 +29,14 @@ module.exports = [
   {
     text: '工具',
     items: [
-      { text: 'Docker', link: '/tools/system/docker/' },
-      { text: 'Git', link: '/tools/system/git/' },
-      { text: 'Vim', link: '/tools/system/vim/' },
-      { text: 'VS Code', link: '/tools/system/VS%20Code/' },
-      { text: 'Ubuntu', link: '/tools/system/ubuntu/' },
-      { text: 'Centos', link: '/tools/system/centos/' },
-      { text: 'Linux', link: '/tools/system/linux/' },
-      { text: 'Mac', link: '/tools/system/mac/' },
+      { text: 'Docker', link: '/tools/docker/' },
+      { text: 'Git', link: '/tools/git/' },
+      { text: 'Vim', link: '/tools/vim/' },
+      { text: 'VS Code', link: '/tools/VS%20Code/' },
+      { text: 'Ubuntu', link: '/tools/ubuntu/' },
+      { text: 'Centos', link: '/tools/centos/' },
+      { text: 'Linux', link: '/tools/linux/' },
+      { text: 'Mac', link: '/tools/mac/' },
     ],
   },
   {
