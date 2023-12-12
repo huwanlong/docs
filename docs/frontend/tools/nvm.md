@@ -8,6 +8,17 @@ nodejs 的版本管理工具，下载 nvm-setup.zip 包安装
 
 下载地址：[https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
 
+## 安装卸载
+
+windows环境下安装完成后，注意先不要安装node，找到安装目录中的`setting.txt`文件，添加如下信息，配置下载源
+
+```shell
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
+
+卸载时，先`nvm off`，然后直接找到安装目录，删除就好
+
 ## 常用命令
 
 ```shell

@@ -21,6 +21,10 @@ ps: 如果 TA-Lib 在 win 系统上无法下载，可以到下面的地址去下
 
 ## jupyter notebook 使用
 
+### 启动
+
+最好是在conda的base环境里启动
+
 ```
 jupyter notebook
 # 或
@@ -29,12 +33,27 @@ ipython notebook
 
 打开 [http://localhost:8888/](http://localhost:8888/)
 
+
+### 切换内核
+
 ```shell
-# 改成中文 修改用户的环境变量LANG为zh_CN.UTF8
-set LC_ALL=zh_CN.UTF-8
+# 在需要新加入的环境里安装ipykernel
+conda activate machine
+conda install ipykernel
+python -m ipykernel install --user --name [Your enviroment name] --display-name "[Name you want to show in jupyter]"
+# 如
+python -m ipykernel install --user --name machine --display-name machine
+# 切换到base环境启动jupyter notebook
+conda activate base
+jupyter notebook
+# 然后 在 内核->更换内核里切换
+
+# 如果需要删除内核
+jupyter kernelspec list # 查看内核列表
+jupyter kernelspec remove machine # 删除名为machine的内核
 ```
 
-### cell
+### cell使用
 
 一对 In Out 会话被视作一个代码单元，称为 cell
 
@@ -65,3 +84,9 @@ set LC_ALL=zh_CN.UTF-8
 - 回退：Ctrl+Z
 - 补全代码：变量、方法后跟 Tab 键
 - 为一行或多行代码添加/取消注释：Ctrl+/
+
+### 其它
+```shell
+# 改成中文 修改用户的环境变量LANG为zh_CN.UTF8
+set LC_ALL=zh_CN.UTF-8
+```
