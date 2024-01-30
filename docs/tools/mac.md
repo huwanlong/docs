@@ -117,6 +117,23 @@ http://www.tuohang.net/article/244919.html
 
 https://baijiahao.baidu.com/s?id=1743957406665861124&wfr=spider&for=pc
 
+## 5、工具
+
+### 5.1、brew
+
+```shell
+brew search xxx # 搜索软件
+brew install xxx # 安装软件
+brew uninstall xxx # 卸载软件
+brew list # 已安装列表
+brew info xxx # 查看具体的信息及依赖关系当前版本注意事项等
+brew update # 更新
+brew outdated # 列出所有有新版本的程序
+brew cleanup # 清理不需要的版本及其安装缓存
+brew upgrade # 升级所有
+brew upgrade xxx # 升级软件
+```
+
 
 
 
