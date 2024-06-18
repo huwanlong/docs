@@ -111,7 +111,9 @@ sudo apt-get install gparted
 
 ### 安装
 
-[https://blog.csdn.net/no1xium/article/details/108891360](https://blog.csdn.net/no1xium/article/details/108891360)
+[20.04](https://blog.csdn.net/no1xium/article/details/108891360)
+
+[22.04](https://zhuanlan.zhihu.com/p/578074736?utm_id=0)
 
 ### 网络
 
@@ -120,6 +122,8 @@ sudo apt-get install gparted
 ![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-1.png)
 
 ![An image](./../.vuepress/public/assets/img/ubuntu-virtualbox-network-2.png)
+
+[https://zhuanlan.zhihu.com/p/394468677](https://zhuanlan.zhihu.com/p/394468677)
 
 ### 代理
 

@@ -133,6 +133,22 @@ conda list -e > requirements.txt # 导出
 conda install --yes --file requirements.txt # 导入
 ```
 
+#### env.yaml
+```yaml
+name: facings-identifier
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - -r requirements.txt
+```
+
+```shell
+conda env create -f env.yaml
+```
+
 #### 其它配置
 
 ```shell

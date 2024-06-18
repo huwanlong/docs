@@ -53,6 +53,14 @@ yum makecache
 yum install wget –y
 ```
 
+### 命令
+
+```shell
+ifconfig|more
+```
+
+右ctrl 退出
+
 ## 使用
 
 ### docker
