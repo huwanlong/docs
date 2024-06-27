@@ -3,8 +3,8 @@ home: true
 heroImage: /assets/img/18008.jpg
 heroText: 走在小路上
 tagline: 凡事预则立，不预则废
-# actionText: 阅读指南 →
-# actionLink: /guide/
+actionText: 阅读指南 →
+actionLink: /guide/
 # features:
 # - title: 简洁至上
 #   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -15,10 +15,8 @@ tagline: 凡事预则立，不预则废
 footer: MIT Licensed | Copyright © 2020-present 走在小路上
 ---
 
-## 联系我
-
 ::: warning 提示
-本站仅仅是个人笔记而已，仅供参考！
+个人笔记，仅供参考！若有疑问，欢迎 `+V` 共同探讨。
 :::
 
 ![An image](./.vuepress/public/assets/img/wechat.png)
