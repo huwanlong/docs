@@ -3,8 +3,8 @@ home: true
 heroImage: /assets/img/18008.jpg
 heroText: 走在小路上
 tagline: 凡事预则立，不预则废
-actionText: 阅读指南 →
-actionLink: /guide/
+# actionText: 阅读指南 →
+# actionLink: /guide/
 # features:
 # - title: 简洁至上
 #   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

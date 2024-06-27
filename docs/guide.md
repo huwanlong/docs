@@ -30,4 +30,4 @@ editLink: false
 
 ### 工具
 
-[`linux`](/tools/linux.html) [`ubuntu`](/tools/ubuntu.html) [`git`](/tools/git.html) [`vim`](/tools/vim.html) [`VS Code`](/tools/VS%20Code.html)
+[`linux`](/tools/linux.html) [`ubuntu`](/tools/ubuntu.html) [`git`](/tools/git.html) [`vim`](/tools/vim.html) [`VS Code`](/tools/VSCode.html)

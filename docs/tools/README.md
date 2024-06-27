@@ -9,7 +9,7 @@ title: 概述
 1. [docker](/tools/docker.html)
 2. [git](/tools/git.html)
 3. [vim](/tools/vim.html)
-4. [VS Code](/tools/VS%20Code.html)
+4. [VS Code](/tools/VSCode.html)
 5. [ubuntu](/tools/ubuntu.html)
 6. [centos](/tools/centos.html)
 7. [linux](/tools/linux.html)
