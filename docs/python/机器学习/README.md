@@ -2,9 +2,15 @@
 title: 概述
 ---
 
-## 人工智能
+## 资料
 
-代码地址：[https://gitee.com/workbook/Machine-Learning.git](https://gitee.com/workbook/Machine-Learning.git)
+视频：[BiliBili](https://gitee.com/workbook/Machine-Learning.git)
+
+资料：[百度网盘](https://pan.baidu.com/s/1MLM_CdKqvBzaGX-W162kdw?pwd=pkls)
+
+代码：[Gitee](https://gitee.com/workbook/Machine-Learning.git)
+
+## 人工智能
 
 ### 关系
 

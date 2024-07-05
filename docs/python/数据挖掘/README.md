@@ -2,9 +2,13 @@
 title: 概述
 ---
 
-## 代码地址
+## 资料
 
-[https://gitee.com/workbook/data-mining.git](https://gitee.com/workbook/data-mining.git)
+视频：[BiliBili](https://gitee.com/workbook/data-mining.git)
+
+资料：[百度网盘](https://pan.baidu.com/s/1l5J_Lu5AjJU81qnM45RMQg?pwd=zsl2)
+
+代码：[Gitee](https://gitee.com/workbook/data-mining.git)
 
 ## 库的安装
 
