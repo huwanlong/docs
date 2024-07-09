@@ -134,7 +134,9 @@ conda install --yes --file requirements.txt # 导入
 ```
 
 #### env.yaml
+
 ```yaml
+# yaml or yml，内容如下
 name: facings-identifier
 channels:
   - defaults
@@ -146,7 +148,13 @@ dependencies:
 ```
 
 ```shell
+# 根据配置文件创建环境
 conda env create -f env.yaml
+```
+
+```shell
+# 导出环境配置文件
+conda env export > env.yaml
 ```
 
 #### 其它配置
