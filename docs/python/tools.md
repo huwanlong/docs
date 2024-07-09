@@ -17,16 +17,6 @@ python 开发中的常用工具、命令总结。
 
 ## 管理工具
 
-### rye
-
-#### 安装
-
-[https://rye-up.com/guide/installation/#installing-rye](https://rye-up.com/guide/installation/#installing-rye)
-
-#### 使用
-
-[https://blog.csdn.net/Java_ZZZZZ/article/details/131201415](https://blog.csdn.net/Java_ZZZZZ/article/details/131201415)
-
 ### Anaconda
 
 #### 下载安装
@@ -280,6 +270,16 @@ sudo pip3 install --upgrade pip
 python -m pip -V
 pip -V
 ```
+
+### rye
+
+#### 安装
+
+[https://rye-up.com/guide/installation/#installing-rye](https://rye-up.com/guide/installation/#installing-rye)
+
+#### 使用
+
+[https://blog.csdn.net/Java_ZZZZZ/article/details/131201415](https://blog.csdn.net/Java_ZZZZZ/article/details/131201415)
 
 ### pyenv
 
