@@ -4,7 +4,7 @@ title: 概述
 
 ## 资料
 
-视频：[BiliBili](https://gitee.com/workbook/Machine-Learning.git)
+视频：[BiliBili](https://www.bilibili.com/video/BV1nt411r7tj/)
 
 资料：[百度网盘](https://pan.baidu.com/s/1MLM_CdKqvBzaGX-W162kdw?pwd=pkls)
 
