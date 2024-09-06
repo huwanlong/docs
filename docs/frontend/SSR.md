@@ -4,7 +4,7 @@ title: 服务端渲染
 
 ## 代码地址
 
-[https://gitee.com/workbook/Demo-SSR.git](https://gitee.com/workbook/Demo-SSR.git)
+[https://gitee.com/huwanlong/Demo-SSR.git](https://gitee.com/huwanlong/Demo-SSR.git)
 
 ## 为什么使用服务端渲染
 

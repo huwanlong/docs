@@ -4,7 +4,7 @@ title: 构建工具
 
 ## 代码地址
 
-[https://gitee.com/workbook/Demo-webpack.git](https://gitee.com/workbook/Demo-webpack.git)
+[https://gitee.com/huwanlong/Demo-webpack.git](https://gitee.com/huwanlong/Demo-webpack.git)
 
 ## 为什么需要使用构建工具
 

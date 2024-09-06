@@ -52,7 +52,7 @@ title: 微前端
 
 #### 父应用
 
-[代码地址](https://gitee.com/workbook/parent-vue.git)
+[代码地址](https://gitee.com/huwanlong/parent-vue.git)
 
 安装：`yarn add single-spa`
 
@@ -125,7 +125,7 @@ new Vue({
 
 #### 子应用
 
-[代码地址](https://gitee.com/workbook/child-vue.git)
+[代码地址](https://gitee.com/huwanlong/child-vue.git)
 
 安装：`yarn add single-spa-vue`
 
@@ -216,7 +216,7 @@ module.exports = {
 
 #### 基座应用
 
-[代码地址](https://gitee.com/workbook/qiankun-base.git)
+[代码地址](https://gitee.com/huwanlong/qiankun-base.git)
 
 安装：`npm i qiankun -S`
 
@@ -290,7 +290,7 @@ new Vue({
 
 #### 子应用（Vue）
 
-[代码地址](https://gitee.com/workbook/qiankun-vue.git)
+[代码地址](https://gitee.com/huwanlong/qiankun-vue.git)
 
 `src/router/index.js`
 
@@ -376,7 +376,7 @@ this.$root.parentStore.commit('SET_TOKEN', 'admin change')
 
 #### 子应用（React）
 
-[代码地址](https://gitee.com/workbook/qiankun-react.git)
+[代码地址](https://gitee.com/huwanlong/qiankun-react.git)
 
 `src/index.js`
 

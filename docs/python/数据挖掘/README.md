@@ -8,7 +8,7 @@ title: 概述
 
 资料：[百度网盘](https://pan.baidu.com/s/1l5J_Lu5AjJU81qnM45RMQg?pwd=zsl2)
 
-代码：[Gitee](https://gitee.com/workbook/data-mining.git)，使用前请先看代码中 README.md
+代码：[Gitee](https://gitee.com/huwanlong/data-mining.git)，使用前请先看代码中 README.md
 
 ## 库的安装
 

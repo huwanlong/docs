@@ -10,7 +10,7 @@ Electron 通过将 Chromium 和 Node.js 合并到同一个运行时环境中，�
 
 ### 代码
 
-[https://gitee.com/workbook/electron-quick-start.git](https://gitee.com/workbook/electron-quick-start.git)
+[https://gitee.com/huwanlong/electron-quick-start.git](https://gitee.com/huwanlong/electron-quick-start.git)
 
 ### 官网
 

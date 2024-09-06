@@ -8,7 +8,7 @@ title: 概述
 
 资料：[百度网盘](https://pan.baidu.com/s/1MLM_CdKqvBzaGX-W162kdw?pwd=pkls)
 
-代码：[Gitee](https://gitee.com/workbook/machine-learning.git)
+代码：[Gitee](https://gitee.com/huwanlong/machine-learning.git)
 
 ## 人工智能
 
