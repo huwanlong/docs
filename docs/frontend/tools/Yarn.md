@@ -76,7 +76,7 @@ yarn config set key value # 设置
 yarn config get key # 读取值
 yarn config delete key # 删除
 yarn config list # 显示当前配置
-yarn config set registry https://registry.npm.taobao.org # 设置淘宝镜像
+yarn config set registry https://registry.npmmirror.com # 设置淘宝镜像
 ```
 
 ## 缓存

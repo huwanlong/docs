@@ -36,7 +36,7 @@ storage: D:/npm-repo
 ```shell
 uplinks:
   npmjs:
-    url: https://registry.npm.taobao.org/
+    url: https://registry.npmmirror.com/
 ```
 
 重新启动 verdaccio，打开地址如 http://10.2.101.151:4873/可以看到管理页面

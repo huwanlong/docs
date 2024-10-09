@@ -59,7 +59,7 @@ npm config set key value # 设置
 npm config get key # 读取值
 npm config delete key # 删除
 npm config list # 显示当前配置
-npm config set registry https://registry.npm.taobao.org # 设置淘宝镜像
+npm config set registry https://registry.npmmirror.com # 设置淘宝镜像
 npm config set proxy localhost:10809 # 添加代理
 npm config set proxy null # 去掉代理 npm err! Error: connect ECONNREFUSED 127.0.0.1:10809
 ```
@@ -93,7 +93,7 @@ npm unpublish <package>@<version> # 可以撤销发布自己发布过的某个�
 ## cnpm
 
 ```shell
-npm install -g cnpm --registry=https://registry.npm.taobao.org # 安装cnpm，使用淘宝镜像
+npm install -g cnpm --registry=https://registry.npmmirror.com # 安装cnpm，使用淘宝镜像
 cnpm install <Module Name> # 使用cnpm
 ```
 

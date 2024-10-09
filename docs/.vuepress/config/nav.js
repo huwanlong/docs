@@ -11,6 +11,7 @@ module.exports = [
     text: '前端',
     items: [
       { text: 'Tools', link: '/frontend/tools/' },
+      { text: 'React', link: '/frontend/React/' },
       { text: 'Electron', link: '/frontend/electron/' },
       { text: 'Webpack4', link: '/frontend/webpack4/' },
       { text: 'Vue SSR', link: '/frontend/SSR/' },
