@@ -29,6 +29,13 @@ module.exports = [
     ],
   },
   {
+    text: 'AI',
+    items: [
+      { text: 'ollama', link: '/ai/ollama' },
+      { text: 'NextChat', link: 'https://chat.hwl.cool/' },
+    ],
+  },
+  {
     text: '工具',
     items: [
       { text: 'Docker', link: '/tools/docker/' },
@@ -44,9 +51,5 @@ module.exports = [
   {
     text: '收藏',
     link: '/bookmarks/',
-  },
-  {
-    text: 'ChatGPT',
-    link: 'https://chat.hwl.cool/',
   },
 ]

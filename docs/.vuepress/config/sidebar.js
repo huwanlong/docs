@@ -7,5 +7,6 @@ module.exports = {
   '/python/机器学习/': ['', '特征工程'],
   '/python/': 'auto',
   '/other/': 'auto',
+  '/ai/': 'auto',
   '/bookmarks/': 'auto',
 }
