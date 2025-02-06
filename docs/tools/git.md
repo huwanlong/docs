@@ -71,3 +71,16 @@ git config --add core.filemode false
 # fatal: the remote end hung up unexpectedly
 git config --global http.postBuffer 524288000 修改提交缓存大小为500M
 ```
+
+## 提交
+
+```
+feat：增加新功能
+fix：问题修复
+docs：文档变更
+style：代码风格变更（不影响功能）
+refactor：既不是新功能也不是问题修复的代码变更
+perf：改善性能
+test：增加测试
+chore：开发工具（构建，脚手架工具等）
+```
