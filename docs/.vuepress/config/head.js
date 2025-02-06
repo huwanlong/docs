@@ -1,6 +1,6 @@
 module.exports = [
   ['meta', { rel: 'author', href: '走在小路上' }],
-  ['meta', { rel: 'keywords', href: '前端、Vue、Node.js、Python' }],
+  ['meta', { rel: 'keywords', href: '前端、Vue、Node.js、Python、AI' }],
   ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
   ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }],
   ['link', { rel: 'icon', href: '/icons/favicon.ico' }],

@@ -1,14 +1,14 @@
 module.exports = [
   {
-    text: '首页',
+    text: 'Home',
     link: '/',
   },
+  // {
+  //   text: '指南',
+  //   link: '/guide/',
+  // },
   {
-    text: '指南',
-    link: '/guide/',
-  },
-  {
-    text: '前端',
+    text: 'Web',
     items: [
       { text: 'Tools', link: '/frontend/tools/' },
       { text: 'React', link: '/frontend/React/' },
@@ -21,6 +21,8 @@ module.exports = [
   {
     text: 'Python',
     items: [
+      // { text: 'Base', link: '/python/base/' },
+      { text: 'Packages', link: '/python/packages/' },
       { text: 'Tools', link: '/python/tools/' },
       { text: 'Django', link: '/python/django/' },
       { text: '数据挖掘', link: '/python/数据挖掘/' },
@@ -36,7 +38,7 @@ module.exports = [
     ],
   },
   {
-    text: '工具',
+    text: 'Tools',
     items: [
       { text: 'Docker', link: '/tools/docker/' },
       { text: 'Git', link: '/tools/git/' },
@@ -49,7 +51,7 @@ module.exports = [
     ],
   },
   {
-    text: '收藏',
+    text: 'Bookmarks',
     link: '/bookmarks/',
   },
 ]

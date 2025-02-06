@@ -15,7 +15,7 @@ module.exports = {
     sidebar,
     nav,
     repo: 'huwanlong/docs',
-    repoLabel: '查看源码',
+    repoLabel: 'GitHub',
     docsDir: 'docs',
     docsBranch: 'main',
     editLinks: true,
