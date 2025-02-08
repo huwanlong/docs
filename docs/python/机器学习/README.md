@@ -4,9 +4,9 @@ title: 概述
 
 ## 资料
 
-视频：[BiliBili](https://www.bilibili.com/video/BV1nt411r7tj/)
+视频：[https://www.bilibili.com/video/BV1nt411r7tj/](https://www.bilibili.com/video/BV1nt411r7tj/)
 
-代码：[Gitee](https://gitee.com/huwanlong/machine-learning.git)
+代码：[https://pan.quark.cn/s/14333a12fb9d](https://pan.quark.cn/s/14333a12fb9d)
 
 ## 人工智能
 

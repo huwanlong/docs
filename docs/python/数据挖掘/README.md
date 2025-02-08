@@ -4,9 +4,9 @@ title: 概述
 
 ## 资料
 
-视频：[BiliBili](https://www.bilibili.com/video/BV1xt411v7z9/)
+视频：[https://www.bilibili.com/video/BV1xt411v7z9/](https://www.bilibili.com/video/BV1xt411v7z9/)
 
-代码：[https://pan.quark.cn/s/54c1e622ae4e](https://pan.quark.cn/s/54c1e622ae4e) 提取码：dRz3
+代码：[https://pan.quark.cn/s/a98349757c30](https://pan.quark.cn/s/a98349757c30)
 
 ## 库的安装
 
