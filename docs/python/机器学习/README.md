@@ -6,8 +6,6 @@ title: 概述
 
 视频：[BiliBili](https://www.bilibili.com/video/BV1nt411r7tj/)
 
-资料：[百度网盘](https://pan.baidu.com/s/1MLM_CdKqvBzaGX-W162kdw?pwd=pkls)
-
 代码：[Gitee](https://gitee.com/huwanlong/machine-learning.git)
 
 ## 人工智能
