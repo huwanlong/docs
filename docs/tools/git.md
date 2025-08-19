@@ -70,6 +70,9 @@ git config --add core.filemode false
 
 # fatal: the remote end hung up unexpectedly
 git config --global http.postBuffer 524288000 修改提交缓存大小为500M
+
+# 让拉下来的代码换行符不要自动变成crlf
+git config --global core.autocrlf false
 ```
 
 ## 提交
