@@ -22,8 +22,8 @@ module.exports = [
     text: 'Python',
     items: [
       // { text: 'Base', link: '/python/base/' },
-      { text: 'Packages', link: '/python/packages/' },
       { text: 'Tools', link: '/python/tools/' },
+      { text: 'Packages', link: '/python/packages/' },
       { text: 'Django', link: '/python/django/' },
       { text: '数据挖掘', link: '/python/数据挖掘/' },
       { text: '机器学习', link: '/python/机器学习/' },
@@ -42,6 +42,7 @@ module.exports = [
     items: [
       { text: 'Docker', link: '/tools/docker/' },
       { text: 'Git', link: '/tools/git/' },
+      { text: 'WSL', link: '/tools/wsl/' },
       { text: 'Vim', link: '/tools/vim/' },
       { text: 'VS Code', link: '/tools/VSCode/' },
       { text: 'Ubuntu', link: '/tools/ubuntu/' },
