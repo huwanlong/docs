@@ -33,7 +33,8 @@ module.exports = [
   {
     text: 'AI',
     items: [
-      { text: 'ollama', link: '/ai/ollama' },
+      { text: 'code', link: '/ai/code/' },
+      { text: 'ollama', link: '/ai/ollama/' },
       { text: 'NextChat', link: 'https://chat.hwl.cool/' },
     ],
   },
