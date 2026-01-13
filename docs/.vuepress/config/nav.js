@@ -3,19 +3,27 @@ module.exports = [
     text: 'Home',
     link: '/',
   },
-  // {
-  //   text: '指南',
-  //   link: '/guide/',
-  // },
   {
-    text: 'Web',
+    text: 'Guide',
+    link: '/guide/',
+  },
+  {
+    text: 'JavaScript',
     items: [
-      { text: 'Tools', link: '/frontend/tools/' },
-      { text: 'React', link: '/frontend/React/' },
-      { text: 'Electron', link: '/frontend/electron/' },
-      { text: 'Webpack4', link: '/frontend/webpack4/' },
-      { text: 'Vue SSR', link: '/frontend/SSR/' },
-      { text: 'MicroApp', link: '/frontend/MicroApp/' },
+      { text: 'Tools', link: '/js/tools/' },
+      { text: 'React', link: '/js/React/' },
+      { text: 'Electron', link: '/js/electron/' },
+      { text: 'Webpack4', link: '/js/webpack4/' },
+      { text: 'Vue SSR', link: '/js/SSR/' },
+      { text: 'MicroApp', link: '/js/MicroApp/' },
+    ],
+  },
+  {
+    text: 'APP',
+    items: [
+      { text: 'Android', link: '/app/Android/' },
+      // { text: 'Flutter', link: '/app/Flutter/' },
+      // { text: 'iOS', link: '/app/iOS/' },
     ],
   },
   {
@@ -23,7 +31,7 @@ module.exports = [
     items: [
       // { text: 'Base', link: '/python/base/' },
       { text: 'Tools', link: '/python/tools/' },
-      { text: 'Packages', link: '/python/packages/' },
+      // { text: 'Packages', link: '/python/packages/' },
       { text: 'Django', link: '/python/django/' },
       { text: '数据挖掘', link: '/python/数据挖掘/' },
       { text: '机器学习', link: '/python/机器学习/' },
@@ -52,6 +60,13 @@ module.exports = [
       { text: 'Mac', link: '/tools/mac/' },
     ],
   },
+  // {
+  //   text: 'Other',
+  //   items: [
+  //     { text: 'PHP', link: '/other/php/' },
+  //     { text: 'Java', link: '/other/java/' },
+  //   ],
+  // },
   {
     text: 'Bookmarks',
     link: '/bookmarks/',

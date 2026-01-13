@@ -24,6 +24,6 @@ footer: MIT Licensed | Copyright © 2020-present 走在小路上
 <!--
 ## 推荐阅读
 
-1. [微前端](/frontend/微前端.html)
-2. [Vue SSR](/frontend/SSR.html)
-3. [webpack4](/frontend/webpack4.html) -->
+1. [微前端](/web/微前端.html)
+2. [Vue SSR](/web/SSR.html)
+3. [webpack4](/web/webpack4.html) -->

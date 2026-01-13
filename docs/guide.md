@@ -8,22 +8,22 @@ editLink: false
 
 ### 前端
 
-[MicroApp](/frontend/MicroApp.html)
+[MicroApp](/js/MicroApp.html)
 
-[Vue SSR](/frontend/SSR.html)
+[Vue SSR](/js/SSR.html)
 
-[webpack4](/frontend/webpack4.html)
+[webpack4](/js/webpack4.html)
 
-[Electron](/frontend/electron.html)
+[Electron](/js/electron.html)
 
-[工具](/frontend/tools/)
+[工具](/js/tools/)
 
-- [`pnpm`](/frontend/tools/pnpm.html) 
-- [`NPM`](/frontend/tools/NPM.html) 
-- [`Yarn`](/frontend/tools/Yarn.html) 
-- [`nvm`](/frontend/tools/nvm.html) 
-- [`Verdaccio`](/frontend/tools/Verdaccio.html) 
-- [`Lerna`](/frontend/tools/Lerna.html)
+- [`pnpm`](/js/tools/pnpm.html) 
+- [`NPM`](/js/tools/NPM.html) 
+- [`Yarn`](/js/tools/Yarn.html) 
+- [`nvm`](/js/tools/nvm.html) 
+- [`Verdaccio`](/js/tools/Verdaccio.html) 
+- [`Lerna`](/js/tools/Lerna.html)
 
 ### Python
 

@@ -470,7 +470,7 @@ export default App;
 
 ```shell
 npm i @ant-design/pro-cli -g 
-pro create frontend_demo
+pro create web_demo
 yarn 
 yarn start
 ```
