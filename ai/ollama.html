@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ollama | 走在小路上</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+    <link rel="icon" href="/icons/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="走在小路上的笔记">
+    <meta rel="author" href="走在小路上">
+    <meta rel="keywords" href="前端、Vue、Node.js、Python、AI">
+    <meta name="theme-color" content="#0aa">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.3244b6bc.css" as="style"><link rel="preload" href="/assets/js/app.8711feac.js" as="script"><link rel="preload" href="/assets/js/8.11420ad1.js" as="script"><link rel="preload" href="/assets/js/1.c790cd91.js" as="script"><link rel="preload" href="/assets/js/36.ca48d745.js" as="script"><link rel="preload" href="/assets/js/20.dbb9904b.js" as="script"><link rel="prefetch" href="/assets/js/11.f7f09f72.js"><link rel="prefetch" href="/assets/js/12.c4e05c15.js"><link rel="prefetch" href="/assets/js/13.1aa142d9.js"><link rel="prefetch" href="/assets/js/14.bdb23f24.js"><link rel="prefetch" href="/assets/js/15.7cde4368.js"><link rel="prefetch" href="/assets/js/16.13e4bf5c.js"><link rel="prefetch" href="/assets/js/17.d858b4be.js"><link rel="prefetch" href="/assets/js/18.973da852.js"><link rel="prefetch" href="/assets/js/19.f98b04b7.js"><link rel="prefetch" href="/assets/js/2.29bbff75.js"><link rel="prefetch" href="/assets/js/21.0a192537.js"><link rel="prefetch" href="/assets/js/22.865f18d1.js"><link rel="prefetch" href="/assets/js/23.8fcaddd7.js"><link rel="prefetch" href="/assets/js/24.7aefb55d.js"><link rel="prefetch" href="/assets/js/25.0b0145e2.js"><link rel="prefetch" href="/assets/js/26.1b06c063.js"><link rel="prefetch" href="/assets/js/27.6694f9e9.js"><link rel="prefetch" href="/assets/js/28.807a9df0.js"><link rel="prefetch" href="/assets/js/29.86dfa7a2.js"><link rel="prefetch" href="/assets/js/3.7717ca6e.js"><link rel="prefetch" href="/assets/js/30.868bd21a.js"><link rel="prefetch" href="/assets/js/31.bcda3842.js"><link rel="prefetch" href="/assets/js/32.d1a049df.js"><link rel="prefetch" href="/assets/js/33.9c560469.js"><link rel="prefetch" href="/assets/js/34.3791f1f6.js"><link rel="prefetch" href="/assets/js/35.a37e02b3.js"><link rel="prefetch" href="/assets/js/37.5ba9ed7c.js"><link rel="prefetch" href="/assets/js/38.308941d0.js"><link rel="prefetch" href="/assets/js/39.1ecf595c.js"><link rel="prefetch" href="/assets/js/4.258c2f7a.js"><link rel="prefetch" href="/assets/js/40.73ff43a3.js"><link rel="prefetch" href="/assets/js/41.4b681d87.js"><link rel="prefetch" href="/assets/js/42.56ee4cde.js"><link rel="prefetch" href="/assets/js/43.a14cc7ab.js"><link rel="prefetch" href="/assets/js/44.ff21a42c.js"><link rel="prefetch" href="/assets/js/45.1bbe0397.js"><link rel="prefetch" href="/assets/js/46.80286ba2.js"><link rel="prefetch" href="/assets/js/47.991a39e0.js"><link rel="prefetch" href="/assets/js/48.70bf57e6.js"><link rel="prefetch" href="/assets/js/49.8e6f821b.js"><link rel="prefetch" href="/assets/js/5.0a97944e.js"><link rel="prefetch" href="/assets/js/50.a134dc4c.js"><link rel="prefetch" href="/assets/js/51.efcaaaf8.js"><link rel="prefetch" href="/assets/js/52.9fb8db34.js"><link rel="prefetch" href="/assets/js/53.288eb25f.js"><link rel="prefetch" href="/assets/js/54.95e59822.js"><link rel="prefetch" href="/assets/js/55.66eb6cf3.js"><link rel="prefetch" href="/assets/js/56.46c5eaa8.js"><link rel="prefetch" href="/assets/js/57.ce16cff8.js"><link rel="prefetch" href="/assets/js/58.d737baef.js"><link rel="prefetch" href="/assets/js/59.c49a3789.js"><link rel="prefetch" href="/assets/js/6.9d68e669.js"><link rel="prefetch" href="/assets/js/60.758b1bbb.js"><link rel="prefetch" href="/assets/js/61.af928a3b.js"><link rel="prefetch" href="/assets/js/62.eccebbbb.js"><link rel="prefetch" href="/assets/js/63.54dd1ef0.js"><link rel="prefetch" href="/assets/js/64.4b6f0b68.js"><link rel="prefetch" href="/assets/js/65.5f24dad2.js"><link rel="prefetch" href="/assets/js/66.1a2ed0e0.js"><link rel="prefetch" href="/assets/js/67.27fdc254.js"><link rel="prefetch" href="/assets/js/68.1bcd4a39.js"><link rel="prefetch" href="/assets/js/69.dbcd7078.js"><link rel="prefetch" href="/assets/js/7.1dc1de6c.js"><link rel="prefetch" href="/assets/js/70.23059a02.js"><link rel="prefetch" href="/assets/js/71.2fed7544.js"><link rel="prefetch" href="/assets/js/72.eb2e41e3.js"><link rel="prefetch" href="/assets/js/73.82aec459.js"><link rel="prefetch" href="/assets/js/74.9e94bc24.js"><link rel="prefetch" href="/assets/js/75.3aba7f6a.js"><link rel="prefetch" href="/assets/js/76.3626115d.js"><link rel="prefetch" href="/assets/js/77.c515c46f.js"><link rel="prefetch" href="/assets/js/78.f9fb8019.js"><link rel="prefetch" href="/assets/js/79.2978ac0f.js"><link rel="prefetch" href="/assets/js/80.72c5e094.js"><link rel="prefetch" href="/assets/js/81.478ace98.js"><link rel="prefetch" href="/assets/js/82.eea6b3f6.js"><link rel="prefetch" href="/assets/js/83.9062a1e0.js"><link rel="prefetch" href="/assets/js/84.844515ce.js"><link rel="prefetch" href="/assets/js/85.28e6337f.js"><link rel="prefetch" href="/assets/js/86.9967f62c.js"><link rel="prefetch" href="/assets/js/87.8e8a1572.js"><link rel="prefetch" href="/assets/js/88.d40d3d07.js"><link rel="prefetch" href="/assets/js/89.75cc14bc.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.8bd86921.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3244b6bc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/icons/apple-touch-icon.png" alt="走在小路上" class="logo"> <span class="site-name can-hide">走在小路上</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow down"></span></button> <button type="button" aria-label="JavaScript" class="mobile-dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/tools/" class="nav-link">
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/js/React/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/js/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/js/webpack4/" class="nav-link">
+  Webpack4
+</a></li><li class="dropdown-item"><!----> <a href="/js/SSR/" class="nav-link">
+  Vue SSR
+</a></li><li class="dropdown-item"><!----> <a href="/js/MicroApp/" class="nav-link">
+  MicroApp
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="APP" class="dropdown-title"><span class="title">APP</span> <span class="arrow down"></span></button> <button type="button" aria-label="APP" class="mobile-dropdown-title"><span class="title">APP</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/Android/" class="nav-link">
+  Android
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python" class="dropdown-title"><span class="title">Python</span> <span class="arrow down"></span></button> <button type="button" aria-label="Python" class="mobile-dropdown-title"><span class="title">Python</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/tools/" class="nav-link">
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/python/django/" class="nav-link">
+  Django
+</a></li><li class="dropdown-item"><!----> <a href="/python/数据挖掘/" class="nav-link">
+  数据挖掘
+</a></li><li class="dropdown-item"><!----> <a href="/python/机器学习/" class="nav-link">
+  机器学习
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="AI" class="dropdown-title"><span class="title">AI</span> <span class="arrow down"></span></button> <button type="button" aria-label="AI" class="mobile-dropdown-title"><span class="title">AI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ai/code/" class="nav-link">
+  code
+</a></li><li class="dropdown-item"><!----> <a href="/ai/ollama/" class="nav-link">
+  ollama
+</a></li><li class="dropdown-item"><!----> <a href="https://chat.hwl.cool/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  NextChat
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Tools" class="dropdown-title"><span class="title">Tools</span> <span class="arrow down"></span></button> <button type="button" aria-label="Tools" class="mobile-dropdown-title"><span class="title">Tools</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/docker/" class="nav-link">
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/wsl/" class="nav-link">
+  WSL
+</a></li><li class="dropdown-item"><!----> <a href="/tools/vim/" class="nav-link">
+  Vim
+</a></li><li class="dropdown-item"><!----> <a href="/tools/VSCode/" class="nav-link">
+  VS Code
+</a></li><li class="dropdown-item"><!----> <a href="/tools/ubuntu/" class="nav-link">
+  Ubuntu
+</a></li><li class="dropdown-item"><!----> <a href="/tools/centos/" class="nav-link">
+  Centos
+</a></li><li class="dropdown-item"><!----> <a href="/tools/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/tools/mac/" class="nav-link">
+  Mac
+</a></li></ul></div></div><div class="nav-item"><a href="/bookmarks/" class="nav-link">
+  Bookmarks
+</a></div> <a href="https://github.com/huwanlong/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JavaScript" class="dropdown-title"><span class="title">JavaScript</span> <span class="arrow down"></span></button> <button type="button" aria-label="JavaScript" class="mobile-dropdown-title"><span class="title">JavaScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/tools/" class="nav-link">
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/js/React/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/js/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/js/webpack4/" class="nav-link">
+  Webpack4
+</a></li><li class="dropdown-item"><!----> <a href="/js/SSR/" class="nav-link">
+  Vue SSR
+</a></li><li class="dropdown-item"><!----> <a href="/js/MicroApp/" class="nav-link">
+  MicroApp
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="APP" class="dropdown-title"><span class="title">APP</span> <span class="arrow down"></span></button> <button type="button" aria-label="APP" class="mobile-dropdown-title"><span class="title">APP</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/Android/" class="nav-link">
+  Android
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python" class="dropdown-title"><span class="title">Python</span> <span class="arrow down"></span></button> <button type="button" aria-label="Python" class="mobile-dropdown-title"><span class="title">Python</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/tools/" class="nav-link">
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/python/django/" class="nav-link">
+  Django
+</a></li><li class="dropdown-item"><!----> <a href="/python/数据挖掘/" class="nav-link">
+  数据挖掘
+</a></li><li class="dropdown-item"><!----> <a href="/python/机器学习/" class="nav-link">
+  机器学习
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="AI" class="dropdown-title"><span class="title">AI</span> <span class="arrow down"></span></button> <button type="button" aria-label="AI" class="mobile-dropdown-title"><span class="title">AI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ai/code/" class="nav-link">
+  code
+</a></li><li class="dropdown-item"><!----> <a href="/ai/ollama/" class="nav-link">
+  ollama
+</a></li><li class="dropdown-item"><!----> <a href="https://chat.hwl.cool/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  NextChat
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Tools" class="dropdown-title"><span class="title">Tools</span> <span class="arrow down"></span></button> <button type="button" aria-label="Tools" class="mobile-dropdown-title"><span class="title">Tools</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/docker/" class="nav-link">
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/wsl/" class="nav-link">
+  WSL
+</a></li><li class="dropdown-item"><!----> <a href="/tools/vim/" class="nav-link">
+  Vim
+</a></li><li class="dropdown-item"><!----> <a href="/tools/VSCode/" class="nav-link">
+  VS Code
+</a></li><li class="dropdown-item"><!----> <a href="/tools/ubuntu/" class="nav-link">
+  Ubuntu
+</a></li><li class="dropdown-item"><!----> <a href="/tools/centos/" class="nav-link">
+  Centos
+</a></li><li class="dropdown-item"><!----> <a href="/tools/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/tools/mac/" class="nav-link">
+  Mac
+</a></li></ul></div></div><div class="nav-item"><a href="/bookmarks/" class="nav-link">
+  Bookmarks
+</a></div> <a href="https://github.com/huwanlong/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>ollama</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ai/ollama.html#安装" class="sidebar-link">安装</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/ai/ollama.html#命令" class="sidebar-link">命令</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/ai/ollama.html#配置模型下载目录" class="sidebar-link">配置模型下载目录</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/ai/ollama.html#安装deepseek-r1" class="sidebar-link">安装deepseek-r1</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/ai/ollama.html#vscode中使用" class="sidebar-link">vscode中使用</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/ai/ollama.html#参考" class="sidebar-link">参考</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><p>使用 ollama 在本地安装使用大模型</p> <h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <p><a href="https://ollama.com/" target="_blank" rel="noopener noreferrer">https://ollama.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="命令"><a href="#命令" class="header-anchor">#</a> 命令</h2> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code><span class="token comment"># 启动</span>
+ollama serve
+
+<span class="token comment"># 创建模型</span>
+<span class="token comment"># 使用 Modelfile 来创建一个新模型。你需要提供一个包含模型信息的 Modelfile</span>
+ollama create /path/to/Modelfile
+
+<span class="token comment"># 显示模型信息</span>
+ollama show model_name
+
+<span class="token comment"># 列出所有模型</span>
+ollama list
+ollama <span class="token function">ls</span>
+
+<span class="token comment"># 运行模型</span>
+ollama run model_name
+
+<span class="token comment"># 列出正在运行的模型</span>
+ollama <span class="token function">ps</span>
+
+<span class="token comment"># 删除模型</span>
+ollama <span class="token function">rm</span> model_name
+
+<span class="token comment"># 查看版本</span>
+ollama <span class="token parameter variable">-v</span>
+ollama <span class="token parameter variable">--version</span>
+
+<span class="token comment"># 复制模型</span>
+ollama <span class="token function">cp</span> old_model new_model
+
+<span class="token comment"># 从注册表拉取模型</span>
+ollama pull model_name
+
+<span class="token comment"># 推送模型到注册表</span>
+<span class="token comment"># 将本地模型推送到模型注册表中，以便他人或其他系统使用。</span>
+ollama push model_name
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h2 id="配置模型下载目录"><a href="#配置模型下载目录" class="header-anchor">#</a> 配置模型下载目录</h2> <p>配置环境变量 <code>OLLAMA_MODELS</code> 为 <code>E:\ollama_models</code>，注意：配置之后需要重启<code>ollama</code></p> <h2 id="安装deepseek-r1"><a href="#安装deepseek-r1" class="header-anchor">#</a> 安装<code>deepseek-r1</code></h2> <p><a href="https://ollama.com/library/deepseek-r1:32b" target="_blank" rel="noopener noreferrer">deepseek-r1:32b<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code>ollama run deepseek-r1:32b
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="vscode中使用"><a href="#vscode中使用" class="header-anchor">#</a> vscode中使用</h2> <p>安装<code>Continue</code>插件，使用快捷键 <code>Cmd+L</code> 打开对话框，切换模型</p> <h2 id="参考"><a href="#参考" class="header-anchor">#</a> 参考</h2> <p><a href="https://www.liuxiao.org/2024/09/%E5%9C%A8-mac-%E4%B8%8A%E4%BD%BF%E7%94%A8-vs-code%E3%80%81continue-%E5%92%8C-ollama-qwen2-5-coder-%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0-ai-%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B/" target="_blank" rel="noopener noreferrer">在 Mac 上使用 VS Code、Continue 和 Ollama + Qwen2.5-Coder 搭建免费的本地 AI 编程助手<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/huwanlong/docs/edit/main/docs/ai/ollama.md" target="_blank" rel="noopener noreferrer">帮助我改善此页面！</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2025-02-05 16:38:01</span></div></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.8711feac.js" defer></script><script src="/assets/js/8.11420ad1.js" defer></script><script src="/assets/js/1.c790cd91.js" defer></script><script src="/assets/js/36.ca48d745.js" defer></script><script src="/assets/js/20.dbb9904b.js" defer></script>
+  </body>
+</html>
